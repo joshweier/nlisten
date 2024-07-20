@@ -1,0 +1,5 @@
+Session.vim
+.prettierrc
+.DS_Store
+myenv/*
+*.csv
