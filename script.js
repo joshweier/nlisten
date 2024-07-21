@@ -184,6 +184,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             exampleDiv.innerHTML = AppData.sentences[AppData.currentSentence].sentence;
             exampleSentence.appendChild(exampleDiv);
 
+            attributionLink.textContent = AppData.sentences[AppData.currentSentence].attribution;
+            attributionLink.href = AppData.sentences[AppData.currentSentence].attrurl;
+            attributionLink.target = "_blank";
+
             // exampleSentence.style.display = 'block';
             answerContainer.style.display = 'block';
             nextWordButton.style.display = 'none';
@@ -225,6 +229,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const fetchWords = document.getElementById('fetch-words');
         const progess = document.getElementById('progress');
         const answerContainer = document.getElementById('answer-container');
+        const attributionLink = document.getElementById('attribution-link');
 
         try {
             // Replay the audio

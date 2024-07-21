@@ -217,3 +217,13 @@ main {
   opacity: 0.25;
   color: #333;
 }
+
+#attribution {
+  margin-top: -20px;
+  text-align: center;
+  width: 100%;
+}
+
+#attribution-link {
+  color: #6d4aad;
+}
