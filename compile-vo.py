@@ -68,7 +68,9 @@ def parse_csv(file_path):
                 'translation': row[1],
                 'contexts': [concept.strip() for concept in row[2].split(',')],
                 'audio': output_filename,
-                'level': row[3]
+                'level': row[3],
+                'attribution': row[4],
+                'attrurl': row[5]
             }
             sentences.append(row_data)
             audio_file_num += 1
@@ -89,7 +91,7 @@ def parse_csv(file_path):
     utc_timestamp = utc_now.timestamp()
 
     data = { 
-        'version': "0.1",
+        'version': "0.2",
         'timestamp': utc_now.isoformat(),
         'sentences': sentences
     }
