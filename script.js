@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const answer = AppData.sentences[AppData.currentSentence].translation;
 
             // Clear any existing answers
-            answerContainer.innerHTML = "";
+            answersDiv.innerHTML = "";
 
             // Setup for the actual question
             const context = AppData.sentences[AppData.currentSentence].contexts[0]; // FIXME: Randomize
@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     nextWordButton.style.display = 'block';
 
                     // Set everything to be disabled for simplicity
-                    const childElements = answerContainer.querySelectorAll('*');
+                    const childElements = answersDiv.querySelectorAll('*');
                     childElements.forEach(element => {
                         element.classList.add('disabled');
                         element.classList.remove('shown');
@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                         }
                     });
                 });
-                answerContainer.appendChild(answerDiv);
+                answersDiv.appendChild(answerDiv);
             }
 
             // Add the example
@@ -191,6 +191,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             // exampleSentence.style.display = 'block';
             answerContainer.style.display = 'block';
             nextWordButton.style.display = 'none';
+
+            showBlinder();
 
             // Play the audio
             replayAudio();
@@ -214,6 +216,14 @@ document.addEventListener('DOMContentLoaded', async () => {
             showNextQuestion();
         }
 
+        function showBlinder() {
+            blinder.style.display = 'block';
+        }
+    
+        function hideBlinder() {
+            blinder.style.display = 'none';
+        }
+
         // Cache common elements
         const loadingScreen = document.getElementById('loading-screen');
         const loadingText = document.getElementById('loading-text');
@@ -229,7 +239,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         const fetchWords = document.getElementById('fetch-words');
         const progess = document.getElementById('progress');
         const answerContainer = document.getElementById('answer-container');
+        const answersDiv = document.getElementById('answers');
         const attributionLink = document.getElementById('attribution-link');
+        const blinder = document.getElementById('blinder');
 
         try {
             // Replay the audio
@@ -247,6 +259,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Show the sentence
             showSentenceButton.addEventListener(
                 'click', () => showSentence());
+
+            // Show the sentence
+            blinder.addEventListener(
+                'click', () => hideBlinder());
 
             // Hook up the enter key
             document.addEventListener('keydown', handleEnterKey);

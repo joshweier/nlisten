@@ -48,6 +48,7 @@ body {
 }
 
 #answer-container {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -226,4 +227,26 @@ main {
 
 #attribution-link {
   color: #6d4aad;
+}
+
+#blinder {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 15px;
+    right: 15px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#blinder .message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: bold;
+    color: #6d4aad;
 }
