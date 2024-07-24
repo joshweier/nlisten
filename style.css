@@ -20,7 +20,7 @@ body {
 }
 
 #loading-screen {
-  color: #6d4aad;
+  color: rgba(64, 64, 255, 1.0);
   position: fixed;
   top: 0;
   left: 0;
@@ -36,7 +36,7 @@ body {
 #loading-text {
   font-size: 32px;
   font-weight: bold;
-  color: #6d4aad;
+  color: rgba(64, 64, 255, 1.0);
   margin-top: 200px;
 }
 
@@ -96,7 +96,7 @@ body {
 }
 
 header {
-  background-color: #6d4aad;
+  background-color: rgba(64, 64, 255, 1.0);
   color: #fff;
   padding: 20px;
   border-radius: 8px 8px 0 0;
@@ -113,7 +113,7 @@ main {
 
 .button {
   display: inline-block;
-  background-color: #6d4aad;
+  background-color: rgba(64, 64, 255, 1.0);
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -124,7 +124,7 @@ main {
 }
 
 .button:hover {
-  background-color: #5a3a8c;
+  background-color: rgba(64, 64, 255, 1.0);
 }
 
 .feedback {
@@ -197,7 +197,7 @@ main {
 
 .material-symbols-outlined {
   cursor: pointer;
-  color: #8C1AF6;
+  color: rgba(64, 64, 255, 1.0);
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
@@ -226,7 +226,7 @@ main {
 }
 
 #attribution-link {
-  color: #6d4aad;
+  color: rgba(64, 64, 255, 1.0);
 }
 
 #blinder {
@@ -247,6 +247,15 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 32px;
-    font-weight: bold;
-    color: #6d4aad;
+    color: #FFF !important;
+    background-color: rgba(64, 64, 255, 0.75);
+    z-index: 1001;
+}
+
+#blinder .message:hover {
+    background-color: rgba(64, 64, 255, 1.0);
+}
+
+.highlight {
+    color: rgba(64, 64, 255, 1.0);
 }

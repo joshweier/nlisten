@@ -1,3 +1,4 @@
+import re
 import csv
 import time
 from datetime import datetime, timezone
@@ -12,7 +13,8 @@ import os
 start_time = time.time()
 
 # Valid speaker IDs we can use
-speaker_ids = [6,9,11,13,20,21,32,40]
+# speaker_ids = [6,9,11,13,20,21,32,40]
+speaker_ids = [6,9,11,13,20,21]
 
 def print_progress_bar(iteration, total, length=50):
     percent = f"{100 * (iteration / float(total)):.0f}"
@@ -47,8 +49,22 @@ async def synthesize_audio(text, filename):
         with open(filename, "wb") as f: 
             f.write(await audio_query.synthesis(speaker=speaker_id))
 
+        return speaker_id
+
 def main(text, filename):
     asyncio.run(synthesize_audio(text, filename))
+
+def strip_highlighting(marked_sentence):
+    # Regular expression to match the highlighting markup and capture the inner text
+    pattern = re.compile(r'{\d+[a-z]?:([^}]+)}')
+
+    # Function to replace the matched pattern with the captured group (inner text)
+    def replace_highlighting(match):
+        return match.group(1)
+
+    # Apply the substitution
+    stripped_sentence = pattern.sub(replace_highlighting, marked_sentence)
+    return stripped_sentence
 
 def parse_csv(file_path):
     sentences = []
@@ -80,7 +96,8 @@ def parse_csv(file_path):
     audio_file_num = 0
     print("Valid sentences found: ", total_audio_files)
     for sentence in sentences:
-        main(sentence['sentence'], output_dir + sentence['audio'])
+        plain_sentence = strip_highlighting(sentence['sentence'])
+        main(plain_sentence, output_dir + sentence['audio'])
         mp3_name = sentence['audio'].replace('.wav', '.mp3')
         convert_wav_to_mp3(output_dir + sentence['audio'], output_dir + mp3_name)
         sentence['audio'] = mp3_name
@@ -93,7 +110,7 @@ def parse_csv(file_path):
     data = { 
         'version': "0.2",
         'timestamp': utc_now.isoformat(),
-        'sentences': sentences
+        'sentences': sentences,
     }
 
     return data

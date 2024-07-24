@@ -7,6 +7,30 @@ document.addEventListener('DOMContentLoaded', async () => {
         currentSentence: -1     // Index of the current sentence
     }
 
+    function highlightSentence(sentence, contexts, targetIndex) {
+        // Create a map to store which part of the target context corresponds to which sub-index
+        let contextMap = {};
+        const targetContext = contexts[targetIndex];
+        if (targetContext) {
+            const contextParts = targetContext.split('〜');
+            contextParts.forEach((part, subIndex) => {
+                const key = `${targetIndex}${subIndex ? String.fromCharCode(97 + subIndex) : ''}`; // 97 is ASCII code for 'a'
+                contextMap[key] = part;
+            });
+        }
+
+        // Replace the indexed markers with spans for the target context only
+        sentence = sentence.replace(/{(\d+[a-z]?):([^}]+)}/g, function(match, key, text) {
+            if (contextMap[key-1]) {
+                return `<span class="highlight">${text}</span>`;
+            }
+            // Remove the unused markup if it doesn't match the target context
+            return text;
+        });
+
+        return sentence;
+    }
+
     // Shuffle an array
     function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
@@ -120,13 +144,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         function showNextQuestion() {
             // Grab the next question
             AppData.currentSentence = AppData.pendingQuestion.pop();
-            const answer = AppData.sentences[AppData.currentSentence].translation;
+
+            // Set up for the question
+            const contexts = AppData.sentences[AppData.currentSentence].contexts;
+            const randomContext = Math.floor(Math.random() * contexts.length);
+            const translation = highlightSentence(
+                AppData.sentences[AppData.currentSentence].sentence, 
+                contexts, 
+                randomContext);
 
             // Clear any existing answers
             answersDiv.innerHTML = "";
 
             // Setup for the actual question
-            const context = AppData.sentences[AppData.currentSentence].contexts[0]; // FIXME: Randomize
+            // const context = AppData.sentences[AppData.currentSentence].contexts[0]; // FIXME: Randomize
             let randomSentences = getRandomContextSentences(3);
             randomSentences.push(AppData.currentSentence);
             randomSentences = shuffleArray(randomSentences);
@@ -181,7 +212,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             exampleSentence.innerHTML = "";
 
             let exampleDiv = document.createElement('div');
-            exampleDiv.innerHTML = AppData.sentences[AppData.currentSentence].sentence;
+            exampleDiv.innerHTML = translation;
             exampleSentence.appendChild(exampleDiv);
 
             attributionLink.textContent = AppData.sentences[AppData.currentSentence].attribution;
