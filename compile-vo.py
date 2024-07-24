@@ -8,6 +8,7 @@ import asyncio
 import random
 import subprocess
 import os
+import argparse
 
 # Record the start time
 start_time = time.time()
@@ -66,7 +67,7 @@ def strip_highlighting(marked_sentence):
     stripped_sentence = pattern.sub(replace_highlighting, marked_sentence)
     return stripped_sentence
 
-def parse_csv(file_path):
+def parse_csv(file_path, generate_vo):
     sentences = []
     audio_file_num = 1
     with open(file_path, mode='r', encoding='utf-8') as file:
@@ -97,12 +98,14 @@ def parse_csv(file_path):
     print("Valid sentences found: ", total_audio_files)
     for sentence in sentences:
         plain_sentence = strip_highlighting(sentence['sentence'])
-        main(plain_sentence, output_dir + sentence['audio'])
-        mp3_name = sentence['audio'].replace('.wav', '.mp3')
-        convert_wav_to_mp3(output_dir + sentence['audio'], output_dir + mp3_name)
+        wav_name = sentence['audio']
+        mp3_name = wav_name.replace('.wav', '.mp3')
+        if generate_vo:
+            main(plain_sentence, output_dir + wav_name)
+            convert_wav_to_mp3(output_dir + wav_name, output_dir + mp3_name)
+            audio_file_num += 1
+            print_progress_bar(audio_file_num, total_audio_files)
         sentence['audio'] = mp3_name
-        audio_file_num += 1
-        print_progress_bar(audio_file_num, total_audio_files)
 
     utc_now = datetime.now(timezone.utc)
     utc_timestamp = utc_now.timestamp()
@@ -120,9 +123,14 @@ def convert_to_json(data):
 
 # Main
 if __name__ == "__main__":
+    # Command-line options
+    parser = argparse.ArgumentParser(description="NListen Data Importer")
+    parser.add_argument('--data', action='store_true', help='Only compile new data, leave the VO')
+    args = parser.parse_args()
+
     file_path = 'source.csv'
     print("\nParsing file...")
-    data = parse_csv(file_path)
+    data = parse_csv(file_path, not args.data)
 
     # json_data = convert_to_json(datwith open(filename, 'w', encoding='utf-8') as file:
     filename = "data.json"

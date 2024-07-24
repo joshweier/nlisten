@@ -1,50 +1,50 @@
 body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
-  margin: 0;
-  padding: 0;
-  user-select: none;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    user-select: none;
 }
 
 .container {
-  max-width: 800px;
-  min-height: 350px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  text-align: center;
-  margin-bottom: 25px;
+    max-width: 800px;
+    min-height: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 #loading-screen {
-  color: rgba(64, 64, 255, 1.0);
-  position: fixed;
-  top: 0;
-  left: 0;
-  justify-content: center;
-  align-items: top;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  z-index: 1000;
-  background-color: rgba(255, 255, 255, 0.9);
+    color: rgba(64, 64, 255, 1.0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: top;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 #loading-text {
-  font-size: 32px;
-  font-weight: bold;
-  color: rgba(64, 64, 255, 1.0);
-  margin-top: 200px;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(64, 64, 255, 1.0);
+    margin-top: 200px;
 }
 
 #start-button {
-  margin: 150px auto;
-  font-size: 32px;
-  padding: 20px;
-  height: 40px;
+    margin: 150px auto;
+    font-size: 32px;
+    padding: 20px;
+    height: 40px;
 }
 
 #answer-container {
@@ -96,137 +96,141 @@ body {
 }
 
 header {
-  background-color: rgba(64, 64, 255, 1.0);
-  color: #fff;
-  padding: 20px;
-  border-radius: 8px 8px 0 0;
+    background-color: rgba(64, 64, 255, 1.0);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
 }
 
 header h1 {
-  margin: 0;
-  font-size: 32px;
+    margin: 0;
+    font-size: 32px;
 }
 
 main {
-  padding: 20px;
+    padding: 20px;
 }
 
 .button {
-  display: inline-block;
-  background-color: rgba(64, 64, 255, 1.0);
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
-  margin: 10px 5px;
+    display: inline-block;
+    background-color: rgba(64, 64, 255, 1.0);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 5px;
 }
 
 .button:hover {
-  background-color: rgba(64, 64, 255, 1.0);
+    background-color: rgba(64, 64, 255, 1.0);
+}
+
+.button:disabled {
+    background-color: rgba(64, 64, 64, 0.1);
 }
 
 .feedback {
-  margin-top: 20px;
-  font-size: 18px;
-  font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .word-container {
-  font-size: 65px;
-  margin: 20px 0;
-  padding: 10px;
-  background-color: #f5f5f5;
-  border-radius: 4px;
-  text-align: center;
-  font-weight: bold;
+    font-size: 65px;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .meaning {
-  font-size: 22px;
-  margin-top: 20px;
-  font-weight: bold;
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 .example-sentence {
-  font-size: 32px;
-  font-weight: bold;
-  text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .example-text {
-  font-size: 25px;
-  margin-top: 15px;
-  font-weight: bold;
-  text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .example-sentences h3 {
-  margin-top: 20px;
-  font-size: 20px;
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 .example-sentences div {
-  margin-top: 5px;
+    margin-top: 5px;
 }
 
 #next-word {
-  display: block;
-  margin: 20px auto;
-  font-size: 20px;
+    display: block;
+    margin: 20px auto;
+    font-size: 20px;
 }
 
 .play-button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .play-button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  text-align: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: center;
 }
 
 .play-icon {
-  width: 60px;
-  height: 60px;
+    width: 60px;
+    height: 60px;
 }
 
 .material-symbols-outlined {
-  cursor: pointer;
-  color: rgba(64, 64, 255, 1.0);
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+    cursor: pointer;
+    color: rgba(64, 64, 255, 1.0);
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
 }
 
 .font-large {
-  font-size: 80px !important;
+    font-size: 80px !important;
 }
 
 .font-medium {
-  font-size: 45px !important;
+    font-size: 45px !important;
 }
 
 #play-audio.disabled {
-  cursor: not-allowed;
-  opacity: 0.25;
-  color: #333;
+    cursor: not-allowed;
+    opacity: 0.25;
+    color: #333;
 }
 
 #attribution {
-  margin-top: -20px;
-  text-align: center;
-  width: 100%;
+    margin-top: -20px;
+    text-align: center;
+    width: 100%;
 }
 
 #attribution-link {
-  color: rgba(64, 64, 255, 1.0);
+    color: rgba(64, 64, 255, 1.0);
 }
 
 #blinder {
@@ -258,4 +262,5 @@ main {
 
 .highlight {
     color: rgba(64, 64, 255, 1.0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 }

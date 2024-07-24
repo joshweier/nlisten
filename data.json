@@ -1,6 +1,6 @@
 {
     "version": "0.2",
-    "timestamp": "2024-07-24T04:04:44.988500+00:00",
+    "timestamp": "2024-07-24T08:54:38.967847+00:00",
     "sentences": [
         {
             "sentence": "仕事は辛い{1:けど}{2:楽しい}。",
@@ -279,7 +279,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私の持っているお金はこれだけだ",
+            "sentence": "私の持っているお金はこれ{1:だけ}だ",
             "translation": "This is the only money I have.",
             "contexts": [
                 "だけ"
@@ -290,7 +290,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "ちょっと見ているだけです。",
+            "sentence": "ちょっと見ている{1:だけ}です。",
             "translation": "I'm just looking around.",
             "contexts": [
                 "だけ"
@@ -301,7 +301,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "好きじゃない食べ物はトマトだけだ。",
+            "sentence": "好きじゃない食べ物はトマト{1:だけ}だ。",
             "translation": "The only food I dislike are tomatoes.",
             "contexts": [
                 "だけ"
@@ -312,7 +312,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "ただ話していただけです。",
+            "sentence": "ただ話していた{1:だけ}です。",
             "translation": "I was just speaking.",
             "contexts": [
                 "だけ"
@@ -323,7 +323,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "問題はそれだけだと思うかい？",
+            "sentence": "問題はそれ{1:だけ}だと{2:思う}かい？",
             "translation": "You think that's all there is to this problem?",
             "contexts": [
                 "だけ",
@@ -335,7 +335,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私は一人だけでできます。",
+            "sentence": "私は一人{1:だけ}でできます。",
             "translation": "I can do it (just) by myself.",
             "contexts": [
                 "だけ"
@@ -346,7 +346,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "出来るだけ新しい漢字を勉強したい。",
+            "sentence": "出来る{1:だけ}{2:新しい}漢字を勉強したい。",
             "translation": "I want to study as much new kanji as possible.",
             "contexts": [
                 "だけ",
@@ -358,7 +358,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "その女の子はただ泣くだけだった。",
+            "sentence": "その女の子はただ泣く{1:だけ}だった。",
             "translation": "That little girl did nothing but cry.",
             "contexts": [
                 "だけ"
@@ -369,7 +369,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "彼女が信頼できるのは彼だけだ。",
+            "sentence": "彼女が信頼できるのは彼{1:だけ}だ。",
             "translation": "He is the only one that she can trust.",
             "contexts": [
                 "だけ"
@@ -380,7 +380,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "彼はもうすぐ来るだろう。",
+            "sentence": "彼はもうすぐ来る{1:だろう}。",
             "translation": "He should be coming any moment now.",
             "contexts": [
                 "だろう"
@@ -391,7 +391,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "そうだろうと思ったよ。",
+            "sentence": "そう{1:だろう}と思ったよ。",
             "translation": "I thought (figured) as much.",
             "contexts": [
                 "だろう"
@@ -402,7 +402,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "明日はたぶん雨が降るだろう。空に雲がたくさんあるから。",
+            "sentence": "明日はたぶん雨が降る{1:だろう}。空に雲がたくさんある{2:から}。",
             "translation": "It will likely rain tomorrow.. There's a lot of clouds in the sky now..",
             "contexts": [
                 "だろう",
@@ -414,7 +414,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "間違いないだろう。",
+            "sentence": "間違いない{1:だろう}。",
             "translation": "Surely there's no mistake.",
             "contexts": [
                 "だろう"
@@ -425,7 +425,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "たぶんこの雨は１時間ぐらいでやむだろう。",
+            "sentence": "たぶんこの雨は１時間{2:ぐらい}でやむ{1:だろう}。",
             "translation": "This rain will probably be over in about an hour or so.",
             "contexts": [
                 "だろう",
@@ -437,7 +437,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "あそこにいる人は誰だろう。",
+            "sentence": "あそこにいる人は誰{1:だろう}。",
             "translation": "I wonder who that person is over there.",
             "contexts": [
                 "だろう"
@@ -448,7 +448,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "この肉は、もう食べないほうがいいだろう。もう悪くなってしまった。",
+            "sentence": "この肉は、もう食べないほうがいい{1:だろう}。もう悪くなってしまった。",
             "translation": "It's probably best to not eat this meat. It's already gone bad..",
             "contexts": [
                 "だろう"
@@ -459,7 +459,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "どうして日本の夏はこんなに暑いんだろう。",
+            "sentence": "どうして日本の夏はこんなに暑いん{1:だろう}。",
             "translation": "Why is Summer in Japan so hot..?",
             "contexts": [
                 "だろう"
@@ -470,7 +470,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "あの人は誰でしょう？",
+            "sentence": "あの人は誰{1:でしょう}？",
             "translation": "I wonder who that person is..",
             "contexts": [
                 "でしょう"
@@ -481,7 +481,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "いいでしょう。",
+            "sentence": "いい{1:でしょう}。",
             "translation": "That sounds/seems good.",
             "contexts": [
                 "でしょう"
@@ -492,7 +492,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "この問題は簡単でしょう？",
+            "sentence": "この問題は簡単{1:でしょう}？",
             "translation": "This problem is easy, right?",
             "contexts": [
                 "でしょう"
@@ -503,7 +503,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "彼はもうすぐ来るでしょう。",
+            "sentence": "彼はもうすぐ来る{1:でしょう}。",
             "translation": "He should be here any second.",
             "contexts": [
                 "でしょう"
@@ -514,7 +514,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "頑張れば、いい大学に行けるでしょう。",
+            "sentence": "頑張れば、いい大学に行ける{1:でしょう}。",
             "translation": "If you work hard, you should be able to get into a good university.",
             "contexts": [
                 "でしょう"
@@ -525,7 +525,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "今日の試合では、Aチームが勝つでしょう。",
+            "sentence": "今日の試合では、Aチームが勝つ{1:でしょう}。",
             "translation": "In today's match, surely team A will win.",
             "contexts": [
                 "でしょう"
@@ -536,7 +536,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "この問題は、明日の試験に出るでしょうか。",
+            "sentence": "この問題は、明日の試験に出る{1:でしょう}か。",
             "translation": "Will this question be on tomorrow's test?",
             "contexts": [
                 "でしょう"
@@ -547,7 +547,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "天気がいいから、外に行きたい。",
+            "sentence": "天気がいい{1:から}、外に行きたい。",
             "translation": "Since the weather is nice, I want to go outside.",
             "contexts": [
                 "から"
@@ -558,7 +558,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私はすぐ戻るから、ここでちょっと待ってください。",
+            "sentence": "私はすぐ戻る{1:から}、ここでちょっと待ってください。",
             "translation": "I'll return shortly, so please wait here just a moment.",
             "contexts": [
                 "から"
@@ -569,7 +569,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "これからもよろしくお願いします。",
+            "sentence": "これ{1:から}もよろしくお願いします。",
             "translation": "From now on, let's have a good relationship (I'll be counting on you).",
             "contexts": [
                 "から"
@@ -580,7 +580,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "ここからあの駅まで歩いてどれぐらいかかりますか？",
+            "sentence": "ここ{1:から}あの駅{2:まで}歩いてどれぐらいかかりますか？",
             "translation": "How long does it take to walk from here to that station?",
             "contexts": [
                 "から",
@@ -592,7 +592,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "お店は何時から何時まで開いていますか？",
+            "sentence": "お店は何時{1:から}何時{2:まで}開いていますか？",
             "translation": "What are the shop's opening hours?",
             "contexts": [
                 "から",
@@ -604,7 +604,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "パソコンの使いかたがわかりません。",
+            "sentence": "パソコンの使い{1:かた}がわかりません。",
             "translation": "I don't know how to use a computer.",
             "contexts": [
                 "方"
@@ -615,7 +615,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "ケーキの作り方を知っていますか？",
+            "sentence": "ケーキの作り{1:方}を知っていますか？",
             "translation": "Do you know how to make a cake?",
             "contexts": [
                 "方"
@@ -626,7 +626,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "おはしの使い方が上手ですね。",
+            "sentence": "おはしの使い{1:方}が上手ですね。",
             "translation": "You're very good at using chopsticks.",
             "contexts": [
                 "方"
@@ -637,7 +637,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "あの先生の教え方はとてもわかり易いです。",
+            "sentence": "あの先生の教え{1:方}はとてもわかり易いです。",
             "translation": "That teacher's way of teaching is very easy to understand",
             "contexts": [
                 "方"
@@ -648,7 +648,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "彼の生き方は、かっこいいです。",
+            "sentence": "彼の生き{1:方}は、かっこいいです。",
             "translation": "His way of living is really cool.",
             "contexts": [
                 "方"
@@ -659,7 +659,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "この漢字の読み方を教えてください。",
+            "sentence": "この漢字の読み{1:方}を教えてください。",
             "translation": "Please teach me how to read this kanji character.",
             "contexts": [
                 "方"
@@ -670,7 +670,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "ATMの使い方を教えていただけませんか。",
+            "sentence": "ATMの使い{1:方}を教えていただけませんか。",
             "translation": "Could you please teach me how to use an ATM?",
             "contexts": [
                 "方"
@@ -681,7 +681,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "まだですか？",
+            "sentence": "{1:まだ}ですか？",
             "translation": "Is it ready yet? / are we there yet? / Still...?",
             "contexts": [
                 "まだ"
@@ -692,7 +692,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "まだまだ暑いだ。",
+            "sentence": "{1:まだ}まだ暑いだ。",
             "translation": "It's still hot out. ",
             "contexts": [
                 "まだ"
@@ -703,7 +703,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "先生はまだ来ていない。",
+            "sentence": "先生は{1:まだ}来ていない。",
             "translation": "Our teacher still hasn't come.",
             "contexts": [
                 "まだ"
@@ -714,10 +714,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "もう10時ですが弟がまだ寝ている。",
+            "sentence": "{2:もう}10時ですが弟が{1:まだ}寝ている。",
             "translation": "It's already 10 am, but my younger brother is still sleeping.",
             "contexts": [
-                "まだ"
+                "まだ",
+                "もう"
             ],
             "audio": "0064.mp3",
             "level": "5",
@@ -725,10 +726,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "まだ1時間もあるよ。",
+            "sentence": "{1:まだ}1時間{2:も}あるよ。",
             "translation": "We still have one hour.",
             "contexts": [
-                "まだ"
+                "まだ",
+                "も"
             ],
             "audio": "0065.mp3",
             "level": "5",
@@ -736,10 +738,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "あきらめるのはまだ早い！",
+            "sentence": "起きらめるのは{1:まだ}{2:早い}！",
             "translation": "It's still too early to give up!",
             "contexts": [
-                "まだ"
+                "まだ",
+                "adj"
             ],
             "audio": "0066.mp3",
             "level": "5",
@@ -747,7 +750,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私は宿題がまだ終わっていません。",
+            "sentence": "私は宿題が{1:まだ}終わっていません。",
             "translation": "I still haven't finished with my homework.",
             "contexts": [
                 "まだ"
@@ -758,7 +761,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私もできる。",
+            "sentence": "私{1:も}できる。",
             "translation": "I can do that too.",
             "contexts": [
                 "も"
@@ -769,7 +772,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "甘いものも辛いものも好きです。",
+            "sentence": "{2:甘い}{1:も}のも{2:辛い}もの{1:も}好きです。",
             "translation": "I like sweets as well as spicy foods.",
             "contexts": [
                 "も",
@@ -781,7 +784,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "カラオケにはみんなが来ました。先生も来ました。",
+            "sentence": "カラオケにはみんなが来ました。先生{1:も}来ました。",
             "translation": "Everyone came to sing karaoke. Our teacher came too.",
             "contexts": [
                 "も"
@@ -792,7 +795,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私は日本語も英語もベトナム語も話せます。",
+            "sentence": "私は日本語{1:も}英語{1:も}ベトナム語{1:も}話せます。",
             "translation": "I can speak English, Japanese, as well as Vietnamese.",
             "contexts": [
                 "も"
@@ -803,7 +806,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "あなたもお腹が空いたでしょう？",
+            "sentence": "あなた{1:も}お腹が空いたでしょう？",
             "translation": "You are probably hungry too, aren't you?",
             "contexts": [
                 "も"
@@ -814,7 +817,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私も日本語を勉強していますよ！",
+            "sentence": "私{1:も}日本語を勉強していますよ！",
             "translation": "I'm studying Japanese too!",
             "contexts": [
                 "も"
@@ -825,7 +828,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私の妻も子どもも来ます。",
+            "sentence": "私の妻{1:も}子ども{1:も}来ます。",
             "translation": "My wife and children will come too.",
             "contexts": [
                 "も"
@@ -836,7 +839,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私も日本で留学したことがあります。",
+            "sentence": "私{1:も}日本で留学した{2:こと}があります。",
             "translation": "I've also studied abroad in Japan before.",
             "contexts": [
                 "も",
@@ -848,7 +851,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "仕事に行くとき、自転車も電車も使っています。",
+            "sentence": "仕事に行くとき、自転車{1:も}電車{1:も}使っています。",
             "translation": "When I go to work I use both my bike and the train.",
             "contexts": [
                 "も"
@@ -859,7 +862,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "コーヒーには、いつもさとうを入れないで飲みます。",
+            "sentence": "コーヒーには、いつもさとうを入れ{1:ないで}飲みます。",
             "translation": "I always drink coffee without putting any sugar in it.",
             "contexts": [
                 "ないで"
@@ -870,7 +873,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "彼女はカサを持たないで出てしまった。",
+            "sentence": "彼女はカサを持た{1:ないで}出てしまった。",
             "translation": "She left without bringing an umbrella.",
             "contexts": [
                 "ないで"
@@ -881,7 +884,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "昨日は疲れていて、電気を消さないで寝てしまった。",
+            "sentence": "昨日は疲れていて、電気を消さ{1:ないで}寝てしまった。",
             "translation": "Yesterday I was so tired I fell asleep without turning off the lights.",
             "contexts": [
                 "ないで"
@@ -892,7 +895,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "今朝、朝ごはんを食べないで仕事に来ました。",
+            "sentence": "今朝、朝ごはんを食べ{1:ないで}仕事に来ました。",
             "translation": "I came to work today without eating any breakfast.",
             "contexts": [
                 "ないで"
@@ -903,7 +906,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "昨日、お風呂に入らないで寝てしまった。",
+            "sentence": "昨日、お風呂に入ら{1:ないで}寝てしまった。",
             "translation": "I went to bed yesterday without taking a bath/shower.",
             "contexts": [
                 "ないで"
@@ -914,7 +917,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "明日は試験なので、今夜は寝ないで勉強します。",
+            "sentence": "明日は試験なので、今夜は寝{1:ないで}勉強します。",
             "translation": "Tomorrow is test day, so I'm gonna stay up all night and study without sleep.",
             "contexts": [
                 "ないで"
@@ -925,7 +928,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "最近、涼しいのでエアコンをつけないで寝ます。",
+            "sentence": "最近、涼しいのでエアコンをつけ{1:ないで}寝ます。",
             "translation": "Lately it's pretty cool, so I go to sleep without using the AC.",
             "contexts": [
                 "ないで"
@@ -936,7 +939,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "朝ごはんを食べないで学校に来たから、お腹がすいた。",
+            "sentence": "朝ごはんを食べ{1:ないで}学校に来たから、お腹がすいた。",
             "translation": "I came to school without eating breakfast, so I'm pretty hungry.",
             "contexts": [
                 "ないで"
@@ -947,7 +950,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "駅までどうやって行きますか。",
+            "sentence": "駅{2:まで}{1:どうやって}行きますか。",
             "translation": "How can I get to the station?",
             "contexts": [
                 "どうやって",
@@ -959,7 +962,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "これはどうやって使いますか。",
+            "sentence": "これは{1:どうやって}使いますか。",
             "translation": "How do you use this?",
             "contexts": [
                 "どうやって"
@@ -970,7 +973,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "これはどうやって食べますか。",
+            "sentence": "これは{1:どうやって}食べますか。",
             "translation": "How do you eat this?",
             "contexts": [
                 "どうやって"
@@ -981,7 +984,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "リサさんは毎日どうやって学校へ来ますか。",
+            "sentence": "リサさんは毎日{1:どうやって}学校へ来ますか。",
             "translation": "Lisa, how do you come to school every day?",
             "contexts": [
                 "どうやって"
@@ -992,11 +995,10 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "どうやって彼女と出会ったのですか。",
+            "sentence": "{1:どうやって}彼女と出会ったのですか。",
             "translation": "How did you meet her?",
             "contexts": [
-                "どうやって",
-                "ので"
+                "どうやって"
             ],
             "audio": "0089.mp3",
             "level": "5",
@@ -1004,7 +1006,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "あなたはどうやって漢字を覚えますか。",
+            "sentence": "あなたは{1:どうやって}漢字を覚えますか。",
             "translation": "How do you memorize kanji?",
             "contexts": [
                 "どうやって"
@@ -1015,11 +1017,10 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "これはどうやって料理するのですか。",
+            "sentence": "これは{1:どうやって}料理するのですか。",
             "translation": "How do you cook this?",
             "contexts": [
-                "どうやって",
-                "ので"
+                "どうやって"
             ],
             "audio": "0091.mp3",
             "level": "5",
@@ -1027,7 +1028,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私は彼がどうやって一人でそれをやったのか知らない。",
+            "sentence": "私は彼が{1:どうやって}一人でそれをやったのか知らない。",
             "translation": "I don't know how he did that all alone.",
             "contexts": [
                 "どうやって"
@@ -1038,7 +1039,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "どうして来ないの？",
+            "sentence": "{1:どうして}来ないの？",
             "translation": "Why aren't you coming?",
             "contexts": [
                 "どうした"
@@ -1049,7 +1050,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "どうしてそうなったの？",
+            "sentence": "{1:どうして}そうなったの？",
             "translation": "How/why did that happen?",
             "contexts": [
                 "どうした"
@@ -1060,7 +1061,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "どうしてそれを知っている？",
+            "sentence": "{1:どうして}それを知っている？",
             "translation": "How/why do you know that?",
             "contexts": [
                 "どうした"
@@ -1071,7 +1072,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "どうして日本に来たんですか？",
+            "sentence": "{1:どうして}日本に来たんですか？",
             "translation": "Why did you come to Japan?",
             "contexts": [
                 "どうした"
@@ -1082,7 +1083,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "君はどうしてけがをしたか。",
+            "sentence": "君は{1:どうして}けがをしたか。",
             "translation": "How did you get hurt?",
             "contexts": [
                 "どうした"
@@ -1093,7 +1094,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "どうしてその事故が起こったのか。",
+            "sentence": "{1:どうして}その事故が起こったのか。",
             "translation": "How did that accident come about?",
             "contexts": [
                 "どうした"
@@ -1104,7 +1105,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "どうして彼女と知り合ったのですか。",
+            "sentence": "{1:どうして}彼女と知り合ったのですか。",
             "translation": "How did you get acquainted with her?",
             "contexts": [
                 "どうした"
@@ -1115,10 +1116,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私は魚が好きです。でも肉も好きです。",
+            "sentence": "私は魚が好きです。{1:でも}肉{2:も}好きです。",
             "translation": "I like fish. But I also like meat.",
             "contexts": [
-                "でも"
+                "でも",
+                "も"
             ],
             "audio": "0100.mp3",
             "level": "5",
@@ -1126,10 +1128,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "パン屋に行きました。でも、何も買いませんでした。",
+            "sentence": "パン屋に行きました。{1:でも}、{2:何も}買いませんでした。",
             "translation": "I went to the bakery, but didn't buy anything.",
             "contexts": [
-                "でも"
+                "でも",
+                "何も"
             ],
             "audio": "0101.mp3",
             "level": "5",
@@ -1137,7 +1140,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "動物が好きです。でも、犬が一ばん好きです。",
+            "sentence": "動物が好きです。{1:でも}、犬が一番好きです。",
             "translation": "I like animals. But I love dogs the most.",
             "contexts": [
                 "でも"
@@ -1148,7 +1151,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "図書館に行きました。でも、集中できませんでした。",
+            "sentence": "図書館に行きました。{1:でも}、集中できませんでした。",
             "translation": "I went to the library. But I wasn't able to concentrate.",
             "contexts": [
                 "でも"
@@ -1159,7 +1162,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "スーパーに行きました。でも、財布を忘れました！",
+            "sentence": "スーパーに行きました。{1:でも}、財布を忘れました！",
             "translation": "I went to the grocery store. But I forgot my wallet!",
             "contexts": [
                 "でも"
@@ -1170,7 +1173,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "今朝学校に行きました。でも、休みでした。",
+            "sentence": "今朝学校に行きました。{1:でも}、休みでした。",
             "translation": "I went to school this morning. but it was closed.",
             "contexts": [
                 "でも"
@@ -1181,7 +1184,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "日本人ともっと話したいです。でも、私の日本語はあまり上手ではありません。",
+            "sentence": "日本人ともっと話したいです。{1:でも}、私の日本語はあまり上手ではありません。",
             "translation": "I want to speak to Japanese people more. But my Japanese is not so good.",
             "contexts": [
                 "でも"
@@ -1192,7 +1195,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "疲れたら、早く寝たほうがいい。",
+            "sentence": "疲れたら、早く寝た{1:ほうがいい}。",
             "translation": "If you're tired, it's better to go to bed early.",
             "contexts": [
                 "方がいい"
@@ -1203,10 +1206,12 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "暑い日には、水をたくさん飲んだ方がいい。",
+            "sentence": "{2:暑い}日には、水を{3:たくさん}飲んだ{1:方がいい}。",
             "translation": "It's best to drink a lot of water on hot days.",
             "contexts": [
-                "方がいい"
+                "方がいい",
+                "adj",
+                "たくさん"
             ],
             "audio": "0108.mp3",
             "level": "5",
@@ -1214,7 +1219,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "寝る前に、スマホを使わない方がいい。",
+            "sentence": "寝る前に、スマホを使わない{1:方がいい}。",
             "translation": "Before going to bed, it's best to not use your smartphone.",
             "contexts": [
                 "方がいい"
@@ -1225,7 +1230,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "毎日日本語を練習した方がいいですよ。",
+            "sentence": "毎日日本語を練習した{1:方がいい}ですよ。",
             "translation": "You should practice Japanese every day.",
             "contexts": [
                 "方がいい"
@@ -1236,7 +1241,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "分からないとき、先生に聞いた方がいいですよ。",
+            "sentence": "分からないとき、先生に聞いた{1:方がいい}ですよ。",
             "translation": "When you don't understand, you're best off asking your teacher.",
             "contexts": [
                 "方がいい"
@@ -1247,7 +1252,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "肉だけじゃなくて、野菜も食べたほうがいいですよ。",
+            "sentence": "肉だけじゃなくて、野菜も食べた{1:ほうがいい}ですよ。",
             "translation": "It's better to not just eat meat, but some vegetables as well.",
             "contexts": [
                 "方がいい"
@@ -1258,7 +1263,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "ご飯の後で、歯を磨いた方がいいですよ。",
+            "sentence": "ご飯の後で、歯を磨いた{1:方がいい}ですよ。",
             "translation": "It's best to brush your teeth after eating.",
             "contexts": [
                 "方がいい"
@@ -1269,10 +1274,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "20歳になっても、お酒を飲まない方がいいと思います。",
+            "sentence": "20歳になっても、お酒を飲まない{1:方がいい}と{2:思います}。",
             "translation": "Even if you turn 20, I think it's best to not drink any alcohol.",
             "contexts": [
-                "方がいい"
+                "方がいい",
+                "思う"
             ],
             "audio": "0114.mp3",
             "level": "5",
@@ -1280,7 +1286,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "明日は雨かどうか分からない。",
+            "sentence": "明日は雨{1a:か}どうか分からない。",
             "translation": "I'm not sure if it will rain or not tomorrow.",
             "contexts": [
                 "か〜か"
@@ -1291,7 +1297,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "お茶かコーヒーが飲みたい。",
+            "sentence": "お茶{1a:か}コーヒーが飲みたい。",
             "translation": "I would like to drink tea or coffee.",
             "contexts": [
                 "か〜か"
@@ -1302,7 +1308,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "当たるかはずれるか。",
+            "sentence": "当たる{1a:か}はずれるか。",
             "translation": "Hit or miss.",
             "contexts": [
                 "か〜か"
@@ -1313,7 +1319,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "やるかやらないか早く決めてください。",
+            "sentence": "やるかやらない{1a:か}早く決めてください。",
             "translation": "Please hurry up and decide if you are going to do it or not.",
             "contexts": [
                 "か〜か"
@@ -1324,7 +1330,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "来週の月曜日か火曜日に京都に行きます。",
+            "sentence": "来週の月曜日{1a:か}火曜日に京都に行きます。",
             "translation": "I'm going to Kyoto next Monday or Tuesday.",
             "contexts": [
                 "か〜か"
@@ -1335,11 +1341,10 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "死ぬか生きるか。",
+            "sentence": "死ぬ{1a:か}生きるか。",
             "translation": "Live or die.",
             "contexts": [
-                "まだ",
-                "まだ〜ていません"
+                "か〜か"
             ],
             "audio": "0120.mp3",
             "level": "5",
@@ -1347,10 +1352,9 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "バスはまだ来ていません。",
+            "sentence": "バスは{1a:まだ}来{1b:ていません}。",
             "translation": "The bus still hasn't come.",
             "contexts": [
-                "まだ",
                 "まだ〜ていません"
             ],
             "audio": "0121.mp3",
@@ -1359,10 +1363,9 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "まだ、決まっていません。",
+            "sentence": "{1a:まだ}、決まっ{1b:ていません}。",
             "translation": "It hasn't been decided yet.",
             "contexts": [
-                "まだ",
                 "まだ〜ていません"
             ],
             "audio": "0122.mp3",
@@ -1371,10 +1374,9 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私はまだ朝ごはんを食べていません。",
+            "sentence": "私は{1a:まだ}朝ごはんを食べ{1b:ていません}。",
             "translation": "I still haven't eaten breakfast yet.",
             "contexts": [
-                "まだ",
                 "まだ〜ていません"
             ],
             "audio": "0123.mp3",
@@ -1383,11 +1385,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "今週の新しい単語をまだ覚えていません。",
+            "sentence": "今週の{2:新しい}単語を{1a:まだ}覚え{1b:ていません}。",
             "translation": "I still haven't memorized this week's new vocabulary.",
             "contexts": [
-                "まだ",
-                "まだ〜ていません"
+                "まだ〜ていません",
+                "adj"
             ],
             "audio": "0124.mp3",
             "level": "5",
@@ -1395,10 +1397,9 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "父はまだ帰ってきていない。",
+            "sentence": "父は{1a:まだ}帰ってき{1b:ていない}。",
             "translation": "My father still hasn't come home yet.",
             "contexts": [
-                "まだ",
                 "まだ〜ていません"
             ],
             "audio": "0125.mp3",
@@ -1407,10 +1408,9 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "まだ宿題をやっていない。",
+            "sentence": "{1a:まだ}宿題をやっ{1b:ていない}。",
             "translation": "I haven't done my homework yet.",
             "contexts": [
-                "まだ",
                 "まだ〜ていません"
             ],
             "audio": "0126.mp3",
@@ -1419,10 +1419,9 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "まだ明日締め切りのレポートが終わってないので、遊びに行けない。",
+            "sentence": "{1a:まだ}明日締め切りのレポートが終わっ{1b:てない}ので、遊びに行けない。",
             "translation": "I haven't finished my report due tomorrow yet, so I can't go out today.",
             "contexts": [
-                "まだ",
                 "まだ〜ていません"
             ],
             "audio": "0127.mp3",
@@ -1431,10 +1430,9 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "俺はまだあきらめてないんだぞ。",
+            "sentence": "俺は{1a:まだ}あきらめ{1b:てないんだ}ぞ。",
             "translation": "I haven't given up yet!",
             "contexts": [
-                "まだ",
                 "まだ〜ていません"
             ],
             "audio": "0128.mp3",
@@ -1443,10 +1441,9 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私の知っている限りでは、彼女はまだ結婚していません。",
+            "sentence": "私の知っている限りでは、彼女は{1a:まだ}結婚し{1b:ていません}。",
             "translation": "As far as I know she's still not married.",
             "contexts": [
-                "まだ",
                 "まだ〜ていません"
             ],
             "audio": "0129.mp3",
@@ -1455,7 +1452,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "昨日までお休みでした。",
+            "sentence": "昨日{1:まで}お休みでした。",
             "translation": "I was on vacation until yesterday.",
             "contexts": [
                 "まで"
@@ -1466,10 +1463,10 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "ここからそこまでは遠いですよ。",
+            "sentence": "ここ{1a:から}そこ{1b:まで}は遠いですよ。",
             "translation": "That's really far from here!",
             "contexts": [
-                "まで"
+                "から〜まで"
             ],
             "audio": "0131.mp3",
             "level": "5",
@@ -1477,7 +1474,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "駅まで行きたいんですが、どう行ったらいいですか。",
+            "sentence": "駅{1:まで}行きたいんですが、どう行ったらいいですか。",
             "translation": "How can I get to the station?",
             "contexts": [
                 "まで"
@@ -1488,7 +1485,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "最後までがんばってね！",
+            "sentence": "最後{1:まで}がんばってね！",
             "translation": "Do your best all the way until the end!",
             "contexts": [
                 "まで"
@@ -1499,7 +1496,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "家まで車で送ります。",
+            "sentence": "家{1:まで}車で送ります。",
             "translation": "I'll take you home by car.",
             "contexts": [
                 "まで"
@@ -1510,10 +1507,10 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "朝から夜までずっとかんじを勉強しました。",
+            "sentence": "朝{1a:から}夜{1b:まで}ずっとかんじを勉強しました。",
             "translation": "I studied kanji all day from morning until night.",
             "contexts": [
-                "まで"
+                "から〜まで"
             ],
             "audio": "0135.mp3",
             "level": "5",
@@ -1521,7 +1518,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "先生、何時まで学校にいらっしゃいますか。",
+            "sentence": "先生、何時{1:まで}学校にいらっしゃいますか。",
             "translation": "Teacher, until what time will you be at school?",
             "contexts": [
                 "まで"
@@ -1532,7 +1529,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "昼ごはんまでにレポートを書いてしまいました。",
+            "sentence": "昼ごはん{1:まで}にレポートを書いてしまいました。",
             "translation": "I kept writing my report until lunch.",
             "contexts": [
                 "まで"
@@ -1543,7 +1540,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "雨が降っているよ。駅まで送ってあげようか？",
+            "sentence": "雨が降っているよ。駅{1:まで}送ってあげようか？",
             "translation": "It's raining.. Shall I give you a lift to the station?",
             "contexts": [
                 "まで"
@@ -1554,7 +1551,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "ドアを開ける前にノックぐらいしてください。",
+            "sentence": "ドアを開ける{1:前に}ノックぐらいしてください。",
             "translation": "Before opening the door, please at least knock first.",
             "contexts": [
                 "前に"
@@ -1565,10 +1562,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "コンビニの前に自転車がたくさんあります。",
+            "sentence": "コンビニ{1:の前に}自転車が{2:たくさん}あります。",
             "translation": "There are many bicycles in front of the convenience store.",
             "contexts": [
-                "の前に"
+                "の前に",
+                "たくさん"
             ],
             "audio": "0140.mp3",
             "level": "5",
@@ -1576,7 +1574,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "旅行の前に切符を買っておきます。",
+            "sentence": "旅行{1:の前に}切符を買っておきます。",
             "translation": "I will buy the tickets before the trip.",
             "contexts": [
                 "の前に"
@@ -1587,7 +1585,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "ご飯の前に手を洗いましょう。",
+            "sentence": "ご飯{1:の前に}手を洗いましょう。",
             "translation": "Let's make sure to wash our hands before eating.",
             "contexts": [
                 "の前に"
@@ -1598,7 +1596,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "テストの前に一生懸命勉強しました。",
+            "sentence": "テスト{1:の前に}一生懸命勉強しました。",
             "translation": "I studied like crazy before the test.",
             "contexts": [
                 "の前に"
@@ -1609,7 +1607,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "大学を卒業する前に留学したいな。",
+            "sentence": "大学を卒業する{1:前に}留学したいな。",
             "translation": "I really want to study abroad sometime before I graduate university.",
             "contexts": [
                 "前に"
@@ -1620,7 +1618,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "23時前に寝なければなりません。",
+            "sentence": "23時{1:前に}寝なければなりません。",
             "translation": "I need to go to bed before 11pm.",
             "contexts": [
                 "前に"
@@ -1631,7 +1629,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "寝る前に、歯みがきを忘すれないでね。",
+            "sentence": "寝る{1:前に}、歯みがきを忘すれないでね。",
             "translation": "Don't forget to brush your teeth before you go to bed.",
             "contexts": [
                 "前に"
@@ -1642,10 +1640,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "試合の前にまだ一週間があるのでもっと練習しょう。",
+            "sentence": "試合{1:の前に}{2:まだ}一週間があるのでもっと練習しょう。",
             "translation": "We still have a week to go before the game so let's practice some more.",
             "contexts": [
-                "の前に"
+                "の前に",
+                "まだ"
             ],
             "audio": "0147.mp3",
             "level": "5",
@@ -1653,10 +1652,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私たちの学校の前には美しい公園があります。",
+            "sentence": "私たちの学校{1:の前に}は{2:美しい}公園があります。",
             "translation": "There is a beautiful park in front of our school.",
             "contexts": [
-                "の前に"
+                "の前に",
+                "adj"
             ],
             "audio": "0148.mp3",
             "level": "5",
@@ -1664,7 +1664,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "マドを開けましょうか。",
+            "sentence": "マドを開け{1:ましょうか}。",
             "translation": "Shall I open the window?",
             "contexts": [
                 "ましょうか"
@@ -1675,7 +1675,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "手伝いましょうか。",
+            "sentence": "手伝い{1:ましょうか}。",
             "translation": "Do you want some help?",
             "contexts": [
                 "ましょうか"
@@ -1686,7 +1686,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "荷物を持ちましょうか。",
+            "sentence": "荷物を持ち{1:ましょうか}。",
             "translation": "Shall I help carry your luggage?",
             "contexts": [
                 "ましょうか"
@@ -1697,7 +1697,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "タクシーを呼びましょうか。",
+            "sentence": "タクシーを呼び{1:ましょうか}。",
             "translation": "Shall I call a taxi for you?",
             "contexts": [
                 "ましょうか"
@@ -1708,7 +1708,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私がお皿を洗いましょうか？",
+            "sentence": "私がお皿を洗い{1:ましょうか}？",
             "translation": "Shall I wash the dishes?",
             "contexts": [
                 "ましょうか"
@@ -1719,7 +1719,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "写真を取りましょうか。",
+            "sentence": "写真を取り{1:ましょうか}。",
             "translation": "Shall I take a picture for you?",
             "contexts": [
                 "ましょうか"
@@ -1730,7 +1730,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "サラダを作りましょうか？",
+            "sentence": "サラダを作り{1:ましょうか}？",
             "translation": "Shall I make a salad?",
             "contexts": [
                 "ましょうか"
@@ -1741,10 +1741,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "次回の会合は来週にしましょうか？それとも再来週の方がいいですか？",
+            "sentence": "次回の会合は来週にし{1:ましょうか}？それとも再来週の{2:方がいい}ですか？",
             "translation": "For the next meeting, shall we meet next week, or 2 weeks from now?",
             "contexts": [
-                "ましょうか"
+                "ましょうか",
+                "方がいい"
             ],
             "audio": "0156.mp3",
             "level": "5",
@@ -1752,7 +1753,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "大きくなっているね！",
+            "sentence": "大きく{1:なって}いるね！",
             "translation": "You're getting bigger!",
             "contexts": [
                 "なる"
@@ -1763,7 +1764,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "今日は暑くなるようだ。",
+            "sentence": "今日は暑く{1:なる}ようだ。",
             "translation": "It looks like it will get hot today.",
             "contexts": [
                 "なる"
@@ -1774,7 +1775,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "今年、私は２０歳になります。",
+            "sentence": "今年、私は２０歳に{1:なります}。",
             "translation": "This year I will turn 20 years old (become an adult in Japan).",
             "contexts": [
                 "なる"
@@ -1785,10 +1786,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "暗くなる前に家に帰りたい。",
+            "sentence": "暗く{1:なる}{2:前に}家に帰りたい。",
             "translation": "I want to head home before it gets dark.",
             "contexts": [
-                "なる"
+                "なる",
+                "前に"
             ],
             "audio": "0160.mp3",
             "level": "5",
@@ -1796,7 +1798,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "もっと強くなるために、毎日運動しています。",
+            "sentence": "もっと強く{1:なる}ために、毎日運動しています。",
             "translation": "I work out every day so I can get stronger.",
             "contexts": [
                 "なる"
@@ -1807,7 +1809,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "日本語が上手になっていますね。",
+            "sentence": "日本語が上手に{1:なって}いますね。",
             "translation": "Your Japanese is improving.",
             "contexts": [
                 "なる"
@@ -1818,7 +1820,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "将来、何になりたいですか。",
+            "sentence": "将来、何に{1:なりたい}ですか。",
             "translation": "What do you want to be in the future?",
             "contexts": [
                 "なる"
@@ -1829,7 +1831,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "６月に入って、ちょっと暑くなったね。",
+            "sentence": "６月に入って、ちょっと暑く{1:なった}ね。",
             "translation": "It started to get a bit hot when since we entered June.",
             "contexts": [
                 "なる"
@@ -1840,7 +1842,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "暗くなってきましたね。そろそろ帰りましょうか。",
+            "sentence": "暗く{1:なって}きましたね。そろそろ帰り{2:ましょうか}。",
             "translation": "It's starting to get dark, we should head back soon?",
             "contexts": [
                 "なる"
@@ -1851,7 +1853,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "今日のイベントは中止になりました。",
+            "sentence": "今日のイベントは中止に{1:なりました}。",
             "translation": "Today's event has been cancelled.",
             "contexts": [
                 "なる"
@@ -1862,7 +1864,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "もう昼ご飯の時間だ。早く食べましょう！",
+            "sentence": "{1:もう}昼ご飯の時間だ。早く食べ{2:ましょう}！",
             "translation": "It's lunch time already, let's hurry up and eat.",
             "contexts": [
                 "もう",
@@ -1874,7 +1876,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "宿題はもう終わった？",
+            "sentence": "宿題は{1:もう}終わった？",
             "translation": "Did you already finish your homework?",
             "contexts": [
                 "もう"
@@ -1885,7 +1887,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "ビールもう一杯ください！",
+            "sentence": "ビール{1:もう}一杯ください！",
             "translation": "One more beer please!",
             "contexts": [
                 "もう"
@@ -1896,7 +1898,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "飲み物は全部飲みました。もうありません。",
+            "sentence": "飲み物は全部飲みました。{1:もう}ありません。",
             "translation": "We drank all of the drinks. There aren't any left.",
             "contexts": [
                 "もう"
@@ -1907,10 +1909,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "もう少し待ってください。",
+            "sentence": "{1:もう}{2:少し}待ってください。",
             "translation": "Please wait a little while longer.",
             "contexts": [
-                "もう"
+                "もう",
+                "adj"
             ],
             "audio": "0171.mp3",
             "level": "5",
@@ -1918,7 +1921,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "コーヒーはもう飲まないことにしました。",
+            "sentence": "コーヒーは{1:もう}飲まない{2:こと}にしました。",
             "translation": "I've decided to not drink coffee anymore.",
             "contexts": [
                 "もう",
@@ -1930,7 +1933,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "もうこの暑さには、耐えられない。",
+            "sentence": "{1:もう}この暑さには、耐えられない。",
             "translation": "I can't handle this heat anymore.",
             "contexts": [
                 "もう"
@@ -1941,7 +1944,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "もう我慢できない。",
+            "sentence": "{1:もう}我慢できない。",
             "translation": "I can't take it anymore.",
             "contexts": [
                 "もう"
@@ -1952,7 +1955,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "もう10時ですが、彼はまだ寝ています。",
+            "sentence": "{1:もう}10時ですが、彼はまだ寝ています。",
             "translation": "It's already 10 o'clock, but he's still sleeping.",
             "contexts": [
                 "もう"
@@ -1963,10 +1966,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "彼女と結婚してから、もう５年になります。",
+            "sentence": "彼女と結婚して{2:から}、{1:もう}５年になります。",
             "translation": "It will already be 5 years since I married her.",
             "contexts": [
-                "もう"
+                "もう",
+                "から"
             ],
             "audio": "0176.mp3",
             "level": "5",
@@ -1974,7 +1978,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "ベトナムはどんな国ですか。",
+            "sentence": "ベトナムは{1:どんな}国ですか。",
             "translation": "What kind of country is Vietnam?",
             "contexts": [
                 "どんな"
@@ -1985,7 +1989,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "どんな仕事をするのですか。",
+            "sentence": "{1:どんな}仕事をするのですか。",
             "translation": "What kind of work do you do?",
             "contexts": [
                 "どんな"
@@ -1996,7 +2000,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "どんな食べ物が好きですか。",
+            "sentence": "{1:どんな}食べ物が好きですか。",
             "translation": "What kind of food do you like?",
             "contexts": [
                 "どんな"
@@ -2007,7 +2011,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "どんなパソコンを持っていますか。",
+            "sentence": "{1:どんな}パソコンを持っていますか。",
             "translation": "What kind of computer do you have?",
             "contexts": [
                 "どんな"
@@ -2018,7 +2022,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "どんな車に乗っていますか？",
+            "sentence": "{1:どんな}車に乗っていますか？",
             "translation": "What kind of car do you drive?",
             "contexts": [
                 "どんな"
@@ -2029,7 +2033,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "今日はどんな天気ですか。",
+            "sentence": "今日は{1:どんな}天気ですか。",
             "translation": "How is the weather today?",
             "contexts": [
                 "どんな"
@@ -2040,10 +2044,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "新しい先生はどんな人ですか。",
+            "sentence": "{2:新しい}先生は{1:どんな}人ですか。",
             "translation": "What is the new teacher like?",
             "contexts": [
-                "どんな"
+                "どんな",
+                "adj"
             ],
             "audio": "0183.mp3",
             "level": "5",
@@ -2051,7 +2056,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "禁煙するためにどんな方法を使いましたか。",
+            "sentence": "禁煙するために{1:どんな}方法を使いましたか。",
             "translation": "What method did you use to give up smoking?",
             "contexts": [
                 "どんな"
@@ -2062,7 +2067,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "何を飲みたいんですか。",
+            "sentence": "何を飲みたい{1:んです}か。",
             "translation": "What would you like to drink?",
             "contexts": [
                 "んです"
@@ -2073,7 +2078,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "お茶を飲みたいんです。",
+            "sentence": "お茶を飲みたい{1:んです}。",
             "translation": "I'd like to drink some tea.",
             "contexts": [
                 "んです"
@@ -2084,7 +2089,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "眠くないんですか。",
+            "sentence": "眠くない{1:んです}か。",
             "translation": "Aren't you sleepy?",
             "contexts": [
                 "んです"
@@ -2095,7 +2100,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "気分が良くないんですよ。",
+            "sentence": "気分が良くない{1:んです}よ。",
             "translation": "I do not feel well.",
             "contexts": [
                 "んです"
@@ -2106,10 +2111,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "今からバイトに行くんだ。",
+            "sentence": "今{2:から}バイトに行く{1:んだ}。",
             "translation": "I'm heading to my (part time) job now.",
             "contexts": [
-                "んです"
+                "んです",
+                "から"
             ],
             "audio": "0189.mp3",
             "level": "5",
@@ -2117,10 +2123,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "朝に弱いんだ。",
+            "sentence": "朝に{2:弱い}{1:んだ}。",
             "translation": "I'm not a morning person.",
             "contexts": [
-                "んです"
+                "んです",
+                "adj"
             ],
             "audio": "0190.mp3",
             "level": "5",
@@ -2128,7 +2135,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "いつか日本に行くんだ！",
+            "sentence": "いつか日本に行く{1:んだ}！",
             "translation": "One day I will go to Japan!",
             "contexts": [
                 "んです"
@@ -2139,7 +2146,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "買いたいんですがお金がないんだ。",
+            "sentence": "買いたいんですがお金がない{1:んだ}。",
             "translation": "I want to buy it, but I have no money.",
             "contexts": [
                 "んです"
@@ -2150,7 +2157,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "家族のなかで父がいちばん背が高いです。",
+            "sentence": "家族{1a:のなかで}父{1b:がいちばん}背が高いです。",
             "translation": "In my family, my father is the tallest.",
             "contexts": [
                 "の中で〜が一番"
@@ -2161,7 +2168,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "チームの中で山田が一番強い！",
+            "sentence": "チーム{1a:の中で}山田{1b:が一番}強い！",
             "translation": "On our team, Yamada is the strongest!",
             "contexts": [
                 "の中で〜が一番"
@@ -2172,7 +2179,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "日本の食べ物の中でラーメンが一番好きだ。",
+            "sentence": "日本の食べ物{1a:の中で}ラーメン{1b:が一番}好きだ。",
             "translation": "Out of all the Japanese food, ramen is my favorite.",
             "contexts": [
                 "の中で〜が一番"
@@ -2183,7 +2190,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "クラスの中でジェシカが一番頭いい。",
+            "sentence": "クラス{1a:の中で}ジェシカ{1b:が一番}頭いい。",
             "translation": "In our class, Jessica is the smartest.",
             "contexts": [
                 "の中で〜が一番"
@@ -2194,7 +2201,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "世界の中で日本が一番安全な国です。",
+            "sentence": "世界{1a:の中で}日本{1b:が一番}安全な国です。",
             "translation": "Japan is the safest country in the world.",
             "contexts": [
                 "の中で〜が一番"
@@ -2205,7 +2212,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "彼女はクラスの中で字が一番きれいだ。",
+            "sentence": "彼女はクラス{1a:の中で}字{1b:が一番}きれいだ。",
             "translation": "She has the most beautiful handwriting in our class.",
             "contexts": [
                 "の中で〜が一番"
@@ -2216,7 +2223,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "友達の中では、クリスが一番先輩。",
+            "sentence": "友達{1a:の中で}は、クリス{1b:が一番}先輩。",
             "translation": "Chris is the oldest (most senior) one out of my friends.",
             "contexts": [
                 "の中で〜が一番"
@@ -2227,7 +2234,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "読んだ本の中でハリーポッターが一番好きだ。",
+            "sentence": "読んだ本{1a:の中で}ハリーポッター{1b:が一番}好きだ。",
             "translation": "Out of all the books I've read, Harry Potter is my favorite.",
             "contexts": [
                 "の中で〜が一番"
@@ -2238,10 +2245,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "ちょっと寒いので、窓を閉めてもいいですか。",
+            "sentence": "ちょっと寒い{1:ので}、窓を閉めて{2:もいいですか}。",
             "translation": "It's a bit cold, so is it OK to close the window?",
             "contexts": [
-                "ので"
+                "ので",
+                "もいいですか"
             ],
             "audio": "0201.mp3",
             "level": "5",
@@ -2249,7 +2257,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "ちょっと用事があるので、先に帰ります。",
+            "sentence": "ちょっと用事がある{1:ので}、先に帰ります。",
             "translation": "There's something I need to take care of, so I'm heading home early.",
             "contexts": [
                 "ので"
@@ -2260,7 +2268,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "台風が来るので、明日のクラスに来なくていいです。",
+            "sentence": "台風が来る{1:ので}、明日のクラスに来なくていいです。",
             "translation": "Since there's a typhoon coming, it's OK to not come to tomorrow's class.",
             "contexts": [
                 "ので"
@@ -2271,7 +2279,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "おなかが痛いので、薬をください。",
+            "sentence": "おなかが痛い{1:ので}、薬をください。",
             "translation": "I have a stomachache, so please give me some medicine.",
             "contexts": [
                 "ので"
@@ -2282,7 +2290,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "彼女がとてもきれいなので、すぐ好きになりました。",
+            "sentence": "彼女がとてもきれいな{1:ので}、すぐ好きになりました。",
             "translation": "Since she's very beautiful, I quickly fell in love.",
             "contexts": [
                 "ので"
@@ -2293,10 +2301,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "今から行きますので、少々お待ちください。",
+            "sentence": "今{2:から}行きます{1:ので}、少々お待ちください。",
             "translation": "I'm heading over now, so please wait a moment.",
             "contexts": [
-                "ので"
+                "ので",
+                "から"
             ],
             "audio": "0206.mp3",
             "level": "5",
@@ -2304,7 +2313,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "雨が降っていたので、試合が中止になりました。",
+            "sentence": "雨が降っていた{1:ので}、試合が中止になりました。",
             "translation": "Because of the rain, the match was cancelled.",
             "contexts": [
                 "ので"
@@ -2315,10 +2324,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "左手で食べようとしたが、難しかったのでやめました。",
+            "sentence": "左手で食べようとした{2:が}、難しかった{1:ので}やめました。",
             "translation": "I tried eating with my left hand, but it was difficult so I gave up.\n",
             "contexts": [
-                "ので"
+                "ので",
+                "が"
             ],
             "audio": "0208.mp3",
             "level": "5",
@@ -2326,7 +2336,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "それから、私は昼ごはんを食べました。",
+            "sentence": "{1:それから}、私は昼ごはんを食べました。",
             "translation": "And then, I ate lunch.",
             "contexts": [
                 "それから"
@@ -2337,7 +2347,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "あなたはそれからどうするのですか。",
+            "sentence": "あなたは{1:それから}どうするのですか。",
             "translation": "What will you do after that?",
             "contexts": [
                 "それから"
@@ -2348,7 +2358,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "あなたは、それからどこにいましたか？",
+            "sentence": "あなたは、{1:それから}どこにいましたか？",
             "translation": "Where were you after that?",
             "contexts": [
                 "それから"
@@ -2359,7 +2369,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "それから、私たちはアイスを食べました。",
+            "sentence": "{1:それから}、私たちはアイスを食べました。",
             "translation": "And then, we ate ice cream.",
             "contexts": [
                 "それから"
@@ -2370,7 +2380,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "彼女は優しい。それからきれいだ。",
+            "sentence": "彼女は優しい。{1:それから}きれいだ。",
             "translation": "She is kind and beautiful.",
             "contexts": [
                 "それから"
@@ -2381,10 +2391,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "1年前に日本に来ました。それから、日本語を勉強しています。",
+            "sentence": "1年{2:前に}日本に来ました。{1:それから}、日本語を勉強しています。",
             "translation": "I came to Japan 1 year ago. Since then, I have been studying Japanese.",
             "contexts": [
-                "それから"
+                "それから",
+                "前に"
             ],
             "audio": "0214.mp3",
             "level": "5",
@@ -2392,7 +2403,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "朝ご飯はご飯、みそ汁、それから、魚ですよ。",
+            "sentence": "朝ご飯はご飯、みそ汁、{1:それから}、魚ですよ。",
             "translation": "Breakfast is rice, miso soup, and fish.",
             "contexts": [
                 "それから"
@@ -2403,7 +2414,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "このシャツは大きすぎる。",
+            "sentence": "このシャツは大き{1:すぎる}。",
             "translation": "This shirt is too big.",
             "contexts": [
                 "すぎる"
@@ -2414,7 +2425,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "今年の夏は暑すぎた。",
+            "sentence": "今年の夏は暑{1:すぎた}。",
             "translation": "This year's summer was too hot.",
             "contexts": [
                 "すぎる"
@@ -2425,7 +2436,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "冬の来るのが早すぎた。",
+            "sentence": "冬の来るのが早{1:すぎた}。",
             "translation": "Winter has come too soon.",
             "contexts": [
                 "すぎる"
@@ -2436,7 +2447,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "この問題は簡単すぎます。",
+            "sentence": "この問題は簡単{1:すぎます}。",
             "translation": "This problem is too easy.",
             "contexts": [
                 "すぎる"
@@ -2447,10 +2458,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "幸せすぎて死にそうだ。",
+            "sentence": "幸せ{1:すぎて}死に{2:そうだ}。",
             "translation": "I'm so happy I could die.",
             "contexts": [
-                "すぎる"
+                "すぎる",
+                "そうだ"
             ],
             "audio": "0220.mp3",
             "level": "5",
@@ -2458,7 +2470,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "かんじを覚えるのが私には難しすぎる。",
+            "sentence": "かんじを覚えるのが私には難し{1:すぎる}。",
             "translation": "Memorizing kanji is a bit too difficult for me.",
             "contexts": [
                 "すぎる"
@@ -2469,10 +2481,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "このレストランはちょっと高すぎる。別のところにしましょう。",
+            "sentence": "このレストランはちょっと高{1:すぎる}。別のところにし{2:ましょう}。",
             "translation": "This restaurant is a bit too expensive. Let's try somewhere else.",
             "contexts": [
-                "すぎる"
+                "すぎる",
+                "ましょう"
             ],
             "audio": "0222.mp3",
             "level": "5",
@@ -2480,7 +2493,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "この会社は給料が少なすぎます。",
+            "sentence": "この会社は給料が少な{1:すぎます}。",
             "translation": "This company's salary is too low.",
             "contexts": [
                 "すぎる"
@@ -2491,7 +2504,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "ごめんなさい、少し言いすぎました。",
+            "sentence": "ごめんなさい、{2:少し}言い{1:すぎました}。",
             "translation": "I'm sorry, I said a bit too much. (I said more than I should have)",
             "contexts": [
                 "すぎる"
@@ -2502,7 +2515,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "昨夜ちょっと飲みすぎました。",
+            "sentence": "昨夜ちょっと飲み{1:すぎました}。",
             "translation": "I drank a little bit too much yesterday.",
             "contexts": [
                 "すぎる"
@@ -2513,10 +2526,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "本は映画より面白いです。",
+            "sentence": "本は映画{1:より}{2:面白い}です。",
             "translation": "Books are more interesting than movies.",
             "contexts": [
-                "より"
+                "より",
+                "adj"
             ],
             "audio": "0226.mp3",
             "level": "5",
@@ -2524,10 +2538,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "今日は昨日より忙しいです。",
+            "sentence": "今日は昨日{1:より}{2:忙しい}です。",
             "translation": "Today is busier than yesterday.",
             "contexts": [
-                "より"
+                "より",
+                "adj"
             ],
             "audio": "0227.mp3",
             "level": "5",
@@ -2535,10 +2550,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "電車はバスより速いです。",
+            "sentence": "電車はバス{1:より}{2:速い}です。",
             "translation": "Trains are faster than buses.",
             "contexts": [
-                "より"
+                "より",
+                "adj"
             ],
             "audio": "0228.mp3",
             "level": "5",
@@ -2546,10 +2562,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "アメリカ人は日本人より背が高いです。",
+            "sentence": "アメリカ人は日本人{1:より}背が{2:高い}です。",
             "translation": "Americans are taller than Japanese.",
             "contexts": [
-                "より"
+                "より",
+                "adj"
             ],
             "audio": "0229.mp3",
             "level": "5",
@@ -2557,10 +2574,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "北海道は台湾より大きいです。",
+            "sentence": "北海道は台湾{1:より}{2:大きい}です。",
             "translation": "Hokkaido is bigger than Taiwan.",
             "contexts": [
-                "より"
+                "より",
+                "adj"
             ],
             "audio": "0230.mp3",
             "level": "5",
@@ -2568,10 +2586,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "エベレスト山は富士山より高いです。",
+            "sentence": "エベレスト山は富士山{1:より}{2:高い}です。",
             "translation": "Mt. Everest is taller than Mt. Fuji",
             "contexts": [
-                "より"
+                "より",
+                "adj"
             ],
             "audio": "0231.mp3",
             "level": "5",
@@ -2579,10 +2598,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "漢字はカタカナより難しいです。",
+            "sentence": "漢字はカタカナ{1:より}{2:難しい}です。",
             "translation": "Kanji is more difficult than katakana.",
             "contexts": [
-                "より"
+                "より",
+                "adj"
             ],
             "audio": "0232.mp3",
             "level": "5",
@@ -2590,10 +2610,10 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "休みの日は水曜日だったり、日曜日だったりです。",
+            "sentence": "休みの日は水曜日だっ{1:たり}、日曜日だっ{1:たり}です。",
             "translation": "We are closed on Wednesdays and Sundays.",
             "contexts": [
-                "とり"
+                "たり"
             ],
             "audio": "0233.mp3",
             "level": "5",
@@ -2601,10 +2621,10 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "日曜日は買い物したり、映画を見たりした。",
+            "sentence": "日曜日は買い物し{1:たり}、映画を見{1:たり}した。",
             "translation": "On Sunday I went shopping and watched a movie.",
             "contexts": [
-                "とり"
+                "たり"
             ],
             "audio": "0234.mp3",
             "level": "5",
@@ -2612,10 +2632,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私の店は忙しかったり暇だったりです。",
+            "sentence": "私の店は{2:忙し}かっ{1:たり}暇だっ{1:たり}です。",
             "translation": "My shop is sometimes busy and sometimes slow.",
             "contexts": [
-                "とり"
+                "たり",
+                "adj"
             ],
             "audio": "0235.mp3",
             "level": "5",
@@ -2623,10 +2644,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "今日は宿題をしたり、部屋の掃除をしたり、忙しいです。",
+            "sentence": "今日は宿題をし{1:たり}、部屋の掃除をし{1:たり}、{2:忙しい}です。",
             "translation": "Today I'm busy with (things like) doing my homework and cleaning my room.",
             "contexts": [
-                "とり"
+                "たり",
+                "adj"
             ],
             "audio": "0236.mp3",
             "level": "5",
@@ -2634,10 +2656,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "冬休みは漢字を勉強したり、運動したりするつもりです。",
+            "sentence": "冬休みは漢字を勉強し{1:たり}、運動し{1:たり}する{2:つもり}です。",
             "translation": "During winter break I plan to study kanji and exercise.",
             "contexts": [
-                "とり"
+                "たり",
+                "つもり"
             ],
             "audio": "0237.mp3",
             "level": "5",
@@ -2645,10 +2668,10 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "暇なときは映画を見たり、音楽を聞いたりする。",
+            "sentence": "暇なときは映画を見{1:たり}、音楽を聞い{1:たり}する。",
             "translation": "In my free time I (do things like) watch movies and listen to music.",
             "contexts": [
-                "とり"
+                "たり"
             ],
             "audio": "0238.mp3",
             "level": "5",
@@ -2656,10 +2679,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "図書館では本や雑誌を読んだり、勉強したりする人が多い。",
+            "sentence": "図書館では本や雑誌を読ん{1:だり}、勉強し{1:たり}する人が{2:多い}。",
             "translation": "In the library, there's a lot of people (doing things like) reading books/magazines and studying.",
             "contexts": [
-                "とり"
+                "たり",
+                "adj"
             ],
             "audio": "0239.mp3",
             "level": "5",
@@ -2667,10 +2691,10 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "留学中に現地の料理を食べたり、旅行したりしました。",
+            "sentence": "留学中に現地の料理を食べ{1:たり}、旅行し{1:たり}しました。",
             "translation": "During my study abroad, I (did things like) ate local foods and went traveling.",
             "contexts": [
-                "とり"
+                "たり"
             ],
             "audio": "0240.mp3",
             "level": "5",
@@ -2678,10 +2702,10 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "誰でも間違いを犯したり、失敗したりします。",
+            "sentence": "誰でも間違いを犯し{1:たり}、失敗し{1:たり}します。",
             "translation": "Everyone makes mistakes and experiences failure.",
             "contexts": [
-                "とり"
+                "たり"
             ],
             "audio": "0241.mp3",
             "level": "5",
@@ -2689,7 +2713,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "毎朝、パンやベーコンなどを食べています。",
+            "sentence": "毎朝、パン{1:や}ベーコンなどを食べています。",
             "translation": "Every morning I eat bread and bacon and so on.",
             "contexts": [
                 "や"
@@ -2700,7 +2724,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "スーパーで肉や野菜を買いました。",
+            "sentence": "スーパーで肉{1:や}野菜を買いました。",
             "translation": "I bought some meat and vegetables (and so on) from the supermarket.",
             "contexts": [
                 "や"
@@ -2711,7 +2735,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "あなたのおすすめの音楽や本を私に教えてください。",
+            "sentence": "あなたのおすすめの音楽{1:や}本を私に教えてください。",
             "translation": "Please tell me your recommended music or books.",
             "contexts": [
                 "や"
@@ -2722,7 +2746,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "電車やバスでの旅は好きです。",
+            "sentence": "電車{1:や}バスでの旅は好きです。",
             "translation": "I like traveling by train and bus (and so on).",
             "contexts": [
                 "や"
@@ -2733,7 +2757,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私はアメリカやイギリスのテレビドラマを見るのが好きです。",
+            "sentence": "私はアメリカ{1:や}イギリスのテレビドラマを見るのが好きです。",
             "translation": "I like watching American and British dramas (among others).",
             "contexts": [
                 "や"
@@ -2744,7 +2768,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "冬休みは家族で長野や北海道へ行きます。",
+            "sentence": "冬休みは家族で長野{1:や}北海道へ行きます。",
             "translation": "During winter vacation my family often goes to places like Nagano or Hokkaido.",
             "contexts": [
                 "や"
@@ -2755,7 +2779,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私は数学や化学などが好きです。",
+            "sentence": "私は数学{1:や}化学などが好きです。",
             "translation": "I like subjects like math, chemistry and so on.\n",
             "contexts": [
                 "や"
@@ -2766,7 +2790,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "秋には葉が赤や黄色に変わる。",
+            "sentence": "秋には葉が赤{1:や}黄色に変わる。",
             "translation": "The leaves turn red and yellow in fall.",
             "contexts": [
                 "や"
@@ -2777,10 +2801,10 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私は猫より、犬のほうが好きです。",
+            "sentence": "私は猫{1a:より}、犬{1b:のほうが}好きです。",
             "translation": "I like dogs more than cats.",
             "contexts": [
-                "より〜の方がt"
+                "より〜の方が"
             ],
             "audio": "0250.mp3",
             "level": "5",
@@ -2788,10 +2812,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "昨日より今日の方が暑いです。",
+            "sentence": "昨日{1a:より}今日{1b:の方が}{2:暑い}です。",
             "translation": "It's hotter today than it was yesterday.",
             "contexts": [
-                "より〜の方がt"
+                "より〜の方が",
+                "adj"
             ],
             "audio": "0251.mp3",
             "level": "5",
@@ -2799,10 +2824,10 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "彼女より、君の方がきれいだよ。",
+            "sentence": "彼女{1a:より}、君の{1b:方が}きれいだよ。",
             "translation": "You're more beautiful than she is.",
             "contexts": [
-                "より〜の方がt"
+                "より〜の方が"
             ],
             "audio": "0252.mp3",
             "level": "5",
@@ -2810,10 +2835,10 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "日本語を読むより、話す方が上手だ。",
+            "sentence": "日本語を読む{1a:より}、話す{1b:方が}上手だ。",
             "translation": "I'm better at speaking Japanese than I am at reading it.",
             "contexts": [
-                "より〜の方がt"
+                "より〜の方が"
             ],
             "audio": "0253.mp3",
             "level": "5",
@@ -2821,10 +2846,10 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "遅く寝るより、早く寝た方がいいですよ。",
+            "sentence": "遅く寝る{1a:より}、早く寝た{1b:方が}いいですよ。",
             "translation": "Going to bed earlier is better than going to bed late.\n",
             "contexts": [
-                "より〜の方がt"
+                "より〜の方が"
             ],
             "audio": "0254.mp3",
             "level": "5",
@@ -2832,10 +2857,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "台湾より、北海道の方が大きいです。",
+            "sentence": "台湾{1a:より}、北海道の{1b:方が}{2:大きい}です。",
             "translation": "Hokkaido is bigger than Taiwan.",
             "contexts": [
-                "より〜の方がt"
+                "より〜の方が",
+                "adj"
             ],
             "audio": "0255.mp3",
             "level": "5",
@@ -2843,10 +2869,12 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "日本語より英語の方が難しいと思う。",
+            "sentence": "日本語{1a:より}英語の{1b:方が}{2:難しい}と{3:思う}。",
             "translation": "I think English is more difficult than Japanese.",
             "contexts": [
-                "より〜の方がt"
+                "より〜の方が",
+                "adj",
+                "思う"
             ],
             "audio": "0256.mp3",
             "level": "5",
@@ -2854,10 +2882,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "自転車の方が車より便利だと思います。",
+            "sentence": "自転車の{1b:方が}車{1a:より}便利だと{2:思います}。",
             "translation": "I think bicycles are more convenient than cars.",
             "contexts": [
-                "より〜の方がt"
+                "より〜の方が",
+                "思う"
             ],
             "audio": "0257.mp3",
             "level": "5",
@@ -2865,10 +2894,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "家族より仕事の方が大切だと思う人と結婚したくない。",
+            "sentence": "家族{1a:より}仕事の{1b:方が}大切だと{2:思う}人と結婚したくない。",
             "translation": "I don't want to marry someone who thinks work is more important than family.",
             "contexts": [
-                "より〜の方がt"
+                "より〜の方が",
+                "思う"
             ],
             "audio": "0258.mp3",
             "level": "5",
@@ -2876,7 +2906,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "明日はどうですか。",
+            "sentence": "明日{1:はどうですか}。",
             "translation": "How about tomorrow?",
             "contexts": [
                 "はどうですか"
@@ -2887,7 +2917,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "日本はどうですか？",
+            "sentence": "日本{1:はどうですか}？",
             "translation": "How do you like Japan?",
             "contexts": [
                 "はどうですか"
@@ -2898,7 +2928,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "天気はどうですか。",
+            "sentence": "天気{1:はどうですか}。",
             "translation": "How is the weather?",
             "contexts": [
                 "はどうですか"
@@ -2909,7 +2939,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "買い物に行くのはどうですか。",
+            "sentence": "買い物に行くの{1:はどうですか}。",
             "translation": "What do you say to going shopping?",
             "contexts": [
                 "はどうですか"
@@ -2920,7 +2950,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "日本語の勉強はどうですか。",
+            "sentence": "日本語の勉強{1:はどうですか}。",
             "translation": "How are your Japanese studies going?",
             "contexts": [
                 "はどうですか"
@@ -2931,7 +2961,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "私の日本語の発音はどうですか？",
+            "sentence": "私の日本語の発音{1:はどうですか}？",
             "translation": "How is my Japanese pronunciation?",
             "contexts": [
                 "はどうですか"
@@ -2942,7 +2972,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "新しい学校はどうですか。友だちができましたか？",
+            "sentence": "新しい学校{1:はどうですか}。友だちができましたか？",
             "translation": "How is the new school? Have you made any friends?",
             "contexts": [
                 "はどうですか"
@@ -2953,7 +2983,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "最近仕事のほうはどうですか？",
+            "sentence": "最近仕事のほう{1:はどうですか}？",
             "translation": "How has work been going lately?",
             "contexts": [
                 "はどうですか"
@@ -2964,7 +2994,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "じてんしゃで行きます。",
+            "sentence": "自転車{1:で}行きます。",
             "translation": "I will go by bicycle.",
             "contexts": [
                 "で"
@@ -2975,7 +3005,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "みんなで行こう！",
+            "sentence": "みんな{1:で}行こう！",
             "translation": "Let's go together with everyone!",
             "contexts": [
                 "で"
@@ -2986,7 +3016,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "たまに一人でカラオケに行きます。",
+            "sentence": "たまに一人{1:で}カラオケに行きます。",
             "translation": "I sometimes go to sing karaoke by myself.",
             "contexts": [
                 "で"
@@ -2997,7 +3027,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "なにかの理由で彼は虫が怖いんだ。",
+            "sentence": "なにかの理由{1:で}彼は虫が怖いんだ。",
             "translation": "For some reason, he is scared of bugs.",
             "contexts": [
                 "で"
@@ -3008,7 +3038,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "そのシャツどこで買いました？",
+            "sentence": "そのシャツどこ{1:で}買いました？",
             "translation": "Where did you buy that shirt?",
             "contexts": [
                 "で"
@@ -3019,7 +3049,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "駅で会いましょうね。",
+            "sentence": "駅{1:で}会いましょうね。",
             "translation": "Let's meet at the station.",
             "contexts": [
                 "で"
@@ -3030,7 +3060,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "ここで電話しないでください。",
+            "sentence": "ここ{1:で}電話しないでください。",
             "translation": "Please don't use your phone here.",
             "contexts": [
                 "で"
@@ -3041,7 +3071,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "どこで日本語を学びましたか？",
+            "sentence": "どこ{1:で}日本語を学びましたか？",
             "translation": "Where did you learn Japanese?",
             "contexts": [
                 "で"
@@ -3052,7 +3082,7 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "YouTubeで日本語を勉強します。",
+            "sentence": "YouTube{1:で}日本語を勉強します。",
             "translation": "I study Japanese by watching YouTube.",
             "contexts": [
                 "で"

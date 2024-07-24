@@ -14,15 +14,15 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (targetContext) {
             const contextParts = targetContext.split('〜');
             contextParts.forEach((part, subIndex) => {
-                const key = `${targetIndex}${subIndex ? String.fromCharCode(97 + subIndex) : ''}`; // 97 is ASCII code for 'a'
+                const key = `${targetIndex+1}${contextParts.length > 1 ? String.fromCharCode(97 + subIndex) : ''}`; // 97 is ASCII code for 'a'
                 contextMap[key] = part;
             });
         }
 
         // Replace the indexed markers with spans for the target context only
         sentence = sentence.replace(/{(\d+[a-z]?):([^}]+)}/g, function(match, key, text) {
-            if (contextMap[key-1]) {
-                return `<span class="highlight">${text}</span>`;
+            if (contextMap[key]) {
+                return `<span id="context-highlight">${text}</span>`;
             }
             // Remove the unused markup if it doesn't match the target context
             return text;
@@ -99,22 +99,14 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Handle the enter key
         function handleEnterKey(event) {
             if (event.key === 'Enter') {
-                if (nextWordButton.style.display !== 'none') {
+                if (nextWordButton.hasAttribute('disabled') === false) {
                     setReady();
                 }
             }
         }
 
-        // Given all our possible contexts, find one to use
-        function getRandomContext() {
-            const keysArray = Array.from(AppData.contexts.keys()); 
-            const randomIndex = Math.floor(Math.random() * keysArray.length); 
-            return keysArray[randomIndex]; 
-        }
-
         // Given a context, find numSentences sentences that have that context
-        function getRandomContextSentences(numSentences) {
-            let context = AppData.sentences[AppData.currentSentence].contexts[0]; // FIXME: Randomize
+        function getRandomContextSentences(context, numSentences) {
             let possibleSentences = AppData.contexts.get(context).filter((sentence) => sentence !== AppData.currentSentence);
 
             let sentences = [];
@@ -158,7 +150,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // Setup for the actual question
             // const context = AppData.sentences[AppData.currentSentence].contexts[0]; // FIXME: Randomize
-            let randomSentences = getRandomContextSentences(3);
+            let randomSentences = getRandomContextSentences(contexts[randomContext], 3);
             randomSentences.push(AppData.currentSentence);
             randomSentences = shuffleArray(randomSentences);
 
@@ -189,11 +181,17 @@ document.addEventListener('DOMContentLoaded', async () => {
                         playAudio("../incorrect.mp3");
                     }
 
+                    // Show the example sentence and activate the highlights
+                    const highlightElements = exampleSentence.querySelectorAll('#context-highlight');
+                    highlightElements.forEach(element => {
+                        element.classList.add('highlight');
+                    });
                     exampleSentence.style.display = 'block';
+
                     showSentenceButton.style.display = 'none';
 
                     // Incorrect
-                    nextWordButton.style.display = 'block';
+                    nextWordButton.removeAttribute('disabled');
 
                     // Set everything to be disabled for simplicity
                     const childElements = answersDiv.querySelectorAll('*');
@@ -221,7 +219,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // exampleSentence.style.display = 'block';
             answerContainer.style.display = 'block';
-            nextWordButton.style.display = 'none';
+            nextWordButton.setAttribute('disabled', true);
 
             showBlinder();
 
@@ -242,6 +240,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             exampleSentence.style.display = 'none';
             showSentenceButton.style.display = 'block';
+            nextWordButton.setAttribute('disabled', true);
 
             // Show the first question
             showNextQuestion();
