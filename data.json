@@ -1,6 +1,6 @@
 {
     "version": "0.2",
-    "timestamp": "2024-07-24T08:54:38.967847+00:00",
+    "timestamp": "2024-07-25T02:34:41.754860+00:00",
     "sentences": [
         {
             "sentence": "仕事は辛い{1:けど}{2:楽しい}。",
@@ -50,12 +50,13 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "眠い{1:けど}、{2:まだ}宿題がある{3:から}寝られません。",
+            "sentence": "眠い{1:けど}、{2:まだ}宿題がある{3:から}寝{4:られません}。",
             "translation": "I'm sleepy but I can't sleep because I still have homework",
             "contexts": [
                 "けど",
                 "まだ",
-                "から"
+                "から",
+                "られる"
             ],
             "audio": "0005.mp3",
             "level": "5",
@@ -3088,6 +3089,3415 @@
                 "で"
             ],
             "audio": "0275.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "過去かこは変かえられない。",
+            "translation": "You can't change the past.",
+            "contexts": [
+                "られる"
+            ],
+            "audio": "0276.mp3",
+            "level": "5",
+            "attribution": "NativShark",
+            "attrurl": "https://app.nativshark.com/"
+        },
+        {
+            "sentence": "私わたしはお寿す司しを食たべる{1:の}が好すきです。",
+            "translation": "I like to eat sushi.",
+            "contexts": [
+                "の"
+            ],
+            "audio": "0277.mp3",
+            "level": "5",
+            "attribution": "NativShark",
+            "attrurl": "https://app.nativshark.com/"
+        },
+        {
+            "sentence": "あたしが欲ほしかった{1:の}はこれじゃない。",
+            "translation": "That isn't the thing I wanted.",
+            "contexts": [
+                "の"
+            ],
+            "audio": "0278.mp3",
+            "level": "5",
+            "attribution": "NativShark",
+            "attrurl": "https://app.nativshark.com/"
+        },
+        {
+            "sentence": "間まに合あわない{1:かも}ね。",
+            "translation": "We might not make it in time.",
+            "contexts": [
+                "かも"
+            ],
+            "audio": "0279.mp3",
+            "level": "5",
+            "attribution": "NativShark",
+            "attrurl": "https://app.nativshark.com/"
+        },
+        {
+            "sentence": "大変な{1:の}は漢字の勉強です。",
+            "translation": "The hard part is learning kanji.",
+            "contexts": [
+                "の"
+            ],
+            "audio": "0280.mp3",
+            "level": "5",
+            "attribution": "NativShark",
+            "attrurl": "https://app.nativshark.com/"
+        },
+        {
+            "sentence": "走る{1:の}大好き。",
+            "translation": "I love running.",
+            "contexts": [
+                "の"
+            ],
+            "audio": "0281.mp3",
+            "level": "5",
+            "attribution": "NativShark",
+            "attrurl": "https://app.nativshark.com/"
+        },
+        {
+            "sentence": "眠ねむ{1:れない}。",
+            "translation": "I can't sleep.",
+            "contexts": [
+                "られる"
+            ],
+            "audio": "0282.mp3",
+            "level": "5",
+            "attribution": "NativShark",
+            "attrurl": "https://app.nativshark.com/"
+        },
+        {
+            "sentence": "安い{1:の}買った。",
+            "translation": "I bought a cheap one.",
+            "contexts": [
+                "の"
+            ],
+            "audio": "0283.mp3",
+            "level": "5",
+            "attribution": "NativShark",
+            "attrurl": "https://app.nativshark.com/"
+        },
+        {
+            "sentence": "好きな{1:の}選んで。",
+            "translation": "Pick the one you like.",
+            "contexts": [
+                "の"
+            ],
+            "audio": "0284.mp3",
+            "level": "5",
+            "attribution": "NativShark",
+            "attrurl": "https://app.nativshark.com/"
+        },
+        {
+            "sentence": "来こ{1:れるって}。",
+            "translation": "She can come.",
+            "contexts": [
+                "られる"
+            ],
+            "audio": "0285.mp3",
+            "level": "5",
+            "attribution": "NativShark",
+            "attrurl": "https://app.nativshark.com/"
+        },
+        {
+            "sentence": "明日あした来こ{1:れる}か聞きいて{2:みて}。",
+            "translation": "Ask if she can come tomorrow.",
+            "contexts": [
+                "られる",
+                "みて"
+            ],
+            "audio": "0286.mp3",
+            "level": "5",
+            "attribution": "NativShark",
+            "attrurl": "https://app.nativshark.com/"
+        },
+        {
+            "sentence": "一番{2:安い}{1:の}はどれですか？",
+            "translation": "Which one is the cheapest?",
+            "contexts": [
+                "の",
+                "adj"
+            ],
+            "audio": "0287.mp3",
+            "level": "5",
+            "attribution": "NativShark",
+            "attrurl": "https://app.nativshark.com/"
+        },
+        {
+            "sentence": "今日は{1:とても}{2:暑い}ですね。",
+            "translation": "Today is very hot, isn't it?",
+            "contexts": [
+                "とても",
+                "adj"
+            ],
+            "audio": "0288.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "1月と２月は{1:とても}{2:寒い}です。",
+            "translation": "January and February are very cold.",
+            "contexts": [
+                "とても",
+                "adj"
+            ],
+            "audio": "0289.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "このカレーは{1:とても}{2:辛い}ですね。",
+            "translation": "This curry is very spicy!",
+            "contexts": [
+                "とても",
+                "adj"
+            ],
+            "audio": "0290.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "彼らは{1:とても}似ている。",
+            "translation": "They look very alike.",
+            "contexts": [
+                "とても"
+            ],
+            "audio": "0291.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "両親のことを{1:とても}愛している。",
+            "translation": "I really love my parents.",
+            "contexts": [
+                "とても"
+            ],
+            "audio": "0292.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "昨日見た映画は{1:とても}{2:面白かった}。",
+            "translation": "The movie I watched yesterday was very interesting.",
+            "contexts": [
+                "とても",
+                "adj"
+            ],
+            "audio": "0293.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "この本、{1:とても}{2:面白い}ですよ。読んだ{3:方がいい}。",
+            "translation": "This book is very interesting. You should give it a read.",
+            "contexts": [
+                "とても",
+                "adj",
+                "方がいい"
+            ],
+            "audio": "0294.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "彼は{1:とても}疲れているように見える。",
+            "translation": "He looks very tired.",
+            "contexts": [
+                "とても"
+            ],
+            "audio": "0295.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "{1:そして}行ってしまった。",
+            "translation": "And then (he) was gone.",
+            "contexts": [
+                "そして"
+            ],
+            "audio": "0296.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "{1:そして}私はあなたに出会った。",
+            "translation": "And then I met you.",
+            "contexts": [
+                "そして"
+            ],
+            "audio": "0297.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "{1:そして}、私は朝ごはんを食べました。",
+            "translation": "And then, I ate breakfast.",
+            "contexts": [
+                "そして"
+            ],
+            "audio": "0298.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "ご飯を買った。{1:そして}、家に帰った。",
+            "translation": "I bought dinner and then went home.",
+            "contexts": [
+                "そして"
+            ],
+            "audio": "0299.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "母は料理をする。{1:そして}、父は皿を洗う。",
+            "translation": "My mother cooks and my father washes the dishes.",
+            "contexts": [
+                "そして"
+            ],
+            "audio": "0300.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "昨日は朝7時に起きました。{1:そして}、夜10時半に寝ました。",
+            "translation": "Yesterday I woke up at 7 o'clock. And then went to bed at 10:30 pm.",
+            "contexts": [
+                "そして"
+            ],
+            "audio": "0301.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私は走りました。{1:そして}、のどが渇いたので水を飲みました。",
+            "translation": "I ran. And then was thirsty so I drank some water.",
+            "contexts": [
+                "そして"
+            ],
+            "audio": "0302.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私は朝5時に起きました。{1:そして}、散歩に出かけました。",
+            "translation": "I woke up at 5 o'clock. And then I went out for a walk.",
+            "contexts": [
+                "そして"
+            ],
+            "audio": "0303.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "分からない{1:とき}は、早く先生に聞きましょうね。",
+            "translation": "Whenever you don't understand, hurry up and ask the teacher.",
+            "contexts": [
+                "とき"
+            ],
+            "audio": "0304.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "道を渡る{1:とき}、車に気をつけてください。",
+            "translation": "When crossing the street, be careful with the cars.",
+            "contexts": [
+                "とき"
+            ],
+            "audio": "0305.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "時間がない{1:とき}は、朝ごはんを食べません。",
+            "translation": "When I have no time, I don't eat breakfast.",
+            "contexts": [
+                "とき"
+            ],
+            "audio": "0306.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "体の調子が悪い{1:とき}、温かいお茶を飲みます。",
+            "translation": "When I'm not feeling well, I drink warm tea.",
+            "contexts": [
+                "とき"
+            ],
+            "audio": "0307.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "眠い{1:とき}、いつもチョコレートを食べます。",
+            "translation": "I always eat chocolate whenever I'm feeling sleepy.",
+            "contexts": [
+                "とき"
+            ],
+            "audio": "0308.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "図書館で本を借りる{1:時}、カードがいります。",
+            "translation": "When you borrow a book from the library, you need a card.",
+            "contexts": [
+                "とき"
+            ],
+            "audio": "0309.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "妻が病気の{1:とき}、会社を休みました。",
+            "translation": "I took work off when my wife was feeling sick",
+            "contexts": [
+                "とき"
+            ],
+            "audio": "0310.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "暇な{1:とき}、ユーチューブを見ます。",
+            "translation": "I watch Youtube when I have free time.",
+            "contexts": [
+                "とき"
+            ],
+            "audio": "0311.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "中学生の{1:とき}、初めて日本に来ました。",
+            "translation": "I first came to Japan when I was a middle school student.",
+            "contexts": [
+                "とき"
+            ],
+            "audio": "0312.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "晩ごはんを食べる{1:とき}、いつも牛乳を飲みます。",
+            "translation": "I always drink milk when I eat dinner.",
+            "contexts": [
+                "とき"
+            ],
+            "audio": "0313.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "お母さん{1:と}買い物に行った。",
+            "translation": "I went shopping with my mom.",
+            "contexts": [
+                "と"
+            ],
+            "audio": "0314.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "彼女{1:と}仲がいいです。",
+            "translation": "She and I get along well.",
+            "contexts": [
+                "と"
+            ],
+            "audio": "0315.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "あなた{1:と}話したくない。",
+            "translation": "I don't want to talk to you.",
+            "contexts": [
+                "と"
+            ],
+            "audio": "0316.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "これ{1:と}それは違います。",
+            "translation": "This and that are different.",
+            "contexts": [
+                "と"
+            ],
+            "audio": "0317.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "彼はベトナム人{1:と}結婚している。",
+            "translation": "He's married to a Vietnamese person.",
+            "contexts": [
+                "と"
+            ],
+            "audio": "0318.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "犬{1:と}遊ぶのが大好きです。",
+            "translation": "I love playing with dogs.",
+            "contexts": [
+                "と"
+            ],
+            "audio": "0319.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "飲み物{1:と}食べ物禁止。",
+            "translation": "No food or drink.",
+            "contexts": [
+                "と"
+            ],
+            "audio": "0320.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私は{2:いつも}そこでハンバーガー{1:と}フライドポテトを食べます。",
+            "translation": "I always eat a burger and fries there.",
+            "contexts": [
+                "と",
+                "いつも"
+            ],
+            "audio": "0321.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "明日同僚{1:と}食事に行く予定です。",
+            "translation": "Tomorrow I plan on going out to eat with my coworkers.",
+            "contexts": [
+                "と"
+            ],
+            "audio": "0322.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "高校時代のクラスメイト{1:と}連絡をとっていますか。",
+            "translation": "Are you staying in touch with your high school friends?",
+            "contexts": [
+                "と"
+            ],
+            "audio": "0323.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "トイレに行っ{1:てもいいです}か？",
+            "translation": "May I go to the restroom?",
+            "contexts": [
+                "てもいいです"
+            ],
+            "audio": "0324.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "うん、行ってもいいですよ！",
+            "translation": "Sure, go a head!",
+            "contexts": [
+                "てもいいです"
+            ],
+            "audio": "0325.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "明日{1:でもいいです}か？",
+            "translation": "Is tomorrow OK?",
+            "contexts": [
+                "てもいいです"
+            ],
+            "audio": "0326.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "どっちの日{1:でもいいです}よ。",
+            "translation": "Either day would be all right with me.",
+            "contexts": [
+                "てもいいです"
+            ],
+            "audio": "0327.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "それを食べ{1:てもいいです}か。",
+            "translation": "Can I eat that?",
+            "contexts": [
+                "てもいいです"
+            ],
+            "audio": "0328.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私{2:も}{3:一緒に}行っ{1:ていい}？",
+            "translation": "Can I go with you?",
+            "contexts": [
+                "てもいいです",
+                "も",
+                "一緒に"
+            ],
+            "audio": "0329.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "ここに座っ{1:てもいいです}か？",
+            "translation": "Is it OK if I sit here?",
+            "contexts": [
+                "てもいいです"
+            ],
+            "audio": "0330.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "一つ質問を聞い{1:ていいです}か？",
+            "translation": "Do you mind if I ask you a question?",
+            "contexts": [
+                "てもいいです"
+            ],
+            "audio": "0331.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "わざわざ家に来なく{1:てもいいです}よ。",
+            "translation": "You don't need to bother coming all the way to my home.",
+            "contexts": [
+                "てもいいです"
+            ],
+            "audio": "0332.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "窓を開け{1:てはいけない}。",
+            "translation": "Do not open up the window.",
+            "contexts": [
+                "てはいけない"
+            ],
+            "audio": "0333.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "嘘をつい{1:てはいけない}。",
+            "translation": "You must not tell lies.",
+            "contexts": [
+                "てはいけない"
+            ],
+            "audio": "0334.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "ろうかを走っ{1:てはいけません}よ。",
+            "translation": "No running in the halls.",
+            "contexts": [
+                "てはいけない"
+            ],
+            "audio": "0335.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "図書館でうるさくし{1:てはいけない}。",
+            "translation": "We cannot be loud in the library.",
+            "contexts": [
+                "てはいけない"
+            ],
+            "audio": "0336.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "今日試験が{2:ある}{3:から}、遅刻し{1:てはいけない}。",
+            "translation": "There's a test today, so you can't be late.",
+            "contexts": [
+                "てはいけない",
+                "ある",
+                "から"
+            ],
+            "audio": "0337.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "室内でタバコを吸っ{1:てはいけません}よ。",
+            "translation": "No smoking inside!",
+            "contexts": [
+                "てはいけない"
+            ],
+            "audio": "0338.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "笑っ{1:てはいけない}冗談だった。",
+            "translation": "That was a joke that we shouldn't of laughed at.",
+            "contexts": [
+                "てはいけない"
+            ],
+            "audio": "0339.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "授業中に携帯電話を使っ{1:てはいけません}。",
+            "translation": "No using cellphones during class.",
+            "contexts": [
+                "てはいけない"
+            ],
+            "audio": "0340.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "２０歳未満の人はお酒を飲ん{1:ではいけません}。",
+            "translation": "You must not drink alcohol if you are under 20 years of age.",
+            "contexts": [
+                "てはいけない"
+            ],
+            "audio": "0341.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "禁煙というのはタバコを吸っ{1:てはいけない}ということです。",
+            "translation": "The word \"kinen\" means no smoking is allowed.",
+            "contexts": [
+                "てはいけない"
+            ],
+            "audio": "0342.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "ちょっと待っ{1:てください}。",
+            "translation": "Please wait a moment.",
+            "contexts": [
+                "てください"
+            ],
+            "audio": "0343.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "やめ{1:てください}！",
+            "translation": "Please stop!",
+            "contexts": [
+                "てください"
+            ],
+            "audio": "0344.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "もっとゆっくり言っ{1:てください}。",
+            "translation": "Please speak more slowly.",
+            "contexts": [
+                "てください"
+            ],
+            "audio": "0345.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "静かにし{1:てください}。",
+            "translation": "Please quiet down.",
+            "contexts": [
+                "てください"
+            ],
+            "audio": "0346.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "やってみ{1:てください}。",
+            "translation": "Give it a try!",
+            "contexts": [
+                "てください"
+            ],
+            "audio": "0347.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "どうぞ座っ{1:てください}。",
+            "translation": "Please go ahead and sit down.",
+            "contexts": [
+                "てください"
+            ],
+            "audio": "0348.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "先生、この問題分かりません。{2:もう}一回説明し{1:てください}。",
+            "translation": "Teacher, I don't understand this question. Could you please explain one more time?",
+            "contexts": [
+                "てください",
+                "もう"
+            ],
+            "audio": "0349.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "日本語を教え{1:てください}。",
+            "translation": "Please teach me Japanese.",
+            "contexts": [
+                "てください"
+            ],
+            "audio": "0350.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私に知らせ{1:てください}。",
+            "translation": "Please let me know.",
+            "contexts": [
+                "てください"
+            ],
+            "audio": "0351.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "トイレを使っ{1:てから}、手を洗わないといけません。",
+            "translation": "We must wash our hands after using the restroom.",
+            "contexts": [
+                "てから"
+            ],
+            "audio": "0352.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "買い物をし{1:てから}家に帰ります。",
+            "translation": "I'll come home after I finish shopping.",
+            "contexts": [
+                "てから"
+            ],
+            "audio": "0353.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "ご飯を食べ{1:てから}散歩しました。",
+            "translation": "After eating I went for a walk.",
+            "contexts": [
+                "てから"
+            ],
+            "audio": "0354.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "今日は、起き{1:てから}まだ何も食べていません。",
+            "translation": "I haven't eaten anything today since waking up.",
+            "contexts": [
+                "てから"
+            ],
+            "audio": "0355.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "アメリカに帰国し{1:てから}太りました。",
+            "translation": "I gained weight since coming back to America.",
+            "contexts": [
+                "てから"
+            ],
+            "audio": "0356.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "彼が禁煙し{1:てから}2ヶ月がたった。",
+            "translation": "It's been 2 months since he quit smoking.",
+            "contexts": [
+                "てから"
+            ],
+            "audio": "0357.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "電話をし{1:てから}来てください。",
+            "translation": "Please call me before you come.",
+            "contexts": [
+                "てから"
+            ],
+            "audio": "0358.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "空き缶は潰し{1:てから}ゴミとして出してください。",
+            "translation": "Please crush your empty cans before putting them out as garbage.",
+            "contexts": [
+                "てから"
+            ],
+            "audio": "0359.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "昼ごはんは何を食べ{1:ている}の？",
+            "translation": "What do you eat for lunch?",
+            "contexts": [
+                "ている"
+            ],
+            "audio": "0360.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私{2:も}その本を読ん{1:でいる}！",
+            "translation": "I'm also reading that book!",
+            "contexts": [
+                "ている",
+                "も"
+            ],
+            "audio": "0361.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "いつ{2:から}サッカーをやっ{1:ている}のですか。",
+            "translation": "How long have you been playing soccer?",
+            "contexts": [
+                "ている",
+                "から"
+            ],
+            "audio": "0362.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "今日の日本は雨が降っ{1:ています}。",
+            "translation": "It's raining in Japan today.",
+            "contexts": [
+                "ている"
+            ],
+            "audio": "0363.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "どれ{2:くらい}日本に住ん{1:でいます}か？",
+            "translation": "How long have you been living in Japan?",
+            "contexts": [
+                "ている",
+                "くらい"
+            ],
+            "audio": "0364.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "そのお店は何時{3:まで}やっ{1:ている}{2:ので}すか？",
+            "translation": "Until what time is that shop open?",
+            "contexts": [
+                "ている",
+                "ので",
+                "まで"
+            ],
+            "audio": "0365.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "山田さんはまだ寝{1:ている}と{2:思います}。",
+            "translation": "I think Mr. Yamada is still sleeping.",
+            "contexts": [
+                "ている",
+                "思う"
+            ],
+            "audio": "0366.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私{2:も}あなたを愛し{1:ています}。",
+            "translation": "I love you too.",
+            "contexts": [
+                "ている",
+                "も"
+            ],
+            "audio": "0367.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "ここには私の名前が書い{1:てあります}。",
+            "translation": "My name is written here.",
+            "contexts": [
+                "てある"
+            ],
+            "audio": "0368.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "ドアがわざと開け{1:てある}。",
+            "translation": "The door has been left intentionally opened.",
+            "contexts": [
+                "てある"
+            ],
+            "audio": "0369.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "宿題は{2:もう}やっ{1:てあります}。",
+            "translation": "I have already finished my homework.",
+            "contexts": [
+                "てある"
+            ],
+            "audio": "0370.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "夜には学校{2:の}入り口が閉め{1:てある}。",
+            "translation": "At night, the school entrance is closed.",
+            "contexts": [
+                "てある",
+                "の"
+            ],
+            "audio": "0371.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "ここに何て書い{1:てある}の？",
+            "translation": "What is written here?",
+            "contexts": [
+                "てある"
+            ],
+            "audio": "0372.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "料理が作っ{1:てある}{2:から}、今日は家で食べる。",
+            "translation": "I've already made some food, so today I will eat at home.",
+            "contexts": [
+                "てある",
+                "から"
+            ],
+            "audio": "0373.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "テニスをしよう。１０時３０分にコートを予約し{1:てある}{2:から}。",
+            "translation": "Let's play tennis. I've booked a court for 10:30.",
+            "contexts": [
+                "てある",
+                "から"
+            ],
+            "audio": "0374.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "すでに言っ{1:てある}ように、これ{2:も}あなたの仕事のうちだ。",
+            "translation": "This is also part of your work, as I told you before.",
+            "contexts": [
+                "てある",
+                "も"
+            ],
+            "audio": "0375.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "これを見{1:たことがある}。",
+            "translation": "I've seen this before.",
+            "contexts": [
+                "たことがある"
+            ],
+            "audio": "0376.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "フランスに行っ{1:たことがある}。",
+            "translation": "I've been to France before.",
+            "contexts": [
+                "たことがある"
+            ],
+            "audio": "0377.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "それを聞い{1:たことがある}。",
+            "translation": "I've heard of that before.",
+            "contexts": [
+                "たことがある"
+            ],
+            "audio": "0378.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "一度だけカラオケをやっ{1:たことがあります}。",
+            "translation": "I've only tried karaoke once before.",
+            "contexts": [
+                "たことがある"
+            ],
+            "audio": "0379.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "日本に行っ{1:たことあります}か？",
+            "translation": "Have you been to Japan before?",
+            "contexts": [
+                "たことがある"
+            ],
+            "audio": "0380.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "日本は好きですが行っ{1:たことがない}。",
+            "translation": "I love Japan, but I've never been.",
+            "contexts": [
+                "たことがある"
+            ],
+            "audio": "0381.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "本当に、車を運転し{1:たことがない}ですか？",
+            "translation": "You've really never driven a car before?",
+            "contexts": [
+                "たことがある"
+            ],
+            "audio": "0382.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "これは誰に{2:も}話し{1:たことがありません}。",
+            "translation": "I've never told this to anyone.",
+            "contexts": [
+                "たことがある",
+                "も"
+            ],
+            "audio": "0383.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私は一度しかすしを食べ{1:たことがありません}。",
+            "translation": "I've only had sushi one time.",
+            "contexts": [
+                "たことがある"
+            ],
+            "audio": "0384.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "日本語{1:を}べんきょうし{2:ています}。",
+            "translation": "I am studying Japanese.",
+            "contexts": [
+                "を",
+                "ている"
+            ],
+            "audio": "0385.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "日本語{1:を}話します。",
+            "translation": "I speak Japanese.",
+            "contexts": [
+                "を"
+            ],
+            "audio": "0386.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "今日は朝ごはん{1:を}食べませんでした。",
+            "translation": "Today, I didn't eat breakfast.",
+            "contexts": [
+                "を"
+            ],
+            "audio": "0387.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "{2:もう}宿題{1:を}しました。",
+            "translation": "I already did my homework.",
+            "contexts": [
+                "を",
+                "もう"
+            ],
+            "audio": "0388.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "毎日ランニング{1:を}します。",
+            "translation": "I go running every day.",
+            "contexts": [
+                "を"
+            ],
+            "audio": "0389.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "魚{1:を}食べ{2:たことがない}。",
+            "translation": "I've never eaten fish before.",
+            "contexts": [
+                "を",
+                "たことがる"
+            ],
+            "audio": "0390.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "毎週{2:新しい}かんじ{1:を}学ぶ。",
+            "translation": "I learn new kanji characters every week.",
+            "contexts": [
+                "を",
+                "adj"
+            ],
+            "audio": "0391.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "ピザ{1:を}食べる{2:の}が大好きだ。",
+            "translation": "I love to eat pizza.",
+            "contexts": [
+                "を",
+                "の"
+            ],
+            "audio": "0392.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私は寝る{1:のが好き}です。",
+            "translation": "I like to sleep. / I like sleeping.",
+            "contexts": [
+                "のが好き"
+            ],
+            "audio": "0393.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "漫画{2:を}読む{1:のが好き}だ。",
+            "translation": "I like reading manga.",
+            "contexts": [
+                "のが好き",
+                "を"
+            ],
+            "audio": "0394.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "妹は料理{2:を}する{1:のが好き}です。",
+            "translation": "My younger sister likes to cook.",
+            "contexts": [
+                "のが好き",
+                "を"
+            ],
+            "audio": "0395.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "君、運動する{1:のが好き}だね。",
+            "translation": "You sure like working out don't you.",
+            "contexts": [
+                "のが好き"
+            ],
+            "audio": "0396.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "彼女は野球の試合{2:を}見る{1:のが好き}です。",
+            "translation": "She likes watching baseball games.",
+            "contexts": [
+                "のが好き",
+                "を"
+            ],
+            "audio": "0397.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私は何か{2:を}食べな{3:がら}映画を観る{1:のが好き}です。",
+            "translation": "I love to eat something while watching a movie.",
+            "contexts": [
+                "のが好き",
+                "を",
+                "がら"
+            ],
+            "audio": "0398.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "電車とバスのどちらに乗る{1:のが好き}ですか？",
+            "translation": "Which do you like to ride more, trains or buses?",
+            "contexts": [
+                "のが好き"
+            ],
+            "audio": "0399.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私{2:の}夫は私が夜に外出する{1:のが好き}ではない。",
+            "translation": "My husband doesn't like me going out at night.",
+            "contexts": [
+                "のが好き",
+                "の"
+            ],
+            "audio": "0400.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "多くの日本人は多くの人の前で自分の意見{2:を}表現する{1:のが好き}じゃない。",
+            "translation": "Most Japanese people don't like expressing their opinions in front of a lot of people.",
+            "contexts": [
+                "のが好き",
+                "を"
+            ],
+            "audio": "0401.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "あなたは教える{1:のが上手}です。",
+            "translation": "You're good at teaching.",
+            "contexts": [
+                "のが上手"
+            ],
+            "audio": "0402.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "彼は歌う{1:のが上手}だ。",
+            "translation": "He's good at singing.",
+            "contexts": [
+                "のが上手"
+            ],
+            "audio": "0403.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "彼女はピアノ{2:を}弾く{1:のが上手}。",
+            "translation": "She's good at playing piano.",
+            "contexts": [
+                "のが上手",
+                "を"
+            ],
+            "audio": "0404.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "あなたはお箸{2:を}使う{1:のが上手}ですね。",
+            "translation": "You're very good at using chopsticks.",
+            "contexts": [
+                "のが上手",
+                "を"
+            ],
+            "audio": "0405.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私はそんなに日本語{2:を}話す{1:のが上手}ではない。",
+            "translation": "I'm not very good at speaking Japanese.",
+            "contexts": [
+                "のが上手",
+                "を"
+            ],
+            "audio": "0406.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "高校の{3:とき}、運動{2:を}する{1:のが上手}だったが今は違う。",
+            "translation": "In high school, I was good at exercising, but things are different now.",
+            "contexts": [
+                "のが上手",
+                "を",
+                "とき"
+            ],
+            "audio": "0407.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私は母ほど料理{2:を}する{1:のが上手}ではありません。",
+            "translation": "I'm nowhere near as good at cooking as my mother.",
+            "contexts": [
+                "のが上手",
+                "を"
+            ],
+            "audio": "0408.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "時間{2:を}管理する{1:のが上手}ではない。",
+            "translation": "I'm not good at managing time.",
+            "contexts": [
+                "のが上手",
+                "を"
+            ],
+            "audio": "0409.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "日本語{3:を}{2:もっと}勉強し{1:たい}です。",
+            "translation": "I want to study more Japanese.",
+            "contexts": [
+                "たい",
+                "もっと",
+                "を"
+            ],
+            "audio": "0410.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "先生、聞き{1:たい}{2:こと}{3:があります}が。",
+            "translation": "Sensei, there is something I'd like to ask you..",
+            "contexts": [
+                "たい",
+                "こと",
+                "がある"
+            ],
+            "audio": "0411.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "早く結婚し{1:たい}。",
+            "translation": "I want to hurry up and get married.",
+            "contexts": [
+                "たい"
+            ],
+            "audio": "0412.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "自転車がこわれた{2:から}、{3:新しい}{4:の}{5:を}買い{1:たい}。",
+            "translation": "My bicycle broke, so I want to buy a new one.",
+            "contexts": [
+                "たい",
+                "から",
+                "adj",
+                "の"
+            ],
+            "audio": "0413.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "子どものころ{3:から}、{2:ずっと}日本に行き{1:たかった}。",
+            "translation": "Ever since I was little, I always wanted to go to Japan.",
+            "contexts": [
+                "たい",
+                "ずっと",
+                "から"
+            ],
+            "audio": "0414.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "つかれた{2:から}、{3:もう}勉強し{1:たくない}。",
+            "translation": "I'm tired and don't want to study anymore.",
+            "contexts": [
+                "たい",
+                "から",
+                "もう"
+            ],
+            "audio": "0415.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "将来は日本の会社で働き{1:たい}です。",
+            "translation": "In the future, I'd like to work for a Japanese company.",
+            "contexts": [
+                "たい"
+            ],
+            "audio": "0416.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "お金が{3:たくさん}あったら、何{2:を}し{1:たい}ですか？",
+            "translation": "What would you want to do if you had a lot of money?",
+            "contexts": [
+                "たい",
+                "を",
+                "たくさん"
+            ],
+            "audio": "0417.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "日本{1:に}戻り{2:たい}。",
+            "translation": "I want to go back to Japan.",
+            "contexts": [
+                "に",
+                "たい"
+            ],
+            "audio": "0418.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "日本{1:に}来た{2:こと}はありますか？",
+            "translation": "Have you ever been to Japan?",
+            "contexts": [
+                "に",
+                "こと"
+            ],
+            "audio": "0419.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "{2:どうやって}学校{1:に}通っていますか？",
+            "translation": "How do you go to school?",
+            "contexts": [
+                "に",
+                "どうやって"
+            ],
+            "audio": "0420.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "今日は仕事{1:に}行き{2:たくない}。",
+            "translation": "I don't want to go to work today.",
+            "contexts": [
+                "に",
+                "たい"
+            ],
+            "audio": "0421.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "どこ{1:へ}行ったんですか？",
+            "translation": "Where did you go? / Where were you?",
+            "contexts": [
+                "へ"
+            ],
+            "audio": "0422.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "家{1:へ}向かっているところです。",
+            "translation": "I'm heading home now.",
+            "contexts": [
+                "へ"
+            ],
+            "audio": "0423.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "そこ{1:へ}行くには車で6時間かかる。",
+            "translation": "It takes 6 hours to drive there by car.",
+            "contexts": [
+                "へ"
+            ],
+            "audio": "0424.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "毎年北海道{1:へ}スキー{2:に}行く。",
+            "translation": "Every year I go to Hokkaido to go skiing.",
+            "contexts": [
+                "へ",
+                "に"
+            ],
+            "audio": "0425.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "どれ{1:にする}?",
+            "translation": "Which will you have? / Which do you want?",
+            "contexts": [
+                "にする"
+            ],
+            "audio": "0426.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "飲み物は何{1:にする}？",
+            "translation": "What will you have to drink?",
+            "contexts": [
+                "にする"
+            ],
+            "audio": "0427.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "お茶{1:にする}。",
+            "translation": "I'll have tea.",
+            "contexts": [
+                "にする"
+            ],
+            "audio": "0428.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私は明日と来週の火曜日を休み{1:にする}。",
+            "translation": "I'm taking work off tomorrow and next Tuesday.",
+            "contexts": [
+                "にする"
+            ],
+            "audio": "0429.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "これ{1:にします}。",
+            "translation": "I want this / I've decided on this",
+            "contexts": [
+                "にする"
+            ],
+            "audio": "0430.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "今日は部屋をきれい{1:にします}。",
+            "translation": "I will clean my room today.",
+            "contexts": [
+                "にする"
+            ],
+            "audio": "0431.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "君を幸せ{1:にします}。",
+            "translation": "I'll make you happy.",
+            "contexts": [
+                "にする"
+            ],
+            "audio": "0432.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "紅茶{1:にします}かそれともコーヒー{1:にします}か。",
+            "translation": "Do you want black tea or coffee?",
+            "contexts": [
+                "にする"
+            ],
+            "audio": "0433.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "今年は素晴しい年{1:にします}！",
+            "translation": "I'm gonna make this year a great one!",
+            "contexts": [
+                "にする"
+            ],
+            "audio": "0434.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "彼はおはしを使う{1:のが下手}だ。",
+            "translation": "He is bad at using chopsticks.",
+            "contexts": [
+                "のが下手"
+            ],
+            "audio": "0435.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "母は料理をする{1:のが下手}だ。",
+            "translation": "My mother is bad at cooking.",
+            "contexts": [
+                "のが下手"
+            ],
+            "audio": "0436.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私は人としゃべる{1:のが下手}だ。",
+            "translation": "I'm not good at talking with people.",
+            "contexts": [
+                "のが下手"
+            ],
+            "audio": "0437.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "かんじを勉強する{1:のが下手}です。",
+            "translation": "I'm not good at studying kanji.",
+            "contexts": [
+                "のが下手"
+            ],
+            "audio": "0438.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "日本語の字を書く{1:のが下手}だ。",
+            "translation": "I'm not good at writing Japanese characters.",
+            "contexts": [
+                "のが下手"
+            ],
+            "audio": "0439.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "姉は歌う{1:のが下手}だと{2:思います}。",
+            "translation": "I think my older sister is bad at singing.",
+            "contexts": [
+                "のが下手",
+                "思う"
+            ],
+            "audio": "0440.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "トライアスロンをやっ{2:てみたい}ですが泳ぐ{1:のが下手}だ。",
+            "translation": "I want to try doing a triathlon, but I'm no good at swimming.",
+            "contexts": [
+                "のが下手",
+                "てみたい"
+            ],
+            "audio": "0441.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "来月大学{1:に}入る。",
+            "translation": "I will go to (start) university next month.",
+            "contexts": [
+                "に"
+            ],
+            "audio": "0442.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "どうやって学校{1:に}通っ{2:ています}か？",
+            "translation": "How do you go to school?",
+            "contexts": [
+                "に",
+                "ている"
+            ],
+            "audio": "0443.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "あなたは何時{1:に}スーパー{1:に}行きますか？",
+            "translation": "What time will you go to the supermarket?",
+            "contexts": [
+                "に"
+            ],
+            "audio": "0444.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "彼は、大学{1:に}入るための努力をし{2:ている}。",
+            "translation": "He's working hard so that he can get into university.",
+            "contexts": [
+                "に",
+                "ている"
+            ],
+            "audio": "0445.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "日本{1:に|来た{2:こと}はありますか？",
+            "translation": "Have you ever been to Japan?",
+            "contexts": [
+                "に",
+                "こと"
+            ],
+            "audio": "0446.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "あの木の{1:に}大きな犬{2:がいます}。",
+            "translation": "There's a big dog under that tree.",
+            "contexts": [
+                "に",
+                "がある"
+            ],
+            "audio": "0447.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "今家{2:の}中{1:に}いますよ。",
+            "translation": "I'm inside my home right now.",
+            "contexts": [
+                "に",
+                "の"
+            ],
+            "audio": "0448.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "ここ{1:に}お名前を書い{2:てください}。",
+            "translation": "Please write your name here.",
+            "contexts": [
+                "に",
+                "てください"
+            ],
+            "audio": "0449.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "アメリカ{1:に}はどの{2:くらい}滞在しますか？",
+            "translation": "About how long will you stay in America?",
+            "contexts": [
+                "に",
+                "くらい"
+            ],
+            "audio": "0450.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "行か{1:なくちゃ}。",
+            "translation": "I gotta go.",
+            "contexts": [
+                "なくちゃ"
+            ],
+            "audio": "0451.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "{2:もう}寝{1:なくちゃ}。",
+            "translation": "I have to go to bed already.",
+            "contexts": [
+                "なくちゃ",
+                "もう"
+            ],
+            "audio": "0452.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "{2:新しい}車を買わ{1:なくちゃ}ね。",
+            "translation": "You need to buy a new car..",
+            "contexts": [
+                "なくちゃ",
+                "adj"
+            ],
+            "audio": "0453.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "{2:よく}考え{1:なくちゃダメ}だよ。",
+            "translation": "You need to think carefully about this.",
+            "contexts": [
+                "なくちゃ",
+                "よく"
+            ],
+            "audio": "0454.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "君で{1:なくちゃダメ}なんだ。",
+            "translation": "It has to be you!",
+            "contexts": [
+                "なくちゃ"
+            ],
+            "audio": "0455.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "彼は返さ{1:なくちゃいけない}借金がある",
+            "translation": "He has loans that need to be paid back.",
+            "contexts": [
+                "なくちゃ"
+            ],
+            "audio": "0456.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "なんで僕がやら{1:なくちゃいけない}の。",
+            "translation": "Why do I have to do this?",
+            "contexts": [
+                "なくちゃ"
+            ],
+            "audio": "0457.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "すぐに警察に連絡し{1:なくちゃいけません}。",
+            "translation": "We have to contact the police right away!",
+            "contexts": [
+                "なくちゃ"
+            ],
+            "audio": "0458.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "世話し{1:なくちゃならない}子供{2:がいる}。",
+            "translation": "I have kids I need to take care of.",
+            "contexts": [
+                "なくちゃ",
+                "がいる"
+            ],
+            "audio": "0459.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "ごめんなさい。早く帰ら{1:なくちゃなりません}。",
+            "translation": "I'm sorry, I have to head home right away.",
+            "contexts": [
+                "なくちゃ"
+            ],
+            "audio": "0460.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "明日は休みだ{2:から}、学校{3:に}行か{1:なくてもいい}。",
+            "translation": "Tomorrow is a day off, so I don't need to go to school.",
+            "contexts": [
+                "なくてもいい",
+                "から",
+                "に"
+            ],
+            "audio": "0461.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "空港{2:まで}来{1:なくてもいい}よ。",
+            "translation": "You don't have to come all the way to the airport.",
+            "contexts": [
+                "なくてもいい",
+                "まで"
+            ],
+            "audio": "0462.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "好きじゃない{2:なら}、食べ{1:なくてもいい}ですよ。",
+            "translation": "If you don't like it, you don't need to eat it.",
+            "contexts": [
+                "なくてもいい",
+                "なら"
+            ],
+            "audio": "0463.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "来{1:なくてもいい}ですよ。私一人で行く{2:から}。",
+            "translation": "You don't need to come. I'll go by myself.",
+            "contexts": [
+                "なくてもいい",
+                "から"
+            ],
+            "audio": "0464.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "無理し{1:なくてもいい}ですよ。",
+            "translation": "You don't need to push yourself too hard.",
+            "contexts": [
+                "なくてもいい"
+            ],
+            "audio": "0465.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "明日は授業がない{2:から}大学に行か{1:なくてもいい}です。",
+            "translation": "I have no classes tomorrow so I don't need to go to university (campus).",
+            "contexts": [
+                "なくてもいい",
+                "から"
+            ],
+            "audio": "0466.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "時間が{3:まだ}いっぱいある{2:から}、そんなに急が{1:なくていい}よ。",
+            "translation": "There's still a bunch of time, so you don't need to rush.",
+            "contexts": [
+                "なくてもいい",
+                "から",
+                "まだ"
+            ],
+            "audio": "0467.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "外食し{1:なくていい}よ。家で食べましょう。",
+            "translation": "We don't need to eat out. Let's eat something at home.",
+            "contexts": [
+                "なくてもいい"
+            ],
+            "audio": "0468.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "その本はあげるよ，返してくれ{1:なくてもいい}{2:から}ね。",
+            "translation": "I'll give you that book, you don't need to return it.",
+            "contexts": [
+                "なくてもいい",
+                "から"
+            ],
+            "audio": "0469.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "小学生以下はお金を払わ{1:なくてもいい}です。",
+            "translation": "Elementary school kids and younger do not need to pay.",
+            "contexts": [
+                "なくてもいい"
+            ],
+            "audio": "0470.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "{2:そろそろ}寝{1:ないといけない}。",
+            "translation": "I have to sleep soon.",
+            "contexts": [
+                "ないといけない",
+                "onoma"
+            ],
+            "audio": "0471.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私は家に帰ら{1:ないといけない}。",
+            "translation": "I have to go home.",
+            "contexts": [
+                "ないといけない"
+            ],
+            "audio": "0472.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "今{2:から}勉強をし{1:ないといけない}。",
+            "translation": "I have to study now.",
+            "contexts": [
+                "ないといけない",
+                "から"
+            ],
+            "audio": "0473.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "明日{2:から}働か{1:ないといけない}。",
+            "translation": "I have to work from tomorrow.",
+            "contexts": [
+                "ないといけない",
+                "から"
+            ],
+            "audio": "0474.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "この薬を飲ま{1:ないといけません}か。",
+            "translation": "Do I have to take this medicine?",
+            "contexts": [
+                "ないといけない"
+            ],
+            "audio": "0475.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私は今{2:から}仕事を始め{1:ないといけません}。",
+            "translation": "I must start my work now.",
+            "contexts": [
+                "ないといけない",
+                "から"
+            ],
+            "audio": "0476.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私は17時ごろ家に帰ら{1:ないといけません}。",
+            "translation": "I have to go home at 5PM.",
+            "contexts": [
+                "ないといけない"
+            ],
+            "audio": "0477.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "{2:もっと}勉強し{1:ないとだめです}よね。",
+            "translation": "So I have to study more, don't I?",
+            "contexts": [
+                "ないといけない",
+                "もっと"
+            ],
+            "audio": "0478.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "友だち{2:の}家に遊び{1:に行く}。",
+            "translation": "I'm going to my friends house to hang out.",
+            "contexts": [
+                "に行く",
+                "の"
+            ],
+            "audio": "0479.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "日本に勉強し{1:に行く}{2:つもり}なのです。",
+            "translation": "I'm planning to go to Japan to study!",
+            "contexts": [
+                "に行く",
+                "つもり"
+            ],
+            "audio": "0480.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "東京{2:へ}何し(1:に行く}の？",
+            "translation": "What are you going to Tokyo for?",
+            "contexts": [
+                "に行く",
+                "へ"
+            ],
+            "audio": "0481.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私たちは公園にサッカーをし{1:に行く}{2:つもり}だ。",
+            "translation": "We're planning to go to the park to play soccer.",
+            "contexts": [
+                "に行く",
+                "つもり"
+            ],
+            "audio": "0482.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "メキシコへ友だち{2:に}会い{1:に行きます}。",
+            "translation": "I'm going to Mexico to visit my friend.",
+            "contexts": [
+                "に行く",
+                "に"
+            ],
+            "audio": "0483.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "ちょっと走り{1:に行ってきます}。",
+            "translation": "I'm going to go for a run.",
+            "contexts": [
+                "に行く"
+            ],
+            "audio": "0484.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "明日、友人と{一緒に}日本食を食べ{1:に行きます}。",
+            "translation": "I'm going out with my good friend tomorrow to eat Japanese food.",
+            "contexts": [
+                "に行く",
+                "一緒に"
+            ],
+            "audio": "0485.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私は今度はベトナム{2:へ}旅行し{1:に行きます}。",
+            "translation": "Next time I am going to go travel to Vietnam.",
+            "contexts": [
+                "に行く",
+                "へ"
+            ],
+            "audio": "0486.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "ゴミを捨て{1:に行きます}。",
+            "translation": "I'm going to take out the garbage.",
+            "contexts": [
+                "に行く"
+            ],
+            "audio": "0487.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "今夜ラーメンを食べ{1:に行き}{2:ましょう}！",
+            "translation": "Let's go out to eat some ramen tonight!",
+            "contexts": [
+                "に行く",
+                "ましょう"
+            ],
+            "audio": "0488.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "たくさんの人がいる{1:なあ}。",
+            "translation": "Wow, there's a lot of people here.",
+            "contexts": [
+                "なあ"
+            ],
+            "audio": "0489.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "これ、{2:美味しい}{1:なあ}。",
+            "translation": "This is really delicious.",
+            "contexts": [
+                "なあ",
+                "adj"
+            ],
+            "audio": "0490.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "暑くなってきた{1:なあ}。",
+            "translation": "It's starting to get hotter.",
+            "contexts": [
+                "なあ"
+            ],
+            "audio": "0491.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "それは本当{1:かな}。",
+            "translation": "I wonder if that's true...",
+            "contexts": [
+                "なあ"
+            ],
+            "audio": "0492.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "明日は晴れる{1:かなあ}。",
+            "translation": "I wonder if the weather will clear up tomorrow...",
+            "contexts": [
+                "なあ"
+            ],
+            "audio": "0493.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "トイレはどこ{1:かな}。",
+            "translation": "I wonder where the restroom is...",
+            "contexts": [
+                "なあ"
+            ],
+            "audio": "0494.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "頭が痛い{1:な}。",
+            "translation": "I've got a headache...",
+            "contexts": [
+                "なあ"
+            ],
+            "audio": "0495.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "新し自転車が欲しい{1:な～}。",
+            "translation": "I really want a new bicycle...",
+            "contexts": [
+                "なあ"
+            ],
+            "audio": "0496.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "あなたは全部一人で作りましたか？{2:すごい}{1:なあ}！",
+            "translation": "You made all of this by yourself? That's too awesome!",
+            "contexts": [
+                "なあ",
+                "adj"
+            ],
+            "audio": "0497.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "彼は{1:いつも}元気ですね。",
+            "translation": "He is always energetic.",
+            "contexts": [
+                "いつも"
+            ],
+            "audio": "0498.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "妹は{1:いつも}寝{2:ている}。",
+            "translation": "My younger sister is always sleeping.",
+            "contexts": [
+                "いつも",
+                "ている"
+            ],
+            "audio": "0499.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "{1:いつも}夜10時に寝ます。",
+            "translation": "I always go to bed at 10 o'clock.",
+            "contexts": [
+                "いつも"
+            ],
+            "audio": "0500.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "昼ご飯は{1:いつも}納豆を食べます。",
+            "translation": "I always have natto for lunch.",
+            "contexts": [
+                "いつも"
+            ],
+            "audio": "0501.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "仕事{2:に行く}{3:前に}{1:いつも}ジム{2:に行きます}。",
+            "translation": "I always go to the gym before going to work.",
+            "contexts": [
+                "いつも",
+                "に行く",
+                "前に"
+            ],
+            "audio": "0502.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "{1:いつも}自転車で学校に来ますが今日は歩きました。",
+            "translation": "I always go to school by bike, but today I walked.",
+            "contexts": [
+                "いつも"
+            ],
+            "audio": "0503.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "今日は{1:いつも}と同じ一日だった。",
+            "translation": "Today was a normal day as always.",
+            "contexts": [
+                "いつも"
+            ],
+            "audio": "0504.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "君と{1:いつも}{2:一緒に}居{3:たい}。",
+            "translation": "I want to be together with you always.",
+            "contexts": [
+                "いつも",
+                "一緒に",
+                "たい"
+            ],
+            "audio": "0505.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "{1:一緒に}日本語を勉強し{2:ましょう}。",
+            "translation": "Let's study Japanese together.",
+            "contexts": [
+                "一緒に",
+                "ましょう"
+            ],
+            "audio": "0506.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "今夜、カラオケ{1:に一緒に}行こう。",
+            "translation": "Let's go to karaoke together tonight.",
+            "contexts": [
+                "一緒に"
+            ],
+            "audio": "0507.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "{2:ずっと}彼と{1:一緒に}い{3:たい}。",
+            "translation": "I want to be together with him forever.",
+            "contexts": [
+                "一緒に",
+                "ずっと",
+                "たい"
+            ],
+            "audio": "0508.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "明日の朝、{1:一緒に}ジム{2:に行きません}か？",
+            "translation": "Do you want to go to the gym together tomorrow morning?",
+            "contexts": [
+                "一緒に",
+                "に行く"
+            ],
+            "audio": "0509.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "今朝、友だちと{1:一緒に}図書館{2:に行きました}。",
+            "translation": "I went to the library together with my friend this morning.",
+            "contexts": [
+                "一緒に",
+                "に行く"
+            ],
+            "audio": "0510.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "うちの犬と{1:一緒に}散歩する{のが好き}です。",
+            "translation": "I like walking together with my family's dog.",
+            "contexts": [
+                "一緒に",
+                "のが好き"
+            ],
+            "audio": "0511.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "来週、家族と{1:一緒に}富士山を見に行くんだ。",
+            "translation": "Next week I'm going together with my family to see Mt. Fuji.",
+            "contexts": [
+                "一緒に"
+            ],
+            "audio": "0512.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "あなたは一人{1:じゃない}。",
+            "translation": "You are not alone.",
+            "contexts": [
+                "じゃない"
+            ],
+            "audio": "0513.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "危険{1:じゃない}の？",
+            "translation": "Isn't it dangerous?",
+            "contexts": [
+                "じゃない"
+            ],
+            "audio": "0514.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "そんな{2:つもり}{1:じゃなかった}。",
+            "translation": "That wasn't my plan/intention.",
+            "contexts": [
+                "じゃない",
+                "つもり"
+            ],
+            "audio": "0515.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "ごめんなさい！わざと{1:ではありませんでした}。",
+            "translation": "I'm so sorry! It wasn't intentional.",
+            "contexts": [
+                "じゃない"
+            ],
+            "audio": "0516.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "肉はあまり好き{1:じゃないです}。",
+            "translation": "I don't really like meat.",
+            "contexts": [
+                "じゃない"
+            ],
+            "audio": "0517.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "若いころはやさい{2:が好き}{1:じゃなかった}。",
+            "translation": "I didn't like vegetables when I was younger.",
+            "contexts": [
+                "じゃない",
+                "が好き"
+            ],
+            "audio": "0518.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私は日本語{2:が上手}{1:ではない}。",
+            "translation": "I am not good at Japanese.",
+            "contexts": [
+                "じゃない",
+                "が下手"
+            ],
+            "audio": "0519.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "テーブルの下に猫{1:がいる}。",
+            "translation": "There is a cat below the table.",
+            "contexts": [
+                "がいる"
+            ],
+            "audio": "0520.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "あなたは彼氏{1:がいる}の？",
+            "translation": "Do you have a boyfriend?",
+            "contexts": [
+                "がいる"
+            ],
+            "audio": "0521.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私には兄弟{1:がいないんだ}。",
+            "translation": "I don't have any siblings.",
+            "contexts": [
+                "がいる"
+            ],
+            "audio": "0522.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "弟一人妹一人{1:がいます}。",
+            "translation": "I have one younger brother and one younger sister.",
+            "contexts": [
+                "がいる"
+            ],
+            "audio": "0523.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "その部屋に犬{1:がいる}。",
+            "translation": "There is a dog in that room.",
+            "contexts": [
+                "がいる"
+            ],
+            "audio": "0524.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "今学校{1:に}だれも{1:いません}。",
+            "translation": "There is no one at school right now.",
+            "contexts": [
+                "がいる"
+            ],
+            "audio": "0525.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "東京駅に観光者{1:が}いっぱい{1:いる}。",
+            "translation": "There are a lot of tourists in Tokyo station.",
+            "contexts": [
+                "がいる"
+            ],
+            "audio": "0526.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私{1:は}ジョンです。",
+            "translation": "I am John.",
+            "contexts": [
+                "は"
+            ],
+            "audio": "0527.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "それ{1:は}{2:面白い}。",
+            "translation": "That is interesting.",
+            "contexts": [
+                "は",
+                "adj"
+            ],
+            "audio": "0528.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "今日{1:は}電車で来ました。",
+            "translation": "Today I came by train.",
+            "contexts": [
+                "は"
+            ],
+            "audio": "0529.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "金曜日{1:は}空いていますか？",
+            "translation": "How about Friday, are you free?",
+            "contexts": [
+                "は"
+            ],
+            "audio": "0530.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "運動{2:を}するの{1:は}嫌です。",
+            "translation": "I hate exercising.",
+            "contexts": [
+                "は",
+                "を"
+            ],
+            "audio": "0531.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "好きな食べ物{1:は}何ですか？",
+            "translation": "What kind of food do you like?",
+            "contexts": [
+                "は"
+            ],
+            "audio": "0532.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私の大学{1:は}その駅の近くにある。",
+            "translation": "My university is near that station.",
+            "contexts": [
+                "は"
+            ],
+            "audio": "0533.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "彼を説得するの{1:は}不可能だった。",
+            "translation": "We found it impossible to persuade him.",
+            "contexts": [
+                "は"
+            ],
+            "audio": "0534.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "もっとお金{1:が欲しい}です。",
+            "translation": "I want more money.",
+            "contexts": [
+                "が欲しい"
+            ],
+            "audio": "0535.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "彼女{1:がほしい}。",
+            "translation": "I want a girlfriend.",
+            "contexts": [
+                "が欲しい"
+            ],
+            "audio": "0536.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "お金{1:が}{2:たくさん}{1:ほしい}。",
+            "translation": "I want a lot of money.",
+            "contexts": [
+                "が欲しい",
+                "たくさん"
+            ],
+            "audio": "0537.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "何人子ども{1:がほしい}ですか？",
+            "translation": "How many children do you want to have?",
+            "contexts": [
+                "が欲しい"
+            ],
+            "audio": "0538.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "{2:新しい}GoProカメラ{1:が欲しい}です！",
+            "translation": "I want the new GoPro camera!",
+            "contexts": [
+                "が欲しい",
+                "adj"
+            ],
+            "audio": "0539.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "いつか自分の家{1:が欲しい}です。",
+            "translation": "I want to have my own house one day.",
+            "contexts": [
+                "が欲しい"
+            ],
+            "audio": "0540.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "日本で作られた車{1:が欲しい}。",
+            "translation": "I want a car made in Japan.",
+            "contexts": [
+                "が欲しい"
+            ],
+            "audio": "0541.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "最近、仕事が忙し{2:すぎて}リラックスする時間{1:が欲しい}。",
+            "translation": "Work is too busy lately, I want some time to relax.",
+            "contexts": [
+                "が欲しい",
+                "すぎて"
+            ],
+            "audio": "0542.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "彼が持っているみたいなパソコン{1:が欲しい}。",
+            "translation": "I want a computer like the one he has.",
+            "contexts": [
+                "が欲しい"
+            ],
+            "audio": "0543.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "今日は{2:暑い}{1:です}ね。",
+            "translation": "It's pretty hot today, isn't it?",
+            "contexts": [
+                "です",
+                "adj"
+            ],
+            "audio": "0544.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "かれは私の友だち{1:です}。",
+            "translation": "He is my friend.",
+            "contexts": [
+                "です"
+            ],
+            "audio": "0545.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "日本の文化{2:が好き}{1:です}。",
+            "translation": "I like Japanese culture",
+            "contexts": [
+                "です",
+                "が好き"
+            ],
+            "audio": "0546.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "昔はサッカーが趣味{1:だった}{2:が}、今はやっていない。",
+            "translation": "Soccer used to be my hobby, but I don't play anymore.",
+            "contexts": [
+                "です",
+                "が"
+            ],
+            "audio": "0547.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "明日は雨{1:が}降る。",
+            "translation": "It is going to rain tomorrow.",
+            "contexts": [
+                "が"
+            ],
+            "audio": "0548.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "仕方{1:が}ない。",
+            "translation": "It cannot be helped.",
+            "contexts": [
+                "が"
+            ],
+            "audio": "0549.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "コンビニ{1:が}{2:近く}にあります。",
+            "translation": "There is a convenience store nearby.",
+            "contexts": [
+                "が",
+                "adj"
+            ],
+            "audio": "0550.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "彼は借金{1:が}ある。",
+            "translation": "He is in debt.",
+            "contexts": [
+                "が"
+            ],
+            "audio": "0551.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "今日は、やる{2:こと}{1:が}{3:たくさん}{4:ある}。",
+            "translation": "There are a lot of things to do today.",
+            "contexts": [
+                "が",
+                "こと",
+                "たくさん",
+                "ある"
+            ],
+            "audio": "0552.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "彼は金はある{1:が}、バカな男だ。",
+            "translation": "He has money, but he's a stupid man.",
+            "contexts": [
+                "が"
+            ],
+            "audio": "0553.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私は日本語を話す{2:こと}はできます{1:が}、読む{2:こと}はできません。",
+            "translation": "I can speak Japanese, but I am not able to read it.",
+            "contexts": [
+                "が",
+                "こと"
+            ],
+            "audio": "0554.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "このカメラを買いたいです{1:が}お金{2:がない}。",
+            "translation": "I want to buy this camera, but I have no money.",
+            "contexts": [
+                "が",
+                "がある"
+            ],
+            "audio": "0555.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "恐れ入ります{1:が}、本日は満席です。",
+            "translation": "I deeply apologize, but today we have no more seats available.",
+            "contexts": [
+                "が"
+            ],
+            "audio": "0556.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "行く{1:よ}。",
+            "translation": "Let's go!",
+            "contexts": [
+                "よ"
+            ],
+            "audio": "0557.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "ちょっと、待って{1:よ}！",
+            "translation": "Wait a second!",
+            "contexts": [
+                "よ"
+            ],
+            "audio": "0558.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "元気を出せ{1:よ}。",
+            "translation": "Cheer up.",
+            "contexts": [
+                "よ"
+            ],
+            "audio": "0559.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "愛し{2:ている}{1:よ}。",
+            "translation": "I love you!",
+            "contexts": [
+                "よ",
+                "ている"
+            ],
+            "audio": "0560.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "頑張る{1:よ}。",
+            "translation": "I'll do my best!",
+            "contexts": [
+                "よ"
+            ],
+            "audio": "0561.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "寝る時間です{1:よ}。",
+            "translation": "It's time for bed.",
+            "contexts": [
+                "よ"
+            ],
+            "audio": "0562.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "君にいい知らせがある{1:よ}！",
+            "translation": "I have some good news for you!",
+            "contexts": [
+                "よ"
+            ],
+            "audio": "0563.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "車で来る予定です{1:よ}ね？",
+            "translation": "You plan to come by car, right?",
+            "contexts": [
+                "よ"
+            ],
+            "audio": "0564.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "家まで車で送る{1:よ}。",
+            "translation": "I'll drive you home.",
+            "contexts": [
+                "よ"
+            ],
+            "audio": "0565.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "燃えるゴミと燃えないゴミの区別もよく分からない{1:よ}ね。",
+            "translation": "It's difficult to tell the difference between burnable and non-burnable garbage, isn't it?",
+            "contexts": [
+                "よ"
+            ],
+            "audio": "0566.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "人気{1:がある}。",
+            "translation": "To be popular.",
+            "contexts": [
+                "がある"
+            ],
+            "audio": "0567.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "先月お金{1:が}ぜんぜん{1:なかった}。",
+            "translation": "Last month I had no money.",
+            "contexts": [
+                "がある"
+            ],
+            "audio": "0568.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "へやにテレビ{1:があります}。",
+            "translation": "I have a TV in my room.",
+            "contexts": [
+                "がある"
+            ],
+            "audio": "0569.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "日本の好きじゃないところ{1:はあります}。",
+            "translation": "There are some things I don't like about Japan.",
+            "contexts": [
+                "がある"
+            ],
+            "audio": "0570.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "このマンションにはへや{1:が}三つ{1:あります}。",
+            "translation": "There are three rooms in this apartment.",
+            "contexts": [
+                "がある"
+            ],
+            "audio": "0571.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "彼は金{1:がある}{2:から}新車が買える。",
+            "translation": "He has money so he can buy a new car.",
+            "contexts": [
+                "がある",
+                "から"
+            ],
+            "audio": "0572.mp3",
+            "level": "5",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "今夜用事{1:がある}{2:から}行けない。",
+            "translation": "I have things to do tonight so I can't go.",
+            "contexts": [
+                "がある",
+                "から"
+            ],
+            "audio": "0573.mp3",
             "level": "5",
             "attribution": "JLPT Sensei",
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
