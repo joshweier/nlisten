@@ -9,14 +9,14 @@ body {
 
 .container {
     max-width: 800px;
-    min-height: 350px;
+    min-height: 300px;
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     text-align: center;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 }
 
 #loading-screen {
@@ -54,8 +54,9 @@ body {
     align-items: center;
     flex-direction: column;
     min-height: 0;
-    padding: 20px;
+    padding: 10px;
     margin-top: 20px;
+    background-color: #f5f5f5;
 }
 
 .answer {
@@ -177,7 +178,7 @@ main {
 
 #next-word {
     display: block;
-    margin: 20px auto;
+    margin: 10px auto;
     font-size: 20px;
 }
 
@@ -224,7 +225,7 @@ main {
 }
 
 #attribution {
-    margin-top: -20px;
+    /* margin-top: -20px; */
     text-align: center;
     width: 100%;
 }
@@ -233,31 +234,21 @@ main {
     color: rgba(64, 64, 255, 1.0);
 }
 
+#answers {
+    font-size: 24px;
+    padding: 20px;
+}
+
 #blinder {
     position: absolute;
     top: 15px;
     left: 15px;
     bottom: 15px;
     right: 15px;
-    backdrop-filter: blur(5px);
-    background-color: rgba(255, 255, 255, 0.3);
+    /* backdrop-filter: blur(8px); */
+    background-color: rgba(244, 244, 244, 0.5);
     cursor: pointer;
     z-index: 1000;
-}
-
-#blinder .message {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 32px;
-    color: #FFF !important;
-    background-color: rgba(64, 64, 255, 0.75);
-    z-index: 1001;
-}
-
-#blinder .message:hover {
-    background-color: rgba(64, 64, 255, 1.0);
 }
 
 .highlight {

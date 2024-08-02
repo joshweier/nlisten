@@ -1,10 +1,13 @@
 document.addEventListener('DOMContentLoaded', async () => {
 
     let AppData = {
+        mode: "Grammar",
         sentences: [],          // Core data sentences
         contexts: new Map(),    // Categorized sentences by concept
         pendingQuestion: [],    // Queue of sentence indices to use for questions
-        currentSentence: -1     // Index of the current sentence
+        currentSentence: -1,    // Index of the current sentence
+        answerDiv: null,        // Reference to the answer div
+        answer: ""
     }
 
     function highlightSentence(sentence, contexts, targetIndex) {
@@ -22,7 +25,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Replace the indexed markers with spans for the target context only
         sentence = sentence.replace(/{(\d+[a-z]?):([^}]+)}/g, function(match, key, text) {
             if (contextMap[key]) {
-                return `<span id="context-highlight">${text}</span>`;
+                return `<span id="context-highlight" class="highlight">${text}</span>`;
             }
             // Remove the unused markup if it doesn't match the target context
             return text;
@@ -102,25 +105,17 @@ document.addEventListener('DOMContentLoaded', async () => {
                 if (nextWordButton.hasAttribute('disabled') === false) {
                     setReady();
                 }
-            }
-        }
-
-        // Given a context, find numSentences sentences that have that context
-        function getRandomContextSentences(context, numSentences) {
-            let possibleSentences = AppData.contexts.get(context).filter((sentence) => sentence !== AppData.currentSentence);
-
-            let sentences = [];
-            for (let i = 0; i < numSentences; i++) {
-                if (possibleSentences.length === 0) {
-                    return sentences;
+                else if (blinder.style.display === 'block') {
+                    hideBlinder();
                 }
-
-                const randomIndex = Math.floor(Math.random() * possibleSentences.length);
-                sentences.push(possibleSentences[randomIndex]);
-                possibleSentences.splice(randomIndex, 1);
             }
-
-            return sentences;
+            else if (event.key === ' ') {
+                replayAudio();
+            }
+            else if (event.key === 'Tab') {
+                showSentence();
+            }
+            event.preventDefault();
         }
 
         function replayAudio() {
@@ -140,7 +135,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Set up for the question
             const contexts = AppData.sentences[AppData.currentSentence].contexts;
             const randomContext = Math.floor(Math.random() * contexts.length);
-            const translation = highlightSentence(
+            const cleanText = highlightSentence(
                 AppData.sentences[AppData.currentSentence].sentence, 
                 contexts, 
                 randomContext);
@@ -148,69 +143,17 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Clear any existing answers
             answersDiv.innerHTML = "";
 
-            // Setup for the actual question
-            // const context = AppData.sentences[AppData.currentSentence].contexts[0]; // FIXME: Randomize
-            let randomSentences = getRandomContextSentences(contexts[randomContext], 3);
-            randomSentences.push(AppData.currentSentence);
-            randomSentences = shuffleArray(randomSentences);
-
-            // Build up our list of answers
-            for (let sentence of randomSentences) {
-                const translation = AppData.sentences[sentence].translation;
-                let answerDiv = document.createElement('div');
-                answerDiv.innerHTML = translation;
-                answerDiv.classList.add('answer', 'shown');
-
-                // Setup the correct answer
-                if (sentence === AppData.currentSentence) {
-                    answerDiv.dataset.correct = true;
-                    answerDiv.classList.add('correct');
-                }
-                else {
-                    // Incorrect answer
-                    answerDiv.dataset.correct = false;
-                    answerDiv.classList.add('incorrect');
-                }
-
-                // Generic click handler
-                answerDiv.addEventListener('click', function(event) {
-                    if (this.dataset.correct === 'true') {
-                        playAudio("../correct.wav");
-                    }
-                    else {
-                        playAudio("../incorrect.mp3");
-                    }
-
-                    // Show the example sentence and activate the highlights
-                    const highlightElements = exampleSentence.querySelectorAll('#context-highlight');
-                    highlightElements.forEach(element => {
-                        element.classList.add('highlight');
-                    });
-                    exampleSentence.style.display = 'block';
-
-                    showSentenceButton.style.display = 'none';
-
-                    // Incorrect
-                    nextWordButton.removeAttribute('disabled');
-
-                    // Set everything to be disabled for simplicity
-                    const childElements = answersDiv.querySelectorAll('*');
-                    childElements.forEach(element => {
-                        element.classList.add('disabled');
-                        element.classList.remove('shown');
-                        if (this.dataset.correct === 'true') {
-                            element.classList.remove('incorrect');
-                        }
-                    });
-                });
-                answersDiv.appendChild(answerDiv);
-            }
+            // Construct the answer
+            AppData.answer = AppData.sentences[AppData.currentSentence].translation;
+            AppData.answerDiv = document.createElement('div');
+            AppData.answerDiv.innerHTML = "...";
+            answersDiv.appendChild(AppData.answerDiv);
 
             // Add the example
             exampleSentence.innerHTML = "";
 
             let exampleDiv = document.createElement('div');
-            exampleDiv.innerHTML = translation;
+            exampleDiv.innerHTML = cleanText;
             exampleSentence.appendChild(exampleDiv);
 
             attributionLink.textContent = AppData.sentences[AppData.currentSentence].attribution;
@@ -221,6 +164,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             answerContainer.style.display = 'block';
             nextWordButton.setAttribute('disabled', true);
 
+            // Block out the answer
             showBlinder();
 
             // Play the audio
@@ -252,6 +196,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     
         function hideBlinder() {
             blinder.style.display = 'none';
+            nextWordButton.removeAttribute('disabled');
+            AppData.answerDiv.innerHTML = AppData.answer;
         }
 
         // Cache common elements
@@ -265,7 +211,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const startButton = document.getElementById('start-button');
         const wordContainer = document.getElementById('word-container');
         const exampleSentence = document.getElementById('example-sentence');
-        const nextWordButton = document.getElementById('next-word');
+        const nextWordButton = document.getElementById('next');
         const fetchWords = document.getElementById('fetch-words');
         const progess = document.getElementById('progress');
         const answerContainer = document.getElementById('answer-container');
