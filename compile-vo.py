@@ -67,7 +67,7 @@ def strip_highlighting(marked_sentence):
     stripped_sentence = pattern.sub(replace_highlighting, marked_sentence)
     return stripped_sentence
 
-def parse_csv(file_path, generate_vo):
+def parse_csv(file_path, generate_vo, update_only):
     sentences = []
     audio_file_num = 1
     with open(file_path, mode='r', encoding='utf-8') as file:
@@ -101,6 +101,13 @@ def parse_csv(file_path, generate_vo):
         wav_name = sentence['audio']
         mp3_name = wav_name.replace('.wav', '.mp3')
         if generate_vo:
+            # Skip if the file already exists
+            if update_only and os.path.exists(output_dir + mp3_name):
+                audio_file_num += 1
+                print_progress_bar(audio_file_num, total_audio_files)
+                continue
+
+            # Generate the VO
             main(plain_sentence, output_dir + wav_name)
             convert_wav_to_mp3(output_dir + wav_name, output_dir + mp3_name)
             audio_file_num += 1
@@ -126,11 +133,19 @@ if __name__ == "__main__":
     # Command-line options
     parser = argparse.ArgumentParser(description="NListen Data Importer")
     parser.add_argument('--data', action='store_true', help='Only compile new data, leave the VO')
+    parser.add_argument('--update', action='store_true', default=False, help='Only add new VO lines, don\'t alter old ones')
     args = parser.parse_args()
 
-    file_path = 'source.csv'
     print("\nParsing file...")
-    data = parse_csv(file_path, not args.data)
+
+    if args.data:
+        print("Data only mode enabled")
+
+    if args.update:
+        print("Update only mode enabled")
+
+    file_path = 'source.csv'
+    data = parse_csv(file_path, not args.data, args.update)
 
     # json_data = convert_to_json(datwith open(filename, 'w', encoding='utf-8') as file:
     filename = "data.json"
