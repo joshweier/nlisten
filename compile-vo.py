@@ -100,11 +100,11 @@ def parse_csv(file_path, generate_vo, update_only):
         plain_sentence = strip_highlighting(sentence['sentence'])
         wav_name = sentence['audio']
         mp3_name = wav_name.replace('.wav', '.mp3')
+        sentence['audio'] = mp3_name
         if generate_vo:
             # Skip if the file already exists
             if update_only and os.path.exists(output_dir + mp3_name):
                 audio_file_num += 1
-                print_progress_bar(audio_file_num, total_audio_files)
                 continue
 
             # Generate the VO
@@ -112,7 +112,6 @@ def parse_csv(file_path, generate_vo, update_only):
             convert_wav_to_mp3(output_dir + wav_name, output_dir + mp3_name)
             audio_file_num += 1
             print_progress_bar(audio_file_num, total_audio_files)
-        sentence['audio'] = mp3_name
 
     utc_now = datetime.now(timezone.utc)
     utc_timestamp = utc_now.timestamp()
