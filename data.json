@@ -1,6 +1,6 @@
 {
     "version": "0.2",
-    "timestamp": "2024-08-05T01:14:00.039252+00:00",
+    "timestamp": "2024-08-08T04:18:23.346122+00:00",
     "sentences": [
         {
             "sentence": "仕事は辛い{1:けど}{2:楽しい}。",
@@ -6150,10 +6150,11 @@
             "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         },
         {
-            "sentence": "彼が持っているみたいなパソコン{1:が欲しい}。",
+            "sentence": "彼が持っている{2:みたい}なパソコン{1:が欲しい}。",
             "translation": "I want a computer like the one he has.",
             "contexts": [
-                "が欲しい"
+                "が欲しい",
+                "みたい"
             ],
             "audio": "0543.mp3",
             "level": "5",
@@ -10173,10 +10174,11 @@
             "attrurl": "https://www.wanikani.com/"
         },
         {
-            "sentence": "ママの目玉、{1:ビー玉}みたいできれいだね。",
+            "sentence": "ママの目玉、{1:ビー玉}{2:みたい}できれいだね。",
             "translation": "Mom, your eyeball is beautiful like a marble.",
             "contexts": [
-                "ビー玉"
+                "ビー玉",
+                "みたい"
             ],
             "audio": "0907.mp3",
             "level": "5",
@@ -11064,10 +11066,11 @@
             "attrurl": "https://www.wanikani.com/"
         },
         {
-            "sentence": "犬の毛を切ったら牛みたいになっちゃった。",
+            "sentence": "犬の毛を切ったら牛{2:みたい}になっちゃった。",
             "translation": "I cut my dog's fur, and now it looks like a cow.",
             "contexts": [
-                "切る"
+                "切る",
+                "みたい"
             ],
             "audio": "0988.mp3",
             "level": "5",
@@ -14188,10 +14191,11 @@
             "attrurl": "https://www.wanikani.com/"
         },
         {
-            "sentence": "他の{1:見方}をすれば、人生の半分はエレベーターみたいなものだ。",
+            "sentence": "他の{1:見方}をすれば、人生の半分はエレベーター{2:みたい}なものだ。",
             "translation": "If you see it from a different point of view, half of life is like an elevator.",
             "contexts": [
-                "見方"
+                "見方",
+                "みたい"
             ],
             "audio": "1272.mp3",
             "level": "5",
@@ -17895,10 +17899,11 @@
             "attrurl": "https://www.wanikani.com/"
         },
         {
-            "sentence": "この花、魚みたいな{1:形}をしていますね。",
+            "sentence": "この花、魚{2:みたい}な{1:形}をしていますね。",
             "translation": "This flower is shaped like a fish.",
             "contexts": [
-                "形"
+                "形",
+                "みたい"
             ],
             "audio": "1609.mp3",
             "level": "5",
@@ -18775,10 +18780,11 @@
             "attrurl": "https://www.wanikani.com/"
         },
         {
-            "sentence": "花火大会は{1:両日}とも雨みたいですね。",
+            "sentence": "花火大会は{1:両日}とも雨{2:みたい}ですね。",
             "translation": "It seems like it's going to rain on both days for the firework festival.",
             "contexts": [
-                "両日"
+                "両日",
+                "みたい"
             ],
             "audio": "1689.mp3",
             "level": "5",
@@ -20018,10 +20024,11 @@
             "attrurl": "https://www.wanikani.com/"
         },
         {
-            "sentence": "あの二人って{1:姉妹}みたいだよね。",
+            "sentence": "あの二人って{1:姉妹}{2:みたい}だよね。",
             "translation": "Those two are like sisters.",
             "contexts": [
-                "姉妹"
+                "姉妹",
+                "みたい"
             ],
             "audio": "1802.mp3",
             "level": "5",
@@ -20942,10 +20949,11 @@
             "attrurl": "https://www.wanikani.com/"
         },
         {
-            "sentence": "このスペース、{1:海外}のホテルみたいですね。",
+            "sentence": "このスペース、{1:海外}のホテル{2:みたい}ですね。",
             "translation": "This space looks like a hotel overseas.",
             "contexts": [
-                "海外"
+                "海外",
+                "みたい"
             ],
             "audio": "1886.mp3",
             "level": "5",
@@ -20964,10 +20972,11 @@
             "attrurl": "https://www.wanikani.com/"
         },
         {
-            "sentence": "タワーから見ると、人が{1:点}みたいだ。",
+            "sentence": "タワーから見ると、人が{1:点}{2:みたい}だ。",
             "translation": "Looking from the tower, people look like dots.",
             "contexts": [
-                "点"
+                "点",
+                "みたい"
             ],
             "audio": "1888.mp3",
             "level": "5",
@@ -21239,10 +21248,11 @@
             "attrurl": "https://www.wanikani.com/"
         },
         {
-            "sentence": "あなたみたいなパーフェクトな人に、{1:欠点}なんてあるんですか？",
+            "sentence": "あなた{2:みたい}なパーフェクトな人に、{1:欠点}なんてあるんですか？",
             "translation": "Are there any defects for a perfect person like you?",
             "contexts": [
-                "欠点"
+                "欠点",
+                "みたい"
             ],
             "audio": "1913.mp3",
             "level": "5",
@@ -26838,10 +26848,11 @@
             "attrurl": "https://www.wanikani.com/"
         },
         {
-            "sentence": "いつか人魚みたいに泳ぎたいんだ。",
+            "sentence": "いつか人魚{2:みたい}に泳ぎたいんだ。",
             "translation": "I want to swim like a mermaid someday.",
             "contexts": [
-                "泳ぐ"
+                "泳ぐ",
+                "みたい"
             ],
             "audio": "2422.mp3",
             "level": "5",
@@ -29676,10 +29687,11 @@
             "attrurl": "https://www.wanikani.com/"
         },
         {
-            "sentence": "{1:小学生}の時、石ころとビー玉は、友人みたいなものでした。",
+            "sentence": "{1:小学生}の時、石ころとビー玉は、友人{2:みたい}なものでした。",
             "translation": "When I was in elementary school, the stone and the marbles were like my friends.",
             "contexts": [
-                "小学生"
+                "小学生",
+                "みたい"
             ],
             "audio": "2680.mp3",
             "level": "5",
@@ -30798,10 +30810,11 @@
             "attrurl": "https://www.wanikani.com/"
         },
         {
-            "sentence": "カナエちゃん、今日の全身{1:白黒}の服は、ちょっとパンダみたいじゃない？",
+            "sentence": "カナエちゃん、今日の全身{1:白黒}の服は、ちょっとパンダ{2:みたい}じゃない？",
             "translation": "Kanae-chan, don't you look a bit like a panda in your black and white outfit today?",
             "contexts": [
-                "白黒"
+                "白黒",
+                "みたい"
             ],
             "audio": "2782.mp3",
             "level": "5",
@@ -31755,10 +31768,11 @@
             "attrurl": "https://www.wanikani.com/"
         },
         {
-            "sentence": "足がむくんで、{1:象}の足みたいになっています。",
+            "sentence": "足がむくんで、{1:象}の足{2:みたい}になっています。",
             "translation": "My legs are swollen, and look like elephant legs.",
             "contexts": [
-                "象"
+                "象",
+                "みたい"
             ],
             "audio": "2869.mp3",
             "level": "5",
@@ -32063,10 +32077,11 @@
             "attrurl": "https://www.wanikani.com/"
         },
         {
-            "sentence": "中古ショップは{1:宝}の山みたいなもんだ。",
+            "sentence": "中古ショップは{1:宝}の山{2:みたい}なもんだ。",
             "translation": "A secondhand shop is like a mountain of treasure.",
             "contexts": [
-                "宝"
+                "宝",
+                "みたい"
             ],
             "audio": "2897.mp3",
             "level": "5",
@@ -32657,10 +32672,11 @@
             "attrurl": "https://www.wanikani.com/"
         },
         {
-            "sentence": "子犬は{1:天使}みたいでした。",
+            "sentence": "子犬は{1:天使}{2:みたい}でした。",
             "translation": "The puppy was like an angel.",
             "contexts": [
-                "天使"
+                "天使",
+                "みたい"
             ],
             "audio": "2951.mp3",
             "level": "5",
@@ -39464,6 +39480,94 @@
             "level": "5",
             "attribution": "WaniKani",
             "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "天気予報{1:によると}、明日は雨だそうです。",
+            "translation": "According to the weather report, tomorrow it looks like it will rain.",
+            "contexts": [
+                "によろと"
+            ],
+            "audio": "3570.mp3",
+            "level": "3",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "私の聞いたところ{1:によると}、彼らは別れそうだ。",
+            "translation": "According to what I heard, they have broken up.",
+            "contexts": [
+                "によろと"
+            ],
+            "audio": "3571.mp3",
+            "level": "3",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "先生の話によると、この文法はJLPTのテストに出る可能性は低いです。",
+            "translation": "According to the teacher, this grammar point is unlikely to appear on the JLPT.",
+            "contexts": [
+                "によろと"
+            ],
+            "audio": "3572.mp3",
+            "level": "3",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "ニュース{1:によれば}、近頃物価が上がるそうです。",
+            "translation": "According to the news, prices are expected to rise in the near future.",
+            "contexts": [
+                "によろと"
+            ],
+            "audio": "3573.mp3",
+            "level": "3",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "先生の話{1:によると}、来年の大学受験はもっと難しくなるらしい。",
+            "translation": "According to my teacher, next year’s university entrance exam is going to be more difficult.",
+            "contexts": [
+                "によろと"
+            ],
+            "audio": "3574.mp3",
+            "level": "3",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "さっきの地震はテレビの速報{1:によると}震度５だそうだ。",
+            "translation": "According to the quick TV report, the earthquake just now was a magnitude 5.",
+            "contexts": [
+                "によろと"
+            ],
+            "audio": "3575.mp3",
+            "level": "3",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "この資料{1:によれば}、経営状況は毎年悪化傾向にあることがわかる。",
+            "translation": "According to this material, the business situation is deteriorating every year.",
+            "contexts": [
+                "によろと"
+            ],
+            "audio": "3576.mp3",
+            "level": "3",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
+        },
+        {
+            "sentence": "専門家の話{1:によると}、今度も高齢化や年金問題といった社会問題はひどくなっていくということです。",
+            "translation": "According to experts, social issues such as aging and pensions will continue to worsen.",
+            "contexts": [
+                "によろと"
+            ],
+            "audio": "3577.mp3",
+            "level": "3",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/"
         }
     ]
 }

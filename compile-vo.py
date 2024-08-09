@@ -96,6 +96,8 @@ def parse_csv(file_path, generate_vo, update_only):
     total_audio_files = audio_file_num - 1;
     audio_file_num = 0
     print("Valid sentences found: ", total_audio_files)
+    print_progress_bar(0, total_audio_files)
+
     for sentence in sentences:
         plain_sentence = strip_highlighting(sentence['sentence'])
         wav_name = sentence['audio']
@@ -117,11 +119,12 @@ def parse_csv(file_path, generate_vo, update_only):
     utc_timestamp = utc_now.timestamp()
 
     data = { 
-        'version': "0.2",
+        'version': "0.3",
         'timestamp': utc_now.isoformat(),
         'sentences': sentences,
     }
 
+    print_progress_bar(total_audio_files, total_audio_files)
     return data
 
 def convert_to_json(data):
