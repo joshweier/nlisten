@@ -7,6 +7,22 @@ body {
     user-select: none;
 }
 
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 24px;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+input::placeholder {
+  opacity: 0.5; 
+}
+
 .container {
     max-width: 800px;
     min-height: 300px;

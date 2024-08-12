@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         pendingQuestion: [],    // Queue of sentence indices to use for questions
         currentSentence: -1,    // Index of the current sentence
         answerDiv: null,        // Reference to the answer div
-        answer: ""
+        answer: "",
+        filter: null
     }
 
     function highlightSentence(sentence, contexts, targetIndex) {
@@ -64,194 +65,228 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     }
 
-        // Categorize the data by concept
-        function categorizeData(data) {
-            for (let i = 0; i < data.length; i++) {
-                for (const context of data[i].contexts) {
-                    // Push our ID, not a copy
-                    if (AppData.contexts.has(context)) {
-                        AppData.contexts.get(context).push(i);
-                    }
-                    else {
-                        AppData.contexts.set(context, [i]);
-                    }
+    // Categorize the data by concept
+    function categorizeData(data) {
+        for (let i = 0; i < data.length; i++) {
+            for (const context of data[i].contexts) {
+                // Push our ID, not a copy
+                if (AppData.contexts.has(context)) {
+                    AppData.contexts.get(context).push(i);
+                }
+                else {
+                    AppData.contexts.set(context, [i]);
                 }
             }
         }
+    }
 
-        // Build a shuffled queue of sentence indices to use for questions
-        function queueAvailableQuestions() {
-            // Generate an array of indices
-            AppData.pendingQuestion = shuffleArray(AppData.sentences.map((_, index) => index));
+    // Build a shuffled queue of sentence indices to use for questions
+    function queueAvailableQuestions() {
+        // Generate an array of indices
+        let sentencePool = AppData.sentences.map((_, index) => index);
+
+        // Filter down the data if it exists
+        if (AppData.filter) {
+            const filters = AppData.filter.split(',');
+            // Filter the sentence pool by checked its contexts against a comma-separated list of filters
+            sentencePool = sentencePool.filter(index => {
+                const sentence = AppData.sentences[index];
+                return filters.some(filter => sentence.contexts.includes(filter));
+            });
         }
 
-        // Play the audio for the word
-        function playAudio(audioUrl, lockReplay) {
-            const audio = new Audio("voxdata/" + audioUrl);
-            audio.play();
+        AppData.pendingQuestion = shuffleArray(sentencePool);
+        console.log(AppData.pendingQuestion);
+    }
 
-            // Make audio inactive
-            if (lockReplay===true) {
-                playAudioButton.classList.add('disabled');
-                audio.addEventListener('ended', () => {
-                    playAudioButton.classList.remove('disabled');
-                });
-            }
+    // Play the audio for the word
+    function playAudio(audioUrl, lockReplay) {
+        const audio = new Audio("voxdata/" + audioUrl);
+        audio.play();
+
+        // Make audio inactive
+        if (lockReplay===true) {
+            playAudioButton.classList.add('disabled');
+            audio.addEventListener('ended', () => {
+                playAudioButton.classList.remove('disabled');
+            });
+        }
+    }
+
+    // Debounce function to delay execution
+    function debounce(func, delay) {
+        let timeoutId;
+        return function(...args) {
+            clearTimeout(timeoutId);
+            timeoutId = setTimeout(() => func.apply(this, args), delay);
+        };
+    }
+
+    function handleInputChange(event) {
+        AppData.filter = event.target.value;
+        queueAvailableQuestions();
+        setReady();
+    }
+    // Handle the enter key
+    function handleKeyDown(event) {
+        // Ignore key overrides if we're typing something
+        if (filterInput === document.activeElement) {
+            return;
         }
 
-        // Handle the enter key
-        function handleEnterKey(event) {
-            if (event.key === 'Enter') {
-                if (nextWordButton.hasAttribute('disabled') === false) {
-                    setReady();
-                }
-                else if (blinder.style.display === 'block') {
-                    hideBlinder();
-                }
+        if (event.key === 'Enter') {
+            if (nextWordButton.hasAttribute('disabled') === false) {
+                setReady();
             }
-            else if (event.key === ' ') {
-                replayAudio();
+            else if (blinder.style.display === 'block') {
+                hideBlinder();
             }
-            else if (event.key === 'Tab') {
-                showSentence();
-            }
-            event.preventDefault();
         }
-
-        function replayAudio() {
-            // Don't allow this if we're disabled (i.e. playing audio)
-            if (playAudioButton.classList.contains('disabled'))
-                return;
-
-            // Play the audio
-            const audioUrl = AppData.sentences[AppData.currentSentence].audio;
-            playAudio(audioUrl, true);
-        }
-
-        function showNextQuestion() {
-            // Grab the next question
-            AppData.currentSentence = AppData.pendingQuestion.pop();
-
-            // Set up for the question
-            const contexts = AppData.sentences[AppData.currentSentence].contexts;
-            const randomContext = Math.floor(Math.random() * contexts.length);
-            const cleanText = highlightSentence(
-                AppData.sentences[AppData.currentSentence].sentence, 
-                contexts, 
-                randomContext);
-
-            // Clear any existing answers
-            answersDiv.innerHTML = "";
-
-            // Construct the answer
-            AppData.answer = AppData.sentences[AppData.currentSentence].translation;
-            AppData.answerDiv = document.createElement('div');
-            AppData.answerDiv.innerHTML = "...";
-            answersDiv.appendChild(AppData.answerDiv);
-
-            // Add the example
-            exampleSentence.innerHTML = "";
-
-            let exampleDiv = document.createElement('div');
-            exampleDiv.innerHTML = cleanText;
-            exampleSentence.appendChild(exampleDiv);
-
-            attributionLink.textContent = AppData.sentences[AppData.currentSentence].attribution;
-            attributionLink.href = AppData.sentences[AppData.currentSentence].attrurl;
-            attributionLink.target = "_blank";
-
-            // exampleSentence.style.display = 'block';
-            answerContainer.style.display = 'block';
-            nextWordButton.setAttribute('disabled', true);
-
-            // Block out the answer
-            showBlinder();
-
-            // Play the audio
+        else if (event.key === ' ') {
             replayAudio();
         }
-
-        function showSentence() {
-            // Show the sentence
-            exampleSentence.style.display = 'block';
-            showSentenceButton.style.display = 'none';
+        else if (event.key === 'Tab') {
+            showSentence();
         }
+    }
 
-        function setReady() {
-            // Show the main page content
-            loadingScreen.style.display = 'none';
-            mainContent.style.display = 'block';
+    function replayAudio() {
+        // Don't allow this if we're disabled (i.e. playing audio)
+        if (playAudioButton.classList.contains('disabled'))
+            return;
 
-            exampleSentence.style.display = 'none';
-            showSentenceButton.style.display = 'block';
-            nextWordButton.setAttribute('disabled', true);
+        // Play the audio
+        const audioUrl = AppData.sentences[AppData.currentSentence].audio;
+        playAudio(audioUrl, true);
+    }
 
-            // Show the first question
-            showNextQuestion();
-        }
+    function showNextQuestion() {
+        // Grab the next question
+        AppData.currentSentence = AppData.pendingQuestion.pop();
 
-        function showBlinder() {
-            blinder.style.display = 'block';
-        }
-    
-        function hideBlinder() {
-            blinder.style.display = 'none';
-            nextWordButton.removeAttribute('disabled');
-            AppData.answerDiv.innerHTML = AppData.answer;
-        }
+        // Set up for the question
+        const contexts = AppData.sentences[AppData.currentSentence].contexts;
+        const randomContext = Math.floor(Math.random() * contexts.length);
+        const cleanText = highlightSentence(
+            AppData.sentences[AppData.currentSentence].sentence, 
+            contexts, 
+            randomContext);
 
-        // Cache common elements
-        const loadingScreen = document.getElementById('loading-screen');
-        const loadingText = document.getElementById('loading-text');
-        const mainContent = document.getElementById('main-content');
-        const playAudioButton = document.getElementById('play-audio');
-        const showSentenceButton = document.getElementById('show-sentence');
-        const userInput = document.getElementById('user-input');
-        const submitButton = document.getElementById('submit');
-        const startButton = document.getElementById('start-button');
-        const wordContainer = document.getElementById('word-container');
-        const exampleSentence = document.getElementById('example-sentence');
-        const nextWordButton = document.getElementById('next');
-        const fetchWords = document.getElementById('fetch-words');
-        const progess = document.getElementById('progress');
-        const answerContainer = document.getElementById('answer-container');
-        const answersDiv = document.getElementById('answers');
-        const attributionLink = document.getElementById('attribution-link');
-        const blinder = document.getElementById('blinder');
+        // Clear any existing answers
+        answersDiv.innerHTML = "";
 
-        try {
-            // Replay the audio
-            playAudioButton.addEventListener(
-                'click', () => replayAudio());
+        // Construct the answer
+        AppData.answer = AppData.sentences[AppData.currentSentence].translation;
+        AppData.answerDiv = document.createElement('div');
+        AppData.answerDiv.innerHTML = "...";
+        answersDiv.appendChild(AppData.answerDiv);
 
-            // Replay the audio
-            startButton.addEventListener(
-                'click', () => setReady());
+        // Add the example
+        exampleSentence.innerHTML = "";
 
-            // Replay the audio
-            nextWordButton.addEventListener(
-                'click', () => setReady());
+        let exampleDiv = document.createElement('div');
+        exampleDiv.innerHTML = cleanText;
+        exampleSentence.appendChild(exampleDiv);
 
-            // Show the sentence
-            showSentenceButton.addEventListener(
-                'click', () => showSentence());
+        attributionLink.textContent = AppData.sentences[AppData.currentSentence].attribution;
+        attributionLink.href = AppData.sentences[AppData.currentSentence].attrurl;
+        attributionLink.target = "_blank";
 
-            // Show the sentence
-            blinder.addEventListener(
-                'click', () => hideBlinder());
+        // exampleSentence.style.display = 'block';
+        answerContainer.style.display = 'block';
+        nextWordButton.setAttribute('disabled', true);
 
-            // Hook up the enter key
-            document.addEventListener('keydown', handleEnterKey);
+        // Block out the answer
+        showBlinder();
 
-            // Load our data and prep the page
-            await loadData();
+        // Play the audio
+        replayAudio();
+    }
 
-            // Hide the loading screen and show the ready button
-            loadingText.style.display = 'none';
-            startButton.style.display = 'block';
+    function showSentence() {
+        // Show the sentence
+        exampleSentence.style.display = 'block';
+        showSentenceButton.style.display = 'none';
+    }
 
-        } catch (error) {
-            console.error(error);
-        }
+    function setReady() {
+        // Show the main page content
+        loadingScreen.style.display = 'none';
+        mainContent.style.display = 'block';
 
-    });
+        exampleSentence.style.display = 'none';
+        showSentenceButton.style.display = 'block';
+        nextWordButton.setAttribute('disabled', true);
+
+        // Show the first question
+        showNextQuestion();
+    }
+
+    function showBlinder() {
+        blinder.style.display = 'block';
+    }
+
+    function hideBlinder() {
+        blinder.style.display = 'none';
+        nextWordButton.removeAttribute('disabled');
+        AppData.answerDiv.innerHTML = AppData.answer;
+    }
+
+    // Cache common elements
+    const loadingScreen = document.getElementById('loading-screen');
+    const loadingText = document.getElementById('loading-text');
+    const mainContent = document.getElementById('main-content');
+    const playAudioButton = document.getElementById('play-audio');
+    const showSentenceButton = document.getElementById('show-sentence');
+    const userInput = document.getElementById('user-input');
+    const submitButton = document.getElementById('submit');
+    const startButton = document.getElementById('start-button');
+    const wordContainer = document.getElementById('word-container');
+    const exampleSentence = document.getElementById('example-sentence');
+    const nextWordButton = document.getElementById('next');
+    const fetchWords = document.getElementById('fetch-words');
+    const progess = document.getElementById('progress');
+    const answerContainer = document.getElementById('answer-container');
+    const answersDiv = document.getElementById('answers');
+    const attributionLink = document.getElementById('attribution-link');
+    const blinder = document.getElementById('blinder');
+    const filterInput = document.getElementById('input-filter');
+
+    try {
+        // Replay the audio
+        playAudioButton.addEventListener(
+            'click', () => replayAudio());
+
+        // Replay the audio
+        startButton.addEventListener(
+            'click', () => setReady());
+
+        // Replay the audio
+        nextWordButton.addEventListener(
+            'click', () => setReady());
+
+        // Show the sentence
+        showSentenceButton.addEventListener(
+            'click', () => showSentence());
+
+        // Show the sentence
+        blinder.addEventListener(
+            'click', () => hideBlinder());
+
+        // Hook up the enter key
+        document.addEventListener('keydown', handleKeyDown);
+        const debouncedInput = debounce(handleInputChange, 1000);
+        document.addEventListener('input', debouncedInput);
+
+        // Load our data and prep the page
+        await loadData();
+
+        // Hide the loading screen and show the ready button
+        loadingText.style.display = 'none';
+        startButton.style.display = 'block';
+
+    } catch (error) {
+        console.error(error);
+    }
+
+});
