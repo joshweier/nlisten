@@ -1,6 +1,6 @@
 {
     "version": "0.3",
-    "timestamp": "2024-08-12T03:25:08.776364+00:00",
+    "timestamp": "2024-09-12T08:55:07.669653+00:00",
     "sentences": [
         {
             "sentence": "仕事は辛い{1:けど}{2:楽しい}。",
@@ -41116,6 +41116,5165 @@
                 "農場"
             ],
             "audio": "3718.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この問題{1:について}どう思いますか。",
+            "translation": "What do you think about this problem?",
+            "contexts": [
+                "について"
+            ],
+            "audio": "3719.mp3",
+            "level": "3",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-ni-tsuite-meaning/"
+        },
+        {
+            "sentence": "あなたの国{1:について}いろいろと教えてください。",
+            "translation": "Please tell me more about your country.",
+            "contexts": [
+                "について"
+            ],
+            "audio": "3720.mp3",
+            "level": "3",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-ni-tsuite-meaning/"
+        },
+        {
+            "sentence": "その事件{1:について}、知っていることを全部話してください。",
+            "translation": "Please tell me everything you know regarding that incident.",
+            "contexts": [
+                "について"
+            ],
+            "audio": "3721.mp3",
+            "level": "3",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-ni-tsuite-meaning/"
+        },
+        {
+            "sentence": "お医者さんに、今飲んでいる薬{1:について}説明をしてもらいました。",
+            "translation": "I had my doctor explain to me about the medicine I am taking now.",
+            "contexts": [
+                "について"
+            ],
+            "audio": "3722.mp3",
+            "level": "3",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-ni-tsuite-meaning/"
+        },
+        {
+            "sentence": "大学では国際ビジネス{1:について}研究したいと思っています。",
+            "translation": "I am thinking about studying international business in university.",
+            "contexts": [
+                "について"
+            ],
+            "audio": "3723.mp3",
+            "level": "3",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-ni-tsuite-meaning/"
+        },
+        {
+            "sentence": "明日、私は自分の国の料理{1:について}発表します。",
+            "translation": "Tomorrow, I will give a presentation on food in my home country.",
+            "contexts": [
+                "について"
+            ],
+            "audio": "3724.mp3",
+            "level": "3",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-ni-tsuite-meaning/"
+        },
+        {
+            "sentence": "私は未来{1:について}決して心配しない。",
+            "translation": "I never worry about the future.",
+            "contexts": [
+                "について"
+            ],
+            "audio": "3725.mp3",
+            "level": "3",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-ni-tsuite-meaning/"
+        },
+        {
+            "sentence": "ベトナムの観光地{1:について}調べています。",
+            "translation": "I am researching about tourist attractions in Vietnam.",
+            "contexts": [
+                "について"
+            ],
+            "audio": "3726.mp3",
+            "level": "3",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-ni-tsuite-meaning/"
+        },
+        {
+            "sentence": "今日の授業では、先生が勉強方法{1:について}教えてくれました。",
+            "translation": "In today's class the teacher taught me about study methods.",
+            "contexts": [
+                "について"
+            ],
+            "audio": "3727.mp3",
+            "level": "3",
+            "attribution": "JLPT Sensei",
+            "attrurl": "https://jlptsensei.com/learn-japanese-grammar/%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-ni-tsuite-meaning/"
+        },
+        {
+            "sentence": "だんだん{1:売り上げ}が落ちてきた。",
+            "translation": "The sales have gradually declined.",
+            "contexts": [
+                "売り上げ"
+            ],
+            "audio": "3728.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "DVDの{1:売り上げ}はどうですか？",
+            "translation": "How's the DVD selling?",
+            "contexts": [
+                "売り上げ"
+            ],
+            "audio": "3729.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あの性差別の広告のせいで、{1:売り上げ}が激減した。",
+            "translation": "Sales have decreased rapidly because of that sexist advertisement.",
+            "contexts": [
+                "売り上げ"
+            ],
+            "audio": "3730.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今日のラーメンは全部{1:売り切れ}です。",
+            "translation": "Ramen is all sold out for today.",
+            "contexts": [
+                "売り切れ"
+            ],
+            "audio": "3731.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "人気のバンドのコンサートチケットは、発売から一分で{1:売り切れ}てしまった。",
+            "translation": "The popular band's concert tickets were sold out in a minute from the release.",
+            "contexts": [
+                "売り切れ"
+            ],
+            "audio": "3732.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この本、ずっと{1:売り切れ}だったんだけど、やっと再入荷したのよ！",
+            "translation": "This book was sold out for a long time, but it finally came back in stock!",
+            "contexts": [
+                "売り切れ"
+            ],
+            "audio": "3733.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:売り手}は男でした。",
+            "translation": "The seller was a man.",
+            "contexts": [
+                "売り手"
+            ],
+            "audio": "3734.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "家の{1:売り手}は有名なアイドルでした。",
+            "translation": "The seller of the house was a famous idol singer.",
+            "contexts": [
+                "売り手"
+            ],
+            "audio": "3735.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この取引、{1:売り手}にとって有利すぎない？",
+            "translation": "Isn't this transaction too advantageous for the seller?",
+            "contexts": [
+                "売り手"
+            ],
+            "audio": "3736.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "私のおばあちゃんは、三月にグループホームに{1:入所}しました。",
+            "translation": "My grandma joined the group home in March.",
+            "contexts": [
+                "入所"
+            ],
+            "audio": "3737.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今日はモデルエージェンシーの{1:入所}テストでした。",
+            "translation": "I had an entrance test for a model agency today.",
+            "contexts": [
+                "入所"
+            ],
+            "audio": "3738.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:入所}の前に必ずルールをチェックしておいて下さい。",
+            "translation": "Be sure to check the rules before your admission.",
+            "contexts": [
+                "入所"
+            ],
+            "audio": "3739.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:始めに}、プレゼンテーションをしたいと思います。",
+            "translation": "First, I'd like to make a presentation.",
+            "contexts": [
+                "始めに"
+            ],
+            "audio": "3740.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:始めに}キャベツを切ります。",
+            "translation": "Cut the cabbage first.",
+            "contexts": [
+                "始めに"
+            ],
+            "audio": "3741.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今年の仕事{1:始めに}はパスタを食べました。",
+            "translation": "I ate pasta on my first day of work this year.",
+            "contexts": [
+                "始めに"
+            ],
+            "audio": "3742.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このレタス、もしかして{1:本物}なの？",
+            "translation": "Is this lettuce perhaps real?",
+            "contexts": [
+                "本物"
+            ],
+            "audio": "3743.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このナイキのスニーカー、{1:本物}だと思って買いました。",
+            "translation": "I bought these Nike sneakers thinking they were real.",
+            "contexts": [
+                "本物"
+            ],
+            "audio": "3744.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:本物}の金持ちは税金を払う義務について悪口なんて言わないよ。",
+            "translation": "Real rich people won't even complain about their duty of paying taxes.",
+            "contexts": [
+                "本物"
+            ],
+            "audio": "3745.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:乗り物}はあまり好きじゃないんです。",
+            "translation": "I am not a big fan of vehicles.",
+            "contexts": [
+                "乗り物"
+            ],
+            "audio": "3746.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "日本に行ったら、公共の{1:乗り物}の中で電話しちゃダメよ。",
+            "translation": "When you are in Japan, don't make phone calls in public vehicles.",
+            "contexts": [
+                "乗り物"
+            ],
+            "audio": "3747.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:乗り物}酔いしちゃった。",
+            "translation": "I got motion sickness.",
+            "contexts": [
+                "乗り物"
+            ],
+            "audio": "3748.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この辺は{1:金持ち}の家が多い。",
+            "translation": "There are lots of rich people's houses around here.",
+            "contexts": [
+                "金持ち"
+            ],
+            "audio": "3749.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "そこは{1:金持ち}が行くような学校だよ。",
+            "translation": "It's the kind of school where rich people would go to.",
+            "contexts": [
+                "金持ち"
+            ],
+            "audio": "3750.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "若い頃、お金を稼ぐために、近所のお{1:金持ち}の人たちの使い走りをしていました。",
+            "translation": "I used to run small errands for a wealthy neighbor of mine to make money when I was young.",
+            "contexts": [
+                "金持ち"
+            ],
+            "audio": "3751.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あなたの{1:気持ち}はよく分かります。",
+            "translation": "I know exactly how you feel.",
+            "contexts": [
+                "気持ち"
+            ],
+            "audio": "3752.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "朝起きた時から{1:気持ち}わるいんです。",
+            "translation": "I've been feeling sick since I woke up in the morning.",
+            "contexts": [
+                "気持ち"
+            ],
+            "audio": "3753.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "これ、つまらないものですが。ささやかな感謝の{1:気持ち}です。どうぞ、開けてみてください。",
+            "translation": "Here’s a little something for you. This is just a small token of my appreciation. Go ahead, open it.",
+            "contexts": [
+                "気持ち"
+            ],
+            "audio": "3754.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このドラマが放送されるのは、十年ぶりです。",
+            "translation": "It's been ten years since this drama show was broadcasted.",
+            "contexts": [
+                "放送する"
+            ],
+            "audio": "3755.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このクリップ、本当に{1:放送する}んですか？",
+            "translation": "Are we really broadcasting this clip?",
+            "contexts": [
+                "放送する"
+            ],
+            "audio": "3756.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "コウイチ社長は今晩テレビで重大な決定を{1:放送する}ことになっている。",
+            "translation": "President Koichi’s important announcement will be broadcast on television tonight.",
+            "contexts": [
+                "放送する"
+            ],
+            "audio": "3757.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "インターネットの{1:速度}がおそすぎてイライラしています。",
+            "translation": "These internet speeds are too slow and it’s pissing me off.",
+            "contexts": [
+                "速度"
+            ],
+            "audio": "3758.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "もう少し{1:速度}を下げて走行してください。",
+            "translation": "Lower the speed a little more, please.",
+            "contexts": [
+                "速度"
+            ],
+            "audio": "3759.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "姉は朝ごはんの食パンを口に入れたまま、すごい{1:速度}で学校に走っていきました。",
+            "translation": "My older sister ran to school at such an incredible speed, with bread in her mouth.",
+            "contexts": [
+                "速度"
+            ],
+            "audio": "3760.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:最終}のバスはいつ出発ですか？",
+            "translation": "When does the last bus leave?",
+            "contexts": [
+                "最終"
+            ],
+            "audio": "3761.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このエピソードがシリーズの{1:最終}回です。",
+            "translation": "This episode is the final episode of the series.",
+            "contexts": [
+                "最終"
+            ],
+            "audio": "3762.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:最終}決定は、後で社長がします。",
+            "translation": "The final decision will be later made by the president.",
+            "contexts": [
+                "最終"
+            ],
+            "audio": "3763.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "「目」という{1:漢字}の形が気に入ってます。",
+            "translation": "I like the shape of the \"eye\" kanji.",
+            "contexts": [
+                "漢字"
+            ],
+            "audio": "3764.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この{1:物語}はとても長いですよ。",
+            "translation": "This tale is very long.",
+            "contexts": [
+                "物語"
+            ],
+            "audio": "3765.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "アンデルセン{1:物語}を読んであげましょう。",
+            "translation": "I'll read the Andersen story for you.",
+            "contexts": [
+                "物語"
+            ],
+            "audio": "3766.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "妖怪にまつわる{1:物語}は、日本各地にたくさんあります。",
+            "translation": "There are many stories about yokai in various parts of Japan.",
+            "contexts": [
+                "物語"
+            ],
+            "audio": "3767.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "私たちって、友人以上、{1:親友}以下よね。",
+            "translation": "We are more than friends but less than best friends, don't you think?",
+            "contexts": [
+                "親友"
+            ],
+            "audio": "3768.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ふじ山は日本で{1:最も}高い山です。",
+            "translation": "Mt. Fuji is the highest mountain in Japan.",
+            "contexts": [
+                "最も"
+            ],
+            "audio": "3769.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "アメフトでは、{1:最も}スコアが高いチームが勝者となります。",
+            "translation": "In American football, the team with the highest score is the winner.",
+            "contexts": [
+                "最も"
+            ],
+            "audio": "3770.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "人生で{1:最も}大切な物は何ですか？お金ですか？それとも自由ですか？",
+            "translation": "What is the most important thing in life? Is it money? Or is it freedom?",
+            "contexts": [
+                "最も"
+            ],
+            "audio": "3771.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "かき氷は夏に食べるのが{1:最高}です。",
+            "translation": "Shaved ice is best to eat in summer.",
+            "contexts": [
+                "最高"
+            ],
+            "audio": "3772.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "仕事が終わってからのビールは、やっぱり{1:最高}だな。",
+            "translation": "Having a beer after work is the best.",
+            "contexts": [
+                "最高"
+            ],
+            "audio": "3773.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この名曲は何十年も人気があり、J-POPヒストリー上{1:最高}の音楽として知られています。",
+            "translation": "This masterpiece has been popular for decades and is known as the best music in J-pop history.",
+            "contexts": [
+                "最高"
+            ],
+            "audio": "3774.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "お前に金をやるのは、これが{1:最後}だ。分かったか？",
+            "translation": "This is the last time I give you money. Got it?",
+            "contexts": [
+                "最後"
+            ],
+            "audio": "3775.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "出発する前に、{1:最後}にもう一回、町民の人々にお礼を言います。",
+            "translation": "I'm going to say thank you to the townspeople one last time before leaving.",
+            "contexts": [
+                "最後"
+            ],
+            "audio": "3776.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このドラマの{1:最後}のシーンは有名です。",
+            "translation": "The last scene of this drama is famous.",
+            "contexts": [
+                "最後"
+            ],
+            "audio": "3777.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "私たち、{1:最後}に会ったのはいつだっけ？",
+            "translation": "When was the last time we met?",
+            "contexts": [
+                "最後"
+            ],
+            "audio": "3778.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:最近}は出社しないで家でリモートワークをしています。",
+            "translation": "Lately, I don't go to work and work remotely from home.",
+            "contexts": [
+                "最近"
+            ],
+            "audio": "3779.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:最近}、私は自立の仕方を本気で考えています。",
+            "translation": "Recently, I am seriously thinking about a way to become independent.",
+            "contexts": [
+                "最近"
+            ],
+            "audio": "3780.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "テレビを持ってないので、{1:最近}の有名人や人気の曲を全く知りません。",
+            "translation": "I don't have a TV, so I don't know any recent celebrities or popular songs.",
+            "contexts": [
+                "最近"
+            ],
+            "audio": "3781.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "わたしの事で{1:争う}のはよして！",
+            "translation": "Please don't argue about me!",
+            "contexts": [
+                "争う"
+            ],
+            "audio": "3782.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "チャンピオンベルトを{1:争う}ゲームでは負けないって決めたんです。",
+            "translation": "I am determined not to lose in a game where we compete for the champion belt.",
+            "contexts": [
+                "争う"
+            ],
+            "audio": "3783.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "私たちって言い争ったことないよね。",
+            "translation": "We've never argued, have we?",
+            "contexts": [
+                "争う"
+            ],
+            "audio": "3784.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:戦争}に行くのは半年ぶりです。",
+            "translation": "This is the first time I've gone to war in six months.",
+            "contexts": [
+                "戦争"
+            ],
+            "audio": "3785.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:戦争}のない時代に生まれたかったなあ。",
+            "translation": "I wish I were born in an era where there is no war.",
+            "contexts": [
+                "戦争"
+            ],
+            "audio": "3786.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:戦争}で失った事もたくさんあるけど、{1:戦争}から学んだ事もたくさんある。",
+            "translation": "There are many things that we lost in the war, but we also have learned a lot from the war.",
+            "contexts": [
+                "戦争"
+            ],
+            "audio": "3787.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今は{1:競争}する気分じゃないんだけど。",
+            "translation": "I'm really not in the mood for a competition right now.",
+            "contexts": [
+                "競争"
+            ],
+            "audio": "3788.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今日の朝ごはんは、昨日のパン食い{1:競争}のパンです。",
+            "translation": "Today's breakfast is bread from yesterday's bread eating competition.",
+            "contexts": [
+                "競争"
+            ],
+            "audio": "3789.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あいつら、もうちょっと落ち着いた方がいいよ。二人共負けず嫌いのくせに、いっつも二人で{1:競争}してるんだぜ。",
+            "translation": "These guys really need to chill out. They're always competing with each other and they both hate losing.",
+            "contexts": [
+                "競争"
+            ],
+            "audio": "3790.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "コウイチとは同じ会社の{1:仲間}です。",
+            "translation": "Koichi and I are companions from the same company.",
+            "contexts": [
+                "仲間"
+            ],
+            "audio": "3791.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このシャツはゴルフ{1:仲間}にもらったんだ。",
+            "translation": "I got this shirt from my golf buddy.",
+            "contexts": [
+                "仲間"
+            ],
+            "audio": "3792.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "学校での厳しい一日を終えて、{1:仲間}たちとリラックスをした。",
+            "translation": "Me and my group of friends relaxed after a hard day at school.",
+            "contexts": [
+                "仲間"
+            ],
+            "audio": "3793.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "母とは、あんまり{1:仲}が良くないんだよね。",
+            "translation": "I don't get along with my mother very much.",
+            "contexts": [
+                "仲"
+            ],
+            "audio": "3794.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あのカップル、本当に{1:仲}が良いよね。",
+            "translation": "That couple has a really good relationship.",
+            "contexts": [
+                "仲"
+            ],
+            "audio": "3795.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あの旅行でチームメンバーとの{1:仲}が深まった気がするよ。",
+            "translation": "I feel like my relationship with my team members deepened on that trip.",
+            "contexts": [
+                "仲"
+            ],
+            "audio": "3796.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:仲直り}しようよ。",
+            "translation": "Let's make up.",
+            "contexts": [
+                "仲直り"
+            ],
+            "audio": "3797.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "大人になってから{1:仲直り}の仕方が分からなくなったんだ。",
+            "translation": "Since I became an adult, I don't know how to make up.",
+            "contexts": [
+                "仲直り"
+            ],
+            "audio": "3798.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "一体全体、コウイチはどうやってマリオブラザーズを{1:仲直り}させたの？",
+            "translation": "How did Koichi bring about a reconciliation between the Mario brothers?",
+            "contexts": [
+                "仲直り"
+            ],
+            "audio": "3799.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "これから会えますか？メールでは上手く{1:伝える}ことができないんです。",
+            "translation": "Could we meet up? I wouldn't be able to convey my message over an email.",
+            "contexts": [
+                "伝える"
+            ],
+            "audio": "3800.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "先生には、トイレに行きたいってちゃんと伝えてたんだよ。",
+            "translation": "I told my teacher that I wanted to go to the bathroom.",
+            "contexts": [
+                "伝える"
+            ],
+            "audio": "3801.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "お父様とお母様にも、よろしくお伝えくださいね。",
+            "translation": "Please give your mother and father my regards.",
+            "contexts": [
+                "伝える"
+            ],
+            "audio": "3802.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "コウイチとは{1:共通点}が全くないから、何を話せばいいか分からないよ。",
+            "translation": "I don't know what to talk about because Koichi and I have nothing in common.",
+            "contexts": [
+                "共通点"
+            ],
+            "audio": "3803.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "日本と中国は文化の{1:共通点}がたくさんあります。",
+            "translation": "Culturally, Japan and China have many things in common.",
+            "contexts": [
+                "共通点"
+            ],
+            "audio": "3804.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "俺とコウイチの{1:共通点}？死ぬほどウィスキーが好きって所くらいかな。",
+            "translation": "What do Koichi and I have in common? I guess we both love whiskey to death.",
+            "contexts": [
+                "共通点"
+            ],
+            "audio": "3805.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "チームメイトとの{1:共同}作業は楽しいです。",
+            "translation": "Collaborative tasks with teammates are fun.",
+            "contexts": [
+                "共同"
+            ],
+            "audio": "3806.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ここは学生が{1:共同}で使うコーワーキングスペースです。",
+            "translation": "This is a co-working space for students to share.",
+            "contexts": [
+                "共同"
+            ],
+            "audio": "3807.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "彼は{1:共同}の貯金をこっそり使い果たしてしまった。",
+            "translation": "He secretly used up our joint savings.",
+            "contexts": [
+                "共同"
+            ],
+            "audio": "3808.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ここは{1:公共}トイレですよ！カラオケをする場所ではありません。",
+            "translation": "This is a public bathroom! Not a place to do karaoke.",
+            "contexts": [
+                "公共"
+            ],
+            "audio": "3809.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:公共}のベビーシッターのサービスがあるんですか？",
+            "translation": "Is there a public babysitter service?",
+            "contexts": [
+                "公共"
+            ],
+            "audio": "3810.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "とある{1:公共}施設でボランティアをしていたことがあります。",
+            "translation": "I used to volunteer at a public facility.",
+            "contexts": [
+                "公共"
+            ],
+            "audio": "3811.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このリスト、{1:共有}してもらえますか？",
+            "translation": "Could you share this list?",
+            "contexts": [
+                "共有"
+            ],
+            "audio": "3812.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "タスクは仲間と{1:共有}した方が早く終わるよ。",
+            "translation": "You can finish tasks more quickly when you share them with your peers.",
+            "contexts": [
+                "共有"
+            ],
+            "audio": "3813.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "数々のポケモンカードは私たち夫婦の{1:共有}財産です。",
+            "translation": "Numerous Pokemon cards are shared property between us as a married couple.",
+            "contexts": [
+                "共有"
+            ],
+            "audio": "3814.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ワニカニのこと、{1:好き}？",
+            "translation": "Do you like WaniKani?",
+            "contexts": [
+                "好き"
+            ],
+            "audio": "3815.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:好き}な人と家でゴロゴロするのが大{1:好き}です。",
+            "translation": "I love just staying home and doing nothing with someone I love.",
+            "contexts": [
+                "好き"
+            ],
+            "audio": "3816.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "こんな突然{1:好き}な映画を聞かれても、何も思いつかないですよ。",
+            "translation": "I can't think of anything when you suddenly ask me what my favorite movie is like this.",
+            "contexts": [
+                "好き"
+            ],
+            "audio": "3817.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このキーホルダーは、私たちの{1:友好}のシンボルです。",
+            "translation": "This key chain is a sign of our friendship.",
+            "contexts": [
+                "友好"
+            ],
+            "audio": "3818.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "日本と米国の{1:友好}は強いですか？",
+            "translation": "Is the friendship between Japan and the United States strong?",
+            "contexts": [
+                "友好"
+            ],
+            "audio": "3819.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あそこの家のおじさん{1:友好}的だけど、実はヤクザの隠れメンバーらしいよ！",
+            "translation": "The man who lives in that house over there is friendly, but apparently he's secretly a yakuza member!",
+            "contexts": [
+                "友好"
+            ],
+            "audio": "3820.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "早く大人に成りたいな。",
+            "translation": "I want to become an adult soon.",
+            "contexts": [
+                "成る"
+            ],
+            "audio": "3821.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "おたまじゃくしがカエルに{1:成る}って知ってた？",
+            "translation": "Did you know that tadpoles become frogs?",
+            "contexts": [
+                "成る"
+            ],
+            "audio": "3822.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "彼は、数百人から{1:成る}チームのリーダーです。",
+            "translation": "He is a leader of a team that has become several hundred of people.",
+            "contexts": [
+                "成る"
+            ],
+            "audio": "3823.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "明日のプレゼン、{1:成功}すると良いですね。",
+            "translation": "I hope the presentation tomorrow will be a success.",
+            "contexts": [
+                "成功"
+            ],
+            "audio": "3824.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今回こそは{1:成功}したいんです。",
+            "translation": "I want to succeed this time.",
+            "contexts": [
+                "成功"
+            ],
+            "audio": "3825.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "「ビジネスで{1:成功}したければ、型にはまらない考え方をしなさい」と言われて、カレー味の歯磨き粉を思いついたんだ。",
+            "translation": "I created a curry-flavored toothpaste when I was told, \"If you want to be successful in business you need to think outside the box.\"",
+            "contexts": [
+                "成功"
+            ],
+            "audio": "3826.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "日本は{1:老人}の人口がとても多いんですよ。",
+            "translation": "Japan has a very large population of elderly people.",
+            "contexts": [
+                "老人"
+            ],
+            "audio": "3827.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "生まれたばかりの赤ちゃんだって、いずれは{1:老人}になります。",
+            "translation": "Even a newborn baby will eventually become an old person.",
+            "contexts": [
+                "老人"
+            ],
+            "audio": "3828.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "うわ！あの{1:老人}めちゃくちゃイケメンでマッチョなんだけど。",
+            "translation": "Wow! That old man is such a hunky beefcake.",
+            "contexts": [
+                "老人"
+            ],
+            "audio": "3829.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今年は何位だろう？",
+            "translation": "I wonder where I'll rank this year.",
+            "contexts": [
+                "〜位"
+            ],
+            "audio": "3830.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あのテニスプレイヤーは世界ランキング三位です。",
+            "translation": "That tennis player is ranked third in the world.",
+            "contexts": [
+                "〜位"
+            ],
+            "audio": "3831.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "マラソンで一位になったので、両親がマウンテンバイクを買ってくれた。",
+            "translation": "I came in first in the marathon, so my parents bought me a mountain bike.",
+            "contexts": [
+                "〜位"
+            ],
+            "audio": "3832.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:一位}になったら、一週間毎日カレーを作ってあげる。",
+            "translation": "If you get first place, I'll make you curry every day for a week.",
+            "contexts": [
+                "一位"
+            ],
+            "audio": "3833.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "妹がピアノコンクールで{1:一位}をとりました。",
+            "translation": "My sister took first place in the piano competition.",
+            "contexts": [
+                "一位"
+            ],
+            "audio": "3834.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "お母さん！僕、あのテストで滅茶苦茶良い点をとったんだよ！なんとクラスで{1:一位}だったんだ！",
+            "translation": "Mom! I really aced that test! I ranked at the top of my class!",
+            "contexts": [
+                "一位"
+            ],
+            "audio": "3835.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "学力テストで{1:首位}に立った。",
+            "translation": "I got the first place in an academic test.",
+            "contexts": [
+                "首位"
+            ],
+            "audio": "3836.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あの女の人は世界ランキング{1:首位}のテニスプレーヤーです。",
+            "translation": "That woman is the world's top ranked tennis player.",
+            "contexts": [
+                "首位"
+            ],
+            "audio": "3837.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "その老人は、両チームの{1:首位}争いには全く興味が無いようだった。",
+            "translation": "That old person seemed to have zero interest in both teams' fight for first place.",
+            "contexts": [
+                "首位"
+            ],
+            "audio": "3838.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:低い}声の男の人が好きです。",
+            "translation": "I like a guy with a low voice.",
+            "contexts": [
+                "低い"
+            ],
+            "audio": "3839.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あんたみたいにプライドが低すぎる男はもうウンザリよ。",
+            "translation": "I am already so tired of men like you who have little pride.",
+            "contexts": [
+                "低い"
+            ],
+            "audio": "3840.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "夫の家族は皆、背が{1:低い}んですよ。",
+            "translation": "All of my husband's family members are short.",
+            "contexts": [
+                "低い"
+            ],
+            "audio": "3841.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あのドラマ、{1:最低}だった！",
+            "translation": "That drama show was the worst!",
+            "contexts": [
+                "最低"
+            ],
+            "audio": "3842.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今回のテストは、今までで{1:最低}の点だった。",
+            "translation": "I got the worst score at the exam this time.",
+            "contexts": [
+                "最低"
+            ],
+            "audio": "3843.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "明日の{1:最低}気温は０度を下回るでしょう。",
+            "translation": "The lowest temperature tomorrow will be below zero degrees.",
+            "contexts": [
+                "最低"
+            ],
+            "audio": "3844.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "マッサージ{1:初回}は八千円です。",
+            "translation": "A first time massage would be 8000 yen.",
+            "contexts": [
+                "初回"
+            ],
+            "audio": "3845.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:初回}のレッスンにはスマホを持ってきて下さいね。",
+            "translation": "Please bring your smartphone to the first lesson.",
+            "contexts": [
+                "初回"
+            ],
+            "audio": "3846.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "えっ、君が日本語学習クラブに参加するのは今回が{1:初回}なんだ？よし、みんな。彼は初心者だから手加減してあげようぜ。",
+            "translation": "Oh, is this your first time attending our Japanese language club? Okay everyone, he’s a newbie, so let’s go easy on him.",
+            "contexts": [
+                "初回"
+            ],
+            "audio": "3847.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:最初}は元気だったんですが、１時間後にはヘトヘトでした。",
+            "translation": "I was doing well at first, but I got exhausted an hour later.",
+            "contexts": [
+                "最初"
+            ],
+            "audio": "3848.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "中学校の{1:最初}のクラスは英語でした。",
+            "translation": "The first class at junior high school was English.",
+            "contexts": [
+                "最初"
+            ],
+            "audio": "3849.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "日本に来た{1:最初}の頃はトイレにビデが付いてるなんて知らなかったよ。",
+            "translation": "When I first came to Japan, I didn't know that the toilet had a bidet.",
+            "contexts": [
+                "最初"
+            ],
+            "audio": "3850.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:別の}アプローチをしてみない？",
+            "translation": "Why don't we try a different approach?",
+            "contexts": [
+                "別の"
+            ],
+            "audio": "3851.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "昨日デートに行ったのは{1:別の}男です。",
+            "translation": "It was another man who I went on a date with yesterday.",
+            "contexts": [
+                "別の"
+            ],
+            "audio": "3852.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "姉は私とは{1:別の}母から生まれた子です。",
+            "translation": "My sister was born from another mother.",
+            "contexts": [
+                "別の"
+            ],
+            "audio": "3853.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ブロッコリーとシチューのタッパーは{1:別に}してもらえますか？",
+            "translation": "Could you use separate Tupperware for the broccoli and stew?",
+            "contexts": [
+                "別に"
+            ],
+            "audio": "3854.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:別に}コーヒーがあればどこのカフェでもいいよ。",
+            "translation": "As long as there's coffee, I wouldn't mind going to any cafe in particular.",
+            "contexts": [
+                "別に"
+            ],
+            "audio": "3855.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "「お母さん元気にしてる？」「うん。{1:別に}変わりないよ。」",
+            "translation": "\"Is your mother doing okay?\" \"Yeah. Nothing's changed in particular.\"",
+            "contexts": [
+                "別に"
+            ],
+            "audio": "3856.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "コウイチはお酒をやめてから、すっかり{1:別人}になったね。",
+            "translation": "Koichi has become a changed man ever since he quit drinking.",
+            "contexts": [
+                "別人"
+            ],
+            "audio": "3857.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "友人のコウイチだと思って声をかけたら、{1:別人}だった。",
+            "translation": "I thought it was my friend Koichi when I called out to him, but it was a different person.",
+            "contexts": [
+                "別人"
+            ],
+            "audio": "3858.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "コウイチは昔はAKB48をよくディスっていたのに、今はすっかり大ファンになっちまった。まるで{1:別人}のようだよ。",
+            "translation": "Koichi used to diss AKB48 pretty often, but now he's a crazed AKB48 fan. It’s as though he's a different person.",
+            "contexts": [
+                "別人"
+            ],
+            "audio": "3859.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "友人とのスケジュールが合わないのでハワイまで{1:別々}に行きます。",
+            "translation": "My schedule doesn't really fit my friend's, so we are going to Hawaii separately.",
+            "contexts": [
+                "別々"
+            ],
+            "audio": "3860.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ジャガイモとセロリは{1:別々}に入れておいてください。",
+            "translation": "Put the potatoes and celery out separately.",
+            "contexts": [
+                "別々"
+            ],
+            "audio": "3861.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "「私達、本当に{1:別々}の道を進まなきゃいけないの？」「ああ。でもまたすぐ会えるさ。」",
+            "translation": "\"Now do we really have to go our separate ways?\" \"Yup, but I believe we’ll see each other again soon.\"",
+            "contexts": [
+                "別々"
+            ],
+            "audio": "3862.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "これは{1:特別}なネックレスなんです。",
+            "translation": "This is a special necklace.",
+            "contexts": [
+                "特別"
+            ],
+            "audio": "3863.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "社長がわざわざオフィスに来たなんて何か{1:特別}なミーティングでもあったんですか？",
+            "translation": "Was there a special meeting or something that the president bothered to come all the way to the office for?",
+            "contexts": [
+                "特別"
+            ],
+            "audio": "3864.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この車の{1:特別}仕様の在庫はありますか？",
+            "translation": "Is there a special edition of this car?",
+            "contexts": [
+                "特別"
+            ],
+            "audio": "3865.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "自転車のブレーキが利かない。",
+            "translation": "My bike's brakes don't work.",
+            "contexts": [
+                "利く"
+            ],
+            "audio": "3866.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "うちの子、気が{1:利く}んですよ。",
+            "translation": "My child is thoughtful.",
+            "contexts": [
+                "利く"
+            ],
+            "audio": "3867.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "コウイチは中々融通の{1:利く}男だ。",
+            "translation": "Koichi is a pretty flexible man.",
+            "contexts": [
+                "利く"
+            ],
+            "audio": "3868.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このアプリ、すごく{1:便利}だよね。",
+            "translation": "This app is really handy, right?",
+            "contexts": [
+                "便利"
+            ],
+            "audio": "3869.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:便利}なアイテムを知っていたらぜひ教えて下さい。",
+            "translation": "If you know of any useful items, please let me know.",
+            "contexts": [
+                "便利"
+            ],
+            "audio": "3870.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "生活は日に日に{1:便利}になっていく。",
+            "translation": "Life is getting more convenient day after day.",
+            "contexts": [
+                "便利"
+            ],
+            "audio": "3871.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あんた、{1:努力}しないで社長になれるとでも思ってんの？",
+            "translation": "Hey, are you really thinking you can become a company president without making any efforts?",
+            "contexts": [
+                "努力"
+            ],
+            "audio": "3872.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "宝くじを当てるのだって、それなりの{1:努力}が必要なんだよ！",
+            "translation": "Even winning the lottery requires a certain amount of effort, alright?",
+            "contexts": [
+                "努力"
+            ],
+            "audio": "3873.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:努力}しても、結果が出なくては意味が無い。",
+            "translation": "Even if you work hard, if you don't have results, there isn't a point to it.",
+            "contexts": [
+                "努力"
+            ],
+            "audio": "3874.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この仕事、{1:労働}時間がすごく長いんです。",
+            "translation": "The labor hours are very long at this job.",
+            "contexts": [
+                "労働"
+            ],
+            "audio": "3875.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "クライアントとのゴルフは休日{1:労働}じゃないんですか？",
+            "translation": "Isn't golfing with clients considered holiday work?",
+            "contexts": [
+                "労働"
+            ],
+            "audio": "3876.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この歳で激しい肉体{1:労働}はキツいです。",
+            "translation": "Intense physical labor is hard for people at this age.",
+            "contexts": [
+                "労働"
+            ],
+            "audio": "3877.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ワニカニに出会うまでは、おれの人生は{1:苦労}ばかりだった。",
+            "translation": "My life was full of hardships until I came across WaniKani.",
+            "contexts": [
+                "苦労"
+            ],
+            "audio": "3878.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このコウイチのサイン、{1:苦労}してやっと手に入れたんだよ。",
+            "translation": "I went through hardship to finally get Koichi's autograph.",
+            "contexts": [
+                "苦労"
+            ],
+            "audio": "3879.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "うちのお風呂って、シャワーの位置が固定されちゃってるから、バスタブを洗って流すときにかなり{1:苦労}するんだよね。",
+            "translation": "In my bathtub, the position of the shower is fixed, so it is quite difficult to wash and rinse.",
+            "contexts": [
+                "苦労"
+            ],
+            "audio": "3880.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "コウイチ社長は、日本の{1:労働者}不足についてどうお考えなんですか？",
+            "translation": "What does president Koichi think about the shortage of workers in Japan?",
+            "contexts": [
+                "労働者"
+            ],
+            "audio": "3881.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "私たちのような{1:労働者}たちがこの国を支えてるんですよ。",
+            "translation": "Workers like us are supporting this country.",
+            "contexts": [
+                "労働者"
+            ],
+            "audio": "3882.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "社長という立場なら、{1:労働者}の権利を守ってくださいよ。",
+            "translation": "If you are a president, please try to protect the rights of workers.",
+            "contexts": [
+                "労働者"
+            ],
+            "audio": "3883.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "虫の{1:命}だって、大切な{1:命}なんだよ。",
+            "translation": "Even a bug's life is an important life.",
+            "contexts": [
+                "命"
+            ],
+            "audio": "3884.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このフィギュアは{1:命}の次に大切なんです。",
+            "translation": "This figure is the second most important thing, after my life.",
+            "contexts": [
+                "命"
+            ],
+            "audio": "3885.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "神様、お願いです。私の{1:命}と引き換えに、この子の{1:命}を救ってください。",
+            "translation": "God, please. Save this child's life in exchange for my life.",
+            "contexts": [
+                "命"
+            ],
+            "audio": "3886.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あの日、ここであなたと会えたのは{1:運命}ですよ。",
+            "translation": "It's destiny that I met you here on that day.",
+            "contexts": [
+                "運命"
+            ],
+            "audio": "3887.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "そういう{1:運命}だったんだよ。",
+            "translation": "It was meant to be like that.",
+            "contexts": [
+                "運命"
+            ],
+            "audio": "3888.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "iPhoneさん天国行き。用を足した後のトイレに落としちゃいました。まぁ、これがiPhoneさんの{1:運命}だったのかもしれないけどさ。でも、猛烈に悲しいぜよ...。",
+            "translation": "Rest in peace iPhone. I just dropped it in a toilet filled with more than just water. Maybe this was just fate but I am so sad right now.",
+            "contexts": [
+                "運命"
+            ],
+            "audio": "3889.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今日は{1:海岸}をジョギングしました。",
+            "translation": "Today, I jogged at the seashore.",
+            "contexts": [
+                "海岸"
+            ],
+            "audio": "3890.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:海岸}からはヨットやサーファーが見えました。",
+            "translation": "I saw yachts and surfers from the coast.",
+            "contexts": [
+                "海岸"
+            ],
+            "audio": "3891.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今週の日曜日は{1:海岸}線沿いのお洒落なカフェに行きたいな。",
+            "translation": "I want to go to a stylish cafe along the coastline this Sunday.",
+            "contexts": [
+                "海岸"
+            ],
+            "audio": "3892.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "放せよ！",
+            "translation": "Let go of me!",
+            "contexts": [
+                "放す"
+            ],
+            "audio": "3893.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "三十分後、コウイチはついに私の手を放した。",
+            "translation": "Thirty minutes later, Koichi finally released my hand.",
+            "contexts": [
+                "放す"
+            ],
+            "audio": "3894.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "フグを海に{1:放す}といつも、泳いで逃げちゃって、私が呼んでも知らんぷりするの。どうすれば逃げないように教えることができるのかしら。",
+            "translation": "Every time I let Fugu loose in the sea, he swims off and when I call him he doesn’t listen. What should I do to teach him to not run away?",
+            "contexts": [
+                "放す"
+            ],
+            "audio": "3895.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "夜はオフィスをバーとして開放しています。",
+            "translation": "We open our office up into a bar at night.",
+            "contexts": [
+                "開放する"
+            ],
+            "audio": "3896.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "夏はこのプールも公共に開放されます。",
+            "translation": "In summer, this pool is also open to the public.",
+            "contexts": [
+                "開放する"
+            ],
+            "audio": "3897.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "月に一回、美術館が市民に無料開放されます。",
+            "translation": "Once a month, the museum is open to citizens for free.",
+            "contexts": [
+                "開放する"
+            ],
+            "audio": "3898.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ここは{1:昔}、山だったんだよ。",
+            "translation": "This place used to be a mountain a long time ago.",
+            "contexts": [
+                "昔"
+            ],
+            "audio": "3899.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "コウイチはただの{1:昔}の友人です。",
+            "translation": "Koichi is just an old friend.",
+            "contexts": [
+                "昔"
+            ],
+            "audio": "3900.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:昔}、一回だけ、テレビ画面にキスしたことがあるよ。",
+            "translation": "I once kissed the TV screen a long time ago.",
+            "contexts": [
+                "昔"
+            ],
+            "audio": "3901.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ここに立つとWi-Fiの{1:電波}がよく入りますよ。",
+            "translation": "If you stand over here, you will get good Wi-Fi signal.",
+            "contexts": [
+                "電波"
+            ],
+            "audio": "3902.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "母は{1:電波}が心配で電子レンジを使わない。",
+            "translation": "My mother is worried about radio waves and does not use the microwave.",
+            "contexts": [
+                "電波"
+            ],
+            "audio": "3903.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ごめん、よく聞こえないよ。ここは{1:電波}が悪いみたい。",
+            "translation": "Sorry, you sound kind of choppy. It seems like I’ve got bad reception here.",
+            "contexts": [
+                "電波"
+            ],
+            "audio": "3904.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "もしかして、私のコーラにオリーブオイル注いだ？",
+            "translation": "Did you pour olive oil in my coke by any chance?",
+            "contexts": [
+                "注ぐ"
+            ],
+            "audio": "3905.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "高校生になったらアルバイトに全力を注ぎたいです。",
+            "translation": "When I become a high school student, I want to pour all of my energy into my part-time job.",
+            "contexts": [
+                "注ぐ"
+            ],
+            "audio": "3906.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "もう少しワインを注いでいただけますか？",
+            "translation": "Can you pour a little more wine?",
+            "contexts": [
+                "注ぐ"
+            ],
+            "audio": "3907.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今日、先生に{1:注意}されちゃったよ。",
+            "translation": "Today, I got a warning from my teacher.",
+            "contexts": [
+                "注意"
+            ],
+            "audio": "3908.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ランニングに行く時は車に{1:注意}してね。",
+            "translation": "Be careful of cars when you go for a run.",
+            "contexts": [
+                "注意"
+            ],
+            "audio": "3909.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "私は彼が間違った道を進んでるんじゃないかと心配しているのよ。{1:注意}したんだけど、聞く耳持たずって感じで。",
+            "translation": "I’m worried that he’s going down the wrong path. I cautioned him, but he doesn’t listen to me.",
+            "contexts": [
+                "注意"
+            ],
+            "audio": "3910.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "スタバの{1:注文}の仕方がよく分からないんだけど。",
+            "translation": "I don't really understand how to order at Starbucks.",
+            "contexts": [
+                "注文"
+            ],
+            "audio": "3911.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このドレス、ネットで{1:注文}できるよ。",
+            "translation": "You can order this dress online.",
+            "contexts": [
+                "注文"
+            ],
+            "audio": "3912.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "それは無理な{1:注文}だが、やるっきゃない。",
+            "translation": "That’s an unreasonable request but we don’t have a choice.",
+            "contexts": [
+                "注文"
+            ],
+            "audio": "3913.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "みんなが集中すればこの仕事は五時までに終わるはずだよ。",
+            "translation": "This work should be done by five if everyone concentrates.",
+            "contexts": [
+                "集中する"
+            ],
+            "audio": "3914.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "クラスが終わるまで集中して！",
+            "translation": "Focus until class is over!",
+            "contexts": [
+                "集中する"
+            ],
+            "audio": "3915.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "人の前だと集中して本が読めないんです。",
+            "translation": "I can't concentrate on reading books when I'm around people.",
+            "contexts": [
+                "集中する"
+            ],
+            "audio": "3916.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "わたしは東京で生まれ育ちました。",
+            "translation": "I was born and raised in Tokyo.",
+            "contexts": [
+                "育つ"
+            ],
+            "audio": "3917.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このサボテン、元気に育ってるね。",
+            "translation": "This cactus is growing well.",
+            "contexts": [
+                "育つ"
+            ],
+            "audio": "3918.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "いつの間にかその犬とコウイチの間には愛が育ちました。",
+            "translation": "Love grew between the dog and Koichi.",
+            "contexts": [
+                "育つ"
+            ],
+            "audio": "3919.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今日は{1:教育}センターに行きます。",
+            "translation": "Today, we are going to the education center.",
+            "contexts": [
+                "教育"
+            ],
+            "audio": "3920.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "日本では、小学校{1:教育}と中学校{1:教育}を受けなければなりません。",
+            "translation": "In Japan, you're obligated to receive elementary school education and junior high school education.",
+            "contexts": [
+                "教育"
+            ],
+            "audio": "3921.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "「{1:教育}があって常識がないよりも、{1:教育}がなくて常識がある方がはるかによい。」って誰の言葉だっけ？",
+            "translation": "Do you remember who said, \"It is a thousand times better to have common sense without education than education without common sense?\"",
+            "contexts": [
+                "教育"
+            ],
+            "audio": "3922.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "海岸でゴミを{1:拾う}ボランティアを一年間やりました。",
+            "translation": "I volunteered for a year to pick up trash on the beach.",
+            "contexts": [
+                "拾う"
+            ],
+            "audio": "3923.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "さっき歩道で五百円玉を拾いました。",
+            "translation": "I just picked up a 500 yen coin on the sidewalk.",
+            "contexts": [
+                "拾う"
+            ],
+            "audio": "3924.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "道端にソファを捨ててあったんだけど、まだ使えそうだったから、拾ってきたよ。",
+            "translation": "There was an abandoned sofa on the roadside and it looked still usable, so I picked it up.",
+            "contexts": [
+                "拾う"
+            ],
+            "audio": "3925.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "コンパスの矢が北の方向を指しています。",
+            "translation": "The compass arrow is pointing at the direction of North.",
+            "contexts": [
+                "指す"
+            ],
+            "audio": "3926.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "人を指で{1:指す}のは、日本では失礼です。",
+            "translation": "In Japan, it's rude to point at people with your finger.",
+            "contexts": [
+                "指す"
+            ],
+            "audio": "3927.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "宿題やってないよ、、。先生に指されたらどうしよう。",
+            "translation": "I haven't done my homework... What if the teacher points at me?",
+            "contexts": [
+                "指す"
+            ],
+            "audio": "3928.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:指}がきれいですね。",
+            "translation": "You have such beautiful fingers.",
+            "contexts": [
+                "指"
+            ],
+            "audio": "3929.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "なんで手の{1:指}も足の{1:指}も五本なんだろう？",
+            "translation": "Why do we have five fingers and also five toes?",
+            "contexts": [
+                "指"
+            ],
+            "audio": "3930.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "突然中{1:指}が痛くなったんだけど。",
+            "translation": "I just had a sudden pain in my middle finger.",
+            "contexts": [
+                "指"
+            ],
+            "audio": "3931.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ミーティングの場所は、お客さまが指定しました。",
+            "translation": "The meeting place was designated by the client.",
+            "contexts": [
+                "指定する"
+            ],
+            "audio": "3932.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "自分でフライトを指定してもいいですか？",
+            "translation": "May I assign my own flight?",
+            "contexts": [
+                "指定する"
+            ],
+            "audio": "3933.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この絵は日本に国宝に指定されてます。",
+            "translation": "This painting is designated as a national treasure in Japan.",
+            "contexts": [
+                "指定する"
+            ],
+            "audio": "3934.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "バターを入れて、うどんを{1:洋風}にアレンジしました。",
+            "translation": "I put butter in udon to give it a western-style twist.",
+            "contexts": [
+                "洋風"
+            ],
+            "audio": "3935.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "えっ、日本のアーティストの曲なの？なんだか{1:洋風}なメロディだね。",
+            "translation": "Oh, is it a song from a Japanese artist? It sounded kind of like a western-style melody.",
+            "contexts": [
+                "洋風"
+            ],
+            "audio": "3936.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "私の家は、家具を全て{1:洋風}に揃えているので、畳はありません。",
+            "translation": "My house is entirely furnished in the Western style, so there are no tatami mats.",
+            "contexts": [
+                "洋風"
+            ],
+            "audio": "3937.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:洋服}を買う前にサイズをチェックをするのは大切です。",
+            "translation": "It's important to check the size before buying clothes.",
+            "contexts": [
+                "洋服"
+            ],
+            "audio": "3938.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今日のデートは和服にしようかな？{1:洋服}にしようかな？",
+            "translation": "Should I wear Japanese clothes for today's date? Or should I wear regular clothes?",
+            "contexts": [
+                "洋服"
+            ],
+            "audio": "3939.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "早く{1:洋服}を着ないと、学校に遅れるわよ。",
+            "translation": "You should get dressed really quickly or you’ll be late for school.",
+            "contexts": [
+                "洋服"
+            ],
+            "audio": "3940.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ここから{1:太平洋}まで車で行けますか？",
+            "translation": "Can I get to the Pacific Ocean from here?",
+            "contexts": [
+                "太平洋"
+            ],
+            "audio": "3941.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:太平洋}の魚はやっぱり味が良いんだよな。",
+            "translation": "After all, fish from the Pacific Ocean taste good.",
+            "contexts": [
+                "太平洋"
+            ],
+            "audio": "3942.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:太平洋}の海はキラキラしてて綺麗ですね。",
+            "translation": "The Pacific Ocean is shiny and beautiful.",
+            "contexts": [
+                "太平洋"
+            ],
+            "audio": "3943.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:洋食}レストランでナポリタンスパゲティを食べました。",
+            "translation": "I ate a Neapolitan Spaghetti at the Western food restaurant.",
+            "contexts": [
+                "洋食"
+            ],
+            "audio": "3944.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "いわゆる昔ながらの{1:洋食}屋さんで、バイトをしています。",
+            "translation": "I'm working part-time at a so-called old fashioned Western family restaurant.",
+            "contexts": [
+                "洋食"
+            ],
+            "audio": "3945.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ええっ！あそこのレストランで{1:洋食}ランチセットを食べたの？ははは。どおりでまだお腹がいっぱいなはずだわ。",
+            "translation": "Oh, did you eat the western-style lunch set at that restaurant? Hahaha. No wonder you still feel full.",
+            "contexts": [
+                "洋食"
+            ],
+            "audio": "3946.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この家には小さな{1:洋室}が三つあります。",
+            "translation": "This house has three small western style rooms.",
+            "contexts": [
+                "洋室"
+            ],
+            "audio": "3947.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:洋室}にはベッドとデスクがあります。",
+            "translation": "There are beds and desks in the western style room.",
+            "contexts": [
+                "洋室"
+            ],
+            "audio": "3948.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "私の部屋は六畳の{1:洋室}で、壁の色は私の好きな水色です。",
+            "translation": "My room is a western style room, about ten square meters, with my favorite color of light blue on the walls.",
+            "contexts": [
+                "洋室"
+            ],
+            "audio": "3949.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:神}はどこかにいると思いますか？",
+            "translation": "Do you think the gods exist somewhere?",
+            "contexts": [
+                "神"
+            ],
+            "audio": "3950.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:神}に相談できるコールセンターがあったら良いのに。",
+            "translation": "I wish there were a call center where I could consult with God.",
+            "contexts": [
+                "神"
+            ],
+            "audio": "3951.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:神}様は水の上を歩けるかもしれないけど、俺は草地の上を泳ぐことができるんだぜ。",
+            "translation": "God may be able to walk on water, but I can swim in the meadow.",
+            "contexts": [
+                "神"
+            ],
+            "audio": "3952.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:神道}には特に教えがないんですよ。",
+            "translation": "Shinto doesn't really have specific teachings.",
+            "contexts": [
+                "神道"
+            ],
+            "audio": "3953.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "コウイチは、ひたすら{1:神道}について語った。",
+            "translation": "Koichi just kept talking about Shinto.",
+            "contexts": [
+                "神道"
+            ],
+            "audio": "3954.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "どうして{1:神道}には絶対的な神がいないのですか。",
+            "translation": "Why doesn’t Shinto have an absolute God?",
+            "contexts": [
+                "神道"
+            ],
+            "audio": "3955.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この辺は小さい{1:神社}が多いですね。",
+            "translation": "There are lots of small shrines around here.",
+            "contexts": [
+                "神社"
+            ],
+            "audio": "3956.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:神社}でおみくじを引いたことはありますか？",
+            "translation": "Have you ever drawn a fortune slip at a shrine?",
+            "contexts": [
+                "神社"
+            ],
+            "audio": "3957.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "最近は{1:神社}で自撮りするインフルエンサーが多いんですよ。",
+            "translation": "Many influencers are taking selfies at shrines these days.",
+            "contexts": [
+                "神社"
+            ],
+            "audio": "3958.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "コウイチにラインしたら{1:秒}で返事きたw",
+            "translation": "I sent a LINE message to Koichi and he replied to me in a second lol.",
+            "contexts": [
+                "秒"
+            ],
+            "audio": "3959.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "大体いつも、ふとんに入ったら三{1:秒}でねてる。",
+            "translation": "When I go to bed, I usually fall asleep in three seconds.",
+            "contexts": [
+                "秒"
+            ],
+            "audio": "3960.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あなたの発音をたったの十二{1:秒}でネイティブレベルにしてみせますよ。",
+            "translation": "Your pronunciation can reach native-level in just twelve seconds.",
+            "contexts": [
+                "秒"
+            ],
+            "audio": "3961.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "こんな{1:高級}なプレゼントもらえません。",
+            "translation": "I can't accept such a high-class gift.",
+            "contexts": [
+                "高級"
+            ],
+            "audio": "3962.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "これは中国で有名な{1:高級}茶なんですよ。",
+            "translation": "This is a famous high-end tea in China.",
+            "contexts": [
+                "高級"
+            ],
+            "audio": "3963.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あの{1:高級}レストランはVIP専用で、入店には招待状か紹介状が必要なんだって。",
+            "translation": "That luxury restaurant is exclusive for VIPs, and to enter, you'll need an invitation or a referral.",
+            "contexts": [
+                "高級"
+            ],
+            "audio": "3964.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "来週、{1:初級}から中級にレベルが上がります。",
+            "translation": "I'm moving to the intermediate level class from the beginner level class next week.",
+            "contexts": [
+                "初級"
+            ],
+            "audio": "3965.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このコースは、{1:初級}、中級、上級の三つのレベルに分かれています。",
+            "translation": "This course is divided into three levels: beginner, intermediate and advanced.",
+            "contexts": [
+                "初級"
+            ],
+            "audio": "3966.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "私の日本語はまだ{1:初級}レベルですが、一生懸命勉強しています。",
+            "translation": "My Japanese is still at an elementary level, but I’m working hard at it.",
+            "contexts": [
+                "初級"
+            ],
+            "audio": "3967.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:中級}とは、どういったレベルですか？",
+            "translation": "What kind of level is an intermediate level?",
+            "contexts": [
+                "中級"
+            ],
+            "audio": "3968.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:中級}の日本語クラスに入りたいんです。",
+            "translation": "I want to join the intermediate Japanese class.",
+            "contexts": [
+                "中級"
+            ],
+            "audio": "3969.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この会社には英語が{1:中級}の人たちは少ない。",
+            "translation": "There are only a few people who are intermediate English speakers at this company.",
+            "contexts": [
+                "中級"
+            ],
+            "audio": "3970.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "どうしても{1:上級}クラスについていけません。",
+            "translation": "I can't follow the advanced level class.",
+            "contexts": [
+                "上級"
+            ],
+            "audio": "3971.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "コウイチは私の学校の{1:上級}生です。",
+            "translation": "Koichi is a senior student at my school.",
+            "contexts": [
+                "上級"
+            ],
+            "audio": "3972.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "英語が母国語でない人で、ネイティブレベルや{1:上級}の英語を話す人もいれば、そうでない人もいます。",
+            "translation": "Some non-native speakers speak English at a native or advanced level, while others do not.",
+            "contexts": [
+                "上級"
+            ],
+            "audio": "3973.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "女の人を{1:追う}のが下手なんですよ。",
+            "translation": "I am not good at following women.",
+            "contexts": [
+                "追う"
+            ],
+            "audio": "3974.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "コウイチは、いつも最新のファッショントレンドを追っている。",
+            "translation": "Koichi is always following the latest fashion trends.",
+            "contexts": [
+                "追う"
+            ],
+            "audio": "3975.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "どんなに大変でも、私は自分の夢を追い続けるつもりなの。",
+            "translation": "I will keep following my dreams, no matter how hard it gets.",
+            "contexts": [
+                "追う"
+            ],
+            "audio": "3976.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "父は、いつも母との{1:戦い}に負ける。",
+            "translation": "Dad always loses his battles with Mom.",
+            "contexts": [
+                "戦い"
+            ],
+            "audio": "3977.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:戦い}はきらいです。",
+            "translation": "I don't like conflicts.",
+            "contexts": [
+                "戦い"
+            ],
+            "audio": "3978.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ムダな{1:戦い}はやめろ！",
+            "translation": "Stop fighting unnecessary battles!",
+            "contexts": [
+                "戦い"
+            ],
+            "audio": "3979.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "彼は血みどろの{1:戦い}の後、そのままビッグマックを食べに行った。",
+            "translation": "He went straight for a Big Mac after the bloody fight.",
+            "contexts": [
+                "戦い"
+            ],
+            "audio": "3980.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "明日のゲームのための{1:作戦}を立てました。",
+            "translation": "I planned some tactics for the game tomorrow.",
+            "contexts": [
+                "作戦"
+            ],
+            "audio": "3981.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "私たちの{1:作戦}はスパイに知られてしまった。",
+            "translation": "Our strategy has been leaked to the spies.",
+            "contexts": [
+                "作戦"
+            ],
+            "audio": "3982.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "プロポーズは{1:作戦}通りにはいかなかった。",
+            "translation": "The proposal did not go according to the strategy.",
+            "contexts": [
+                "作戦"
+            ],
+            "audio": "3983.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "なんでこんな所を{1:戦車}が走ってるんだろう？",
+            "translation": "Why is there a tank running through such a place?",
+            "contexts": [
+                "戦車"
+            ],
+            "audio": "3984.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:戦車}のタイヤに空気を入れたことはありますか？",
+            "translation": "Have you ever pumped up a tank's tires?",
+            "contexts": [
+                "戦車"
+            ],
+            "audio": "3985.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:戦車}の周りで遊んじゃダメだよ！",
+            "translation": "Don't play around the tank!",
+            "contexts": [
+                "戦車"
+            ],
+            "audio": "3986.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "すみません。今、{1:戦場}にいるので電話に出られないんです。",
+            "translation": "Sorry. I can't pick up the phone right now because I'm on the battlefield.",
+            "contexts": [
+                "戦場"
+            ],
+            "audio": "3987.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今日のオフィスはヤクザの{1:戦場}のようだった。",
+            "translation": "The office today was like a yakuza battlefield.",
+            "contexts": [
+                "戦場"
+            ],
+            "audio": "3988.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "コウイチは頼れるやつだ。たとえ{1:戦場}にいたとしても、俺達を決して見捨てやしないよ。",
+            "translation": "Koichi is a dependable guy. He would never let us down even if we were on a battlefield.",
+            "contexts": [
+                "戦場"
+            ],
+            "audio": "3989.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あなたとチェスで{1:競う}つもりはないです。",
+            "translation": "I am not planning to compete with you over chess.",
+            "contexts": [
+                "競う"
+            ],
+            "audio": "3990.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "人と{1:競う}のはあまり好きじゃないんですよね。",
+            "translation": "I don't really like competing with people.",
+            "contexts": [
+                "競う"
+            ],
+            "audio": "3991.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:競う}相手がいるのは良いことだよ。",
+            "translation": "It's good to have someone to compete with.",
+            "contexts": [
+                "競う"
+            ],
+            "audio": "3992.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "そのアイディアすごい{1:良い}ですね！",
+            "translation": "I think that idea is very good!",
+            "contexts": [
+                "良い"
+            ],
+            "audio": "3993.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ケンカするほど仲が{1:良い}って言うだろ？",
+            "translation": "You say you're getting along well as you fight, right?",
+            "contexts": [
+                "良い"
+            ],
+            "audio": "3994.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:良い}考えだけど、実際それをするには資金が足りないんだよね。",
+            "translation": "It's a good idea, but we don't have enough money to do it.",
+            "contexts": [
+                "良い"
+            ],
+            "audio": "3995.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今日は{1:特に}予定ないですよ。",
+            "translation": "I don't have any plans today in particular.",
+            "contexts": [
+                "特に"
+            ],
+            "audio": "3996.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このメロンは{1:特に}かたいですね。まるでボーリングの玉のようだ。",
+            "translation": "This melon is especially hard. It's like a bowling ball.",
+            "contexts": [
+                "特に"
+            ],
+            "audio": "3997.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "「お夕飯は何が食べたい？」「何でもいいよ。{1:特に}こだわりはないよ。」",
+            "translation": "\"What would you like for supper?\" \"Anything is fine. I’m not especially picky.\"",
+            "contexts": [
+                "特に"
+            ],
+            "audio": "3998.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この辺りでは、車を持っていないとかなり{1:不便}ですよ。",
+            "translation": "Not having a car around here is really inconvenient.",
+            "contexts": [
+                "不便"
+            ],
+            "audio": "3999.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "もし{1:不便}なことがあればすぐにフロントデスクに言ってくださいね。",
+            "translation": "If there is any inconvenience, let the front desk know immediately.",
+            "contexts": [
+                "不便"
+            ],
+            "audio": "4000.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "俺の隠れ家へようこそ。ビールは冷蔵庫に入ってるぜ。ちょっと{1:不便}かもしれねぇが、煙草は外で吸ってくれよな。",
+            "translation": "Welcome to my man cave. Beers are in the refrigerator. It may be a bit inconvenient for you, but you’ve got to go outside to smoke.",
+            "contexts": [
+                "不便"
+            ],
+            "audio": "4001.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "やばい。{1:便所}サンダルで学校に来ちゃった！",
+            "translation": "Oh snap. I came to school in toilet sandals!",
+            "contexts": [
+                "便所"
+            ],
+            "audio": "4002.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ちょっとコンビニの{1:便所}行ってくるわ。",
+            "translation": "I'm going to a convenience store bathroom real quick.",
+            "contexts": [
+                "便所"
+            ],
+            "audio": "4003.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "「{1:便所}」っていう言葉はちょっと下品ですよ。",
+            "translation": "The word <ja>便所</ja> sounds a bit vulgar.",
+            "contexts": [
+                "便所"
+            ],
+            "audio": "4004.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "アリは、よく{1:働く}虫だね。",
+            "translation": "Ants are very hard working bugs.",
+            "contexts": [
+                "働く"
+            ],
+            "audio": "4005.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "いつか日本で働きたいんです。",
+            "translation": "I want to work in Japan someday.",
+            "contexts": [
+                "働く"
+            ],
+            "audio": "4006.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "なんで休日も働かなきゃいけないの？",
+            "translation": "Why do I have to work on holidays?",
+            "contexts": [
+                "働く"
+            ],
+            "audio": "4007.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このプランについて、{1:意見}はありますか？",
+            "translation": "Do you have any opinions about this plan?",
+            "contexts": [
+                "意見"
+            ],
+            "audio": "4008.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "仲の良い人でも、ちょっと正直には{1:意見}しづらいよね。",
+            "translation": "Even a close friend would have a hard time making honest comments.",
+            "contexts": [
+                "意見"
+            ],
+            "audio": "4009.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "これは俺の個人的な{1:意見}なんだけど、たまに日本は本当に変わった国だなぁと思うんだよね。",
+            "translation": "This is just my personal opinion, but I sometimes think that Japan is a really weird country.",
+            "contexts": [
+                "意見"
+            ],
+            "audio": "4010.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このジェスチャーの{1:意味}、分かる？",
+            "translation": "Do you know the meaning of this gesture?",
+            "contexts": [
+                "意味"
+            ],
+            "audio": "4011.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あんたの言ってる{1:意味}分かんない。",
+            "translation": "I don't understand what you are saying.",
+            "contexts": [
+                "意味"
+            ],
+            "audio": "4012.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "「あなたって、もっと頭が良いと思ってたわ。」「おい、それってどういう{1:意味}だよ！」",
+            "translation": "\"I thought you were smarter.\" \"Hey, what does that mean?\"",
+            "contexts": [
+                "意味"
+            ],
+            "audio": "4013.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この{1:味}、お口に合うといいんですが。",
+            "translation": "I hope this taste will suit your palate.",
+            "contexts": [
+                "味"
+            ],
+            "audio": "4014.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ここのラーメンの{1:味}、昔からずーっと一緒なんだよ。",
+            "translation": "The taste of ramen here has been the same for a long time.",
+            "contexts": [
+                "味"
+            ],
+            "audio": "4015.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このスープの隠し{1:味}はフグの骨なんです。",
+            "translation": "The secret taste of this soup is puffer fish bones.",
+            "contexts": [
+                "味"
+            ],
+            "audio": "4016.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あそこのスーパー、今週はトマトの{1:安売り}セールをやってるよ。",
+            "translation": "The grocery store over there is having a sale for tomatoes this week.",
+            "contexts": [
+                "安売り"
+            ],
+            "audio": "4017.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:安売り}のおかげで、このワンピースは三百円で買えたよ。",
+            "translation": "Thanks to the sale, I could buy this dress for 300 yen.",
+            "contexts": [
+                "安売り"
+            ],
+            "audio": "4018.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "自分を{1:安売り}してない？",
+            "translation": "Aren't you selling yourself short?",
+            "contexts": [
+                "安売り"
+            ],
+            "audio": "4019.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ムカつくから、なんか{1:仕返し}したいな。",
+            "translation": "I find it quite annoying, so I wanna get even.",
+            "contexts": [
+                "仕返し"
+            ],
+            "audio": "4020.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "本当に最低の女！いつか{1:仕返し}してやるわ！",
+            "translation": "Seriously, she is the worst! I'll get even with her someday!",
+            "contexts": [
+                "仕返し"
+            ],
+            "audio": "4021.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "プリンを食べられた{1:仕返し}に、コウイチの好きなヨーグルトを食べてやった。",
+            "translation": "To get back at him for eating my pudding, I ate Koichi's favorite yogurt.",
+            "contexts": [
+                "仕返し"
+            ],
+            "audio": "4022.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "メールが返ってくるまで会社にいます。",
+            "translation": "I'll be at the office until an email comes back.",
+            "contexts": [
+                "返る"
+            ],
+            "audio": "4023.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "投げたボールが風で返ってきた。",
+            "translation": "The ball that I threw came back to me with the wind.",
+            "contexts": [
+                "返る"
+            ],
+            "audio": "4024.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "貸したお金がちゃんと返ってくると思ったら大間違いよ。",
+            "translation": "Thinking my money would be returned properly was a huge mistake.",
+            "contexts": [
+                "返る"
+            ],
+            "audio": "4025.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ゴンドラ{1:乗り場}はどこですか？",
+            "translation": "Where is the gondola terminal?",
+            "contexts": [
+                "乗り場"
+            ],
+            "audio": "4026.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今、タクシー{1:乗り場}にいます。",
+            "translation": "I'm at the taxi stand now.",
+            "contexts": [
+                "乗り場"
+            ],
+            "audio": "4027.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今、家の前のバス{1:乗り場}で通り過ぎる車を見ながらダラダラしているよ。",
+            "translation": "At the moment, I’m chilling at the bus stop in front of my house looking at cars passing by.",
+            "contexts": [
+                "乗り場"
+            ],
+            "audio": "4028.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "もう少し、言葉の{1:使い方}に気を付けた方がいいよ。",
+            "translation": "You should be more careful about how you use language.",
+            "contexts": [
+                "使い方"
+            ],
+            "audio": "4029.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "おじいちゃんはスマホやパソコンの{1:使い方}が分からないので、いつも電話をしてきます。",
+            "translation": "Grandpa always calls because he doesn't know how to use his smartphone or computer.",
+            "contexts": [
+                "使い方"
+            ],
+            "audio": "4030.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "エクセルの{1:使い方}？そんなのうちの犬でも知ってるよ。",
+            "translation": "How to use Excel? Even my dog knows that.",
+            "contexts": [
+                "使い方"
+            ],
+            "audio": "4031.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "新しい{1:仕事}を始めてから、まだ三日です。",
+            "translation": "Since I started a new job, it has only been three days.",
+            "contexts": [
+                "仕事"
+            ],
+            "audio": "4032.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今日は六時まで{1:仕事}が終わらないから、それまで近くのカフェにいてね。",
+            "translation": "I won't be able to sign off work until six o'clock today, so stay in a nearby cafe until then.",
+            "contexts": [
+                "仕事"
+            ],
+            "audio": "4033.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "赤ちゃんの{1:仕事}は泣くことです。",
+            "translation": "The baby's job is to cry.",
+            "contexts": [
+                "仕事"
+            ],
+            "audio": "4034.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "私はあなたのことを{1:負け犬}だとは思わないよ。",
+            "translation": "I don't think you're a loser.",
+            "contexts": [
+                "負け犬"
+            ],
+            "audio": "4035.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "こんな生活をしてたら、ずっと人生の{1:負け犬}だよ。",
+            "translation": "If I am living like this, I'll just continue to be a loser in life.",
+            "contexts": [
+                "負け犬"
+            ],
+            "audio": "4036.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:負け犬}と呼ばれるのは、もう嫌なんだよ。",
+            "translation": "I don't want to be called a loser anymore.",
+            "contexts": [
+                "負け犬"
+            ],
+            "audio": "4037.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今日のゲームは日本チームの{1:勝ち}でした。",
+            "translation": "Japan's team won today's game.",
+            "contexts": [
+                "勝ち"
+            ],
+            "audio": "4038.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "キーホールダーがもらえるの早い者{1:勝ち}なんだって。早く行こう！",
+            "translation": "The key chain is first come, first served. Let’s get a move on!",
+            "contexts": [
+                "勝ち"
+            ],
+            "audio": "4039.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あのエースがマウンドに立っていたら、私たちには{1:勝ち}目がないよ。",
+            "translation": "If that ace is on the mound, we don't stand a chance of winning.",
+            "contexts": [
+                "勝ち"
+            ],
+            "audio": "4040.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "コウイチの赤ちゃんの名前が決定したら、すぐにお知らせしますね。",
+            "translation": "Once they've decided on a name for Koichi's baby, I'll let you know right away.",
+            "contexts": [
+                "決定する"
+            ],
+            "audio": "4041.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "コンテストの勝者を決定しました。",
+            "translation": "The winner of the contest has been decided.",
+            "contexts": [
+                "決定する"
+            ],
+            "audio": "4042.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "クソワロタwwwこのテレビ番組クソほど面白いじゃねーかよ。俺の一番好きな番組に決定したわ。",
+            "translation": "ROFL! This TV show is hilarious, man. I’ve decided that this is now my new favorite show.",
+            "contexts": [
+                "決定する"
+            ],
+            "audio": "4043.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "日本には長時間労働に{1:苦しむ}人が多くいます。",
+            "translation": "There are many people who suffer from long hours at work in Japan.",
+            "contexts": [
+                "苦しむ"
+            ],
+            "audio": "4044.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "いじめに苦しみながら学校に行きたくないよ。",
+            "translation": "I don't want to go to school while suffering from bullying.",
+            "contexts": [
+                "苦しむ"
+            ],
+            "audio": "4045.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "なぜ罪のない人が苦しんでいるのか。",
+            "translation": "Why do innocent people suffer?",
+            "contexts": [
+                "苦しむ"
+            ],
+            "audio": "4046.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "その女が自分の母だと{1:気付く}までに時間がかかりました。",
+            "translation": "It took me some time to realize that the woman was my own mother.",
+            "contexts": [
+                "気付く"
+            ],
+            "audio": "4047.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "気づいたらもう学校に行く時間だった。",
+            "translation": "When I noticed, it was already time to go to school.",
+            "contexts": [
+                "気付く"
+            ],
+            "audio": "4048.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あんたが私にアイスクリームをくれるなんて、本当に信じられないよ。あんたがそんなに優しいなんて今まで気付かなかったわ！",
+            "translation": "I can’t believe you gave me your ice cream. I didn’t realize that you were so kind until now.",
+            "contexts": [
+                "気付く"
+            ],
+            "audio": "4049.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:見送る}方と見送られる方、どっちが良い？",
+            "translation": "Which do you like being better? One who sees someone off, or one who is seen off by someone.",
+            "contexts": [
+                "見送る"
+            ],
+            "audio": "4050.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "東京まで見送りに行った。",
+            "translation": "I went to Tokyo to see them off.",
+            "contexts": [
+                "見送る"
+            ],
+            "audio": "4051.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "彼は海外に行くチャンスを見送った。",
+            "translation": "He passed up a chance to go abroad.",
+            "contexts": [
+                "見送る"
+            ],
+            "audio": "4052.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "そこのコンビニは{1:時々}行きます。",
+            "translation": "I go to the convenience store from time to time.",
+            "contexts": [
+                "時々"
+            ],
+            "audio": "4053.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:時々}「コウイチは今何してるかな？」って思うんだよね。",
+            "translation": "Sometimes I wonder what Koichi is doing at the moment.",
+            "contexts": [
+                "時々"
+            ],
+            "audio": "4054.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ご近所とのトラブルは{1:時々}ありました。",
+            "translation": "Sometimes there were problems with my neighbors.",
+            "contexts": [
+                "時々"
+            ],
+            "audio": "4055.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "まずは{1:受付}に行ってください。",
+            "translation": "Please first go to the receptionist.",
+            "contexts": [
+                "受付"
+            ],
+            "audio": "4056.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あそこのジムは{1:受付}スタッフまでマッチョだね。",
+            "translation": "Even the reception staff at that gym are ripped.",
+            "contexts": [
+                "受付"
+            ],
+            "audio": "4057.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:受付}の手続きはもうお済みですか？",
+            "translation": "Have you already checked in at reception?",
+            "contexts": [
+                "受付"
+            ],
+            "audio": "4058.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "スーパーで{1:買い物}をしたばかりです。",
+            "translation": "I've just done the grocery shopping.",
+            "contexts": [
+                "買い物"
+            ],
+            "audio": "4059.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "たまにはデパートに{1:買い物}に行こうよ。",
+            "translation": "Let's go shopping at a department store sometime.",
+            "contexts": [
+                "買い物"
+            ],
+            "audio": "4060.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今日はクリスマスの{1:買い物}に行くの！すごくワクワクするわ！",
+            "translation": "We’re going Christmas shopping today! I’m so excited!",
+            "contexts": [
+                "買い物"
+            ],
+            "audio": "4061.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "セロリが{1:苦手}です。",
+            "translation": "I'm not a big fan of celery.",
+            "contexts": [
+                "苦手"
+            ],
+            "audio": "4062.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あのアイドル、歌が{1:苦手}なのが欠点なんだよな。",
+            "translation": "The drawback about that idol is that she is not a good singer.",
+            "contexts": [
+                "苦手"
+            ],
+            "audio": "4063.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "うちの犬がなんでお前にばっかり吠えるかって？正直言って、お前のことが{1:苦手}なんだよ。",
+            "translation": "Why does my dog ​​bark only at you? To be honest, you are not his favorite.",
+            "contexts": [
+                "苦手"
+            ],
+            "audio": "4064.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "社長交代を{1:求める}メールを送りました。",
+            "translation": "I sent an email asking for the replacement of the company president.",
+            "contexts": [
+                "求める"
+            ],
+            "audio": "4065.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "父は、いつも新しいビジネスアイディアを求めている。",
+            "translation": "My father is always looking for a new business idea.",
+            "contexts": [
+                "求める"
+            ],
+            "audio": "4066.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "漢字を学ぶためのツールを{1:求める}お客さんには、このワニカニってアプリをオススメしてるよ。",
+            "translation": "For customers seeking a tool for learning kanji, I recommend this app called WaniKani.",
+            "contexts": [
+                "求める"
+            ],
+            "audio": "4067.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今日だけで返金を{1:求める}電話が二十回ありました。",
+            "translation": "We had twenty calls asking for a refund just today.",
+            "contexts": [
+                "求める"
+            ],
+            "audio": "4068.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ビエト、今日はちょっと{1:不良}な感じのヘアスタイルだね。",
+            "translation": "Viet's hair style today kind of looks like a delinquent's, don't you think?",
+            "contexts": [
+                "不良"
+            ],
+            "audio": "4069.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:不良}パーツが見つかりました。",
+            "translation": "Malfunctioning parts were found.",
+            "contexts": [
+                "不良"
+            ],
+            "audio": "4070.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あの{1:不良}少女は、急に成績が大幅に下がった後、ギャングの一員になったんです。",
+            "translation": "That delinquent girl’s grades suddenly dropped drastically and then she joined a gang.",
+            "contexts": [
+                "不良"
+            ],
+            "audio": "4071.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "うちの犬は{1:要求}が多い。",
+            "translation": "Our dog has many demands.",
+            "contexts": [
+                "要求"
+            ],
+            "audio": "4072.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "スタッフは社長に工場と人々の安全を{1:要求}した。",
+            "translation": "The staff demanded the president for the safety of the factory and the people.",
+            "contexts": [
+                "要求"
+            ],
+            "audio": "4073.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "学生たちは先生に試験のやり方の見直しを{1:要求}した。",
+            "translation": "The students requested the teacher to review the exam method.",
+            "contexts": [
+                "要求"
+            ],
+            "audio": "4074.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このブランケット、{1:気持ちいい}。",
+            "translation": "This blanket feels really good.",
+            "contexts": [
+                "気持ちいい"
+            ],
+            "audio": "4075.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "家がきれいだと{1:気持ちいい}よね！",
+            "translation": "Doesn't it feel good to have a clean house?",
+            "contexts": [
+                "気持ちいい"
+            ],
+            "audio": "4076.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "マッサージ中、気持ち良すぎてイビキをかいてたみたい。",
+            "translation": "It looks like I felt so comfortable that I was snoring during the massage.",
+            "contexts": [
+                "気持ちいい"
+            ],
+            "audio": "4077.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このサプリ、試して。",
+            "translation": "Try this supplement.",
+            "contexts": [
+                "試す"
+            ],
+            "audio": "4078.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "色々なダイエットを試したけど、どれもダメだったよ。",
+            "translation": "I tried various diets, but none of them worked.",
+            "contexts": [
+                "試す"
+            ],
+            "audio": "4079.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "肘を舐めれるかどうかは分からないけど、試しにやってみるよ。",
+            "translation": "I don’t know if I can lick my elbow, but I’ll give it a try.",
+            "contexts": [
+                "試す"
+            ],
+            "audio": "4080.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この二つの写真を{1:比べる}と、整形したのがハッキリ分かるよ。",
+            "translation": "If you compare these two pictures, you can clearly see that she had plastic surgery.",
+            "contexts": [
+                "比べる"
+            ],
+            "audio": "4081.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "他のテキストと比べてみてから決めたら？",
+            "translation": "Why don't you compare it with other textbooks before you decide?",
+            "contexts": [
+                "比べる"
+            ],
+            "audio": "4082.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "去年と比べてワニカニユーザーの数が減っているんです。どうしましょう？",
+            "translation": "The number of WaniKani users is lower compared to last year. What should we do?",
+            "contexts": [
+                "比べる"
+            ],
+            "audio": "4083.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "それに比べれば、ボクのケースなんてまだマシだよ。",
+            "translation": "Compared to that, my case is still not that bad.",
+            "contexts": [
+                "比べる"
+            ],
+            "audio": "4084.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:入学試験}まで、あと二ヶ月です。",
+            "translation": "Two months are left until the entrance exam.",
+            "contexts": [
+                "入学試験"
+            ],
+            "audio": "4085.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:入学試験}には、たくさんお金がかかった。",
+            "translation": "The entrance examination costs a lot.",
+            "contexts": [
+                "入学試験"
+            ],
+            "audio": "4086.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ええっ！{1:入学試験}に落ちちゃったの？",
+            "translation": "What! She’s failed the entrance exam?",
+            "contexts": [
+                "入学試験"
+            ],
+            "audio": "4087.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あなた弟と妹がいるの？{1:意外}だね。",
+            "translation": "Oh, you have a brother and a sister. That's unexpected.",
+            "contexts": [
+                "意外"
+            ],
+            "audio": "4088.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:意外}と体重は落ちてた。",
+            "translation": "Unexpectedly, my weight has dropped.",
+            "contexts": [
+                "意外"
+            ],
+            "audio": "4089.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ゆですぎの柔らかいパスタを好んで食べるのは、カナダの{1:意外}な文化でした。",
+            "translation": "Liking soft pasta that's been cooked too long was an unexpected aspect of Canadian culture.",
+            "contexts": [
+                "意外"
+            ],
+            "audio": "4090.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あの人、{1:誰}かな？",
+            "translation": "Who is that person?",
+            "contexts": [
+                "誰"
+            ],
+            "audio": "4091.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "次は{1:誰}の番？",
+            "translation": "Whose turn is it next?",
+            "contexts": [
+                "誰"
+            ],
+            "audio": "4092.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "え、それ、{1:誰}が言ったの？",
+            "translation": "Oh, who said that?",
+            "contexts": [
+                "誰"
+            ],
+            "audio": "4093.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "「彼女は{1:誰}かしら。」「名前を知らないの？クラスであなたの後ろに座っているよ！」",
+            "translation": "\"I wonder who that girl is.\" \"You don’t know her name? She sits behind you in class!\"",
+            "contexts": [
+                "誰"
+            ],
+            "audio": "4094.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このスプーンはケース付きですよ。",
+            "translation": "These spoons come with a case.",
+            "contexts": [
+                "〜付き"
+            ],
+            "audio": "4095.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この辺にプール付きのホテルはありますか？",
+            "translation": "Is there a hotel with a pool around here?",
+            "contexts": [
+                "〜付き"
+            ],
+            "audio": "4096.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この部屋は冷蔵庫、洗濯機付きです。",
+            "translation": "This room is furnished with a refrigerator and a washing machine.",
+            "contexts": [
+                "〜付き"
+            ],
+            "audio": "4097.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "トーフグだけは、{1:味方}してくれると思ってたんだけどな。",
+            "translation": "I thought that at least Tofugu would support me.",
+            "contexts": [
+                "味方"
+            ],
+            "audio": "4098.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "お父さんは、お姉ちゃんの{1:味方}のフリをするが、いつでも私の{1:味方}だ。",
+            "translation": "Dad pretends to be my big sister's ally, but he's actually always on my side.",
+            "contexts": [
+                "味方"
+            ],
+            "audio": "4099.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "お前は一体どっちの{1:味方}なんだ？",
+            "translation": "Who the heck are your allies?",
+            "contexts": [
+                "味方"
+            ],
+            "audio": "4100.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "年末ジャンボ宝くじはまだ{1:発売中}ですか？",
+            "translation": "Is the Year-End Jumbo Draw Lottery still for sale?",
+            "contexts": [
+                "発売中"
+            ],
+            "audio": "4101.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このアイスは全国のコンビニで{1:発売中}です。",
+            "translation": "This ice-cream is on sale at convenience stores nationwide.",
+            "contexts": [
+                "発売中"
+            ],
+            "audio": "4102.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "少年ジャンプ６月号、ただ今絶賛{1:発売中}。",
+            "translation": "The June issue of Shonen Jump is now on sale, to critical acclaim.",
+            "contexts": [
+                "発売中"
+            ],
+            "audio": "4103.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "安田さんは、{1:食べ物}をおねがいします。",
+            "translation": "Please bring some food, Ms. Yasuda.",
+            "contexts": [
+                "食べ物"
+            ],
+            "audio": "4104.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "これは本当に{1:食べ物}ですか？石みたいですが。",
+            "translation": "Is this really food? It looks like a stone.",
+            "contexts": [
+                "食べ物"
+            ],
+            "audio": "4105.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:食べ物}を粗末にするとバチが当たりますよ。",
+            "translation": "When you waste food, heaven will punish you.",
+            "contexts": [
+                "食べ物"
+            ],
+            "audio": "4106.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今日の{1:波}、すごく高いね。",
+            "translation": "Today's waves are very high, aren't they?",
+            "contexts": [
+                "波"
+            ],
+            "audio": "4107.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "サーファーにとっては最高の{1:波}だよ。",
+            "translation": "Those are the best waves for surfers.",
+            "contexts": [
+                "波"
+            ],
+            "audio": "4108.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今日の海、{1:波}が全然なくて静かだね。",
+            "translation": "The ocean today is quiet and has no waves at all.",
+            "contexts": [
+                "波"
+            ],
+            "audio": "4109.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "大きすぎず、小さすぎず、本当に{1:丁度いい}サイズです。",
+            "translation": "It's not too big or too small. It's just the right size.",
+            "contexts": [
+                "丁度いい"
+            ],
+            "audio": "4110.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あっ、{1:丁度いい}所に来たね！",
+            "translation": "Oh, you came at the right time!",
+            "contexts": [
+                "丁度いい"
+            ],
+            "audio": "4111.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このぐらいの温度が{1:丁度いい}ですね。",
+            "translation": "This temperature is just right.",
+            "contexts": [
+                "丁度いい"
+            ],
+            "audio": "4112.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "アメリカに行ったら高い日本語力を保持できるか不安です。",
+            "translation": "I am worried about keeping a high fluency in Japanese if I go to America.",
+            "contexts": [
+                "保持する"
+            ],
+            "audio": "4113.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このクオリティを{1:保持する}のは中々すごいことなんですよ。",
+            "translation": "It is quite impressive to maintain this quality.",
+            "contexts": [
+                "保持する"
+            ],
+            "audio": "4114.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "自国の地位を{1:保持する}ことをまず優先した方がいい。",
+            "translation": "You should prioritize maintaining your own country’s status first.",
+            "contexts": [
+                "保持する"
+            ],
+            "audio": "4115.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "えっ、東京から北海道まで毎日通ってるの？",
+            "translation": "What, are you commuting from Tokyo to Hokkaido every day?",
+            "contexts": [
+                "通う"
+            ],
+            "audio": "4116.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "コウイチは、会社までハーレーで通っています。",
+            "translation": "Koichi goes to the company by Harley.",
+            "contexts": [
+                "通う"
+            ],
+            "audio": "4117.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "私の妹は、四月からトーフグ学園に{1:通う}ことになります。",
+            "translation": "My younger sister will attend Tofugu Academy starting in April.",
+            "contexts": [
+                "通う"
+            ],
+            "audio": "4118.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "中学の時は、バレーボール部でした。",
+            "translation": "I belonged to a volleyball club back in junior high school.",
+            "contexts": [
+                "〜部"
+            ],
+            "audio": "4119.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あそこの会社のデジタルソリューション部に入ったばかりなんです。",
+            "translation": "I just joined the digital solution department at the company.",
+            "contexts": [
+                "〜部"
+            ],
+            "audio": "4120.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "経理部の部長をしています。",
+            "translation": "I’m the head of the accounting department.",
+            "contexts": [
+                "〜部"
+            ],
+            "audio": "4121.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "今日、{1:屋上}でバーベキューをします。",
+            "translation": "We're doing a rooftop barbecue today.",
+            "contexts": [
+                "屋上"
+            ],
+            "audio": "4122.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このビルの{1:屋上}ではトマトを育てています。",
+            "translation": "We grow tomatoes on the rooftop of this building.",
+            "contexts": [
+                "屋上"
+            ],
+            "audio": "4123.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:屋上}では、昼は洗濯物を干したり、夜は星を見たりするんです。",
+            "translation": "On the rooftop, we dry our laundry during the day and see the stars at night.",
+            "contexts": [
+                "屋上"
+            ],
+            "audio": "4124.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "もしもの時のためにキャンドルとライターを{1:用意}しました。",
+            "translation": "I got candles and a lighter ready in case of an emergency.",
+            "contexts": [
+                "用意"
+            ],
+            "audio": "4125.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "明日の学校の{1:用意}はもう出来た？",
+            "translation": "Are you done getting things ready for school tomorrow?",
+            "contexts": [
+                "用意"
+            ],
+            "audio": "4126.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "出所祝いの鍋パーティーの{1:用意}は全てこちらで致しますので、あなたは保釈金の{1:用意}をお願いします。",
+            "translation": "We will do all the nabe party arrangements to celebrate the release from jail, so please take care of making arrangements for bail on your side.",
+            "contexts": [
+                "用意"
+            ],
+            "audio": "4127.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "毎日の生活にヨガは欠かせません。",
+            "translation": "I can't miss yoga in my daily life.",
+            "contexts": [
+                "欠かす"
+            ],
+            "audio": "4128.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このチームの仲間は一人も{1:欠かす}ことができないくらい大切だ。",
+            "translation": "Each member of the team is indispensable and important.",
+            "contexts": [
+                "欠かす"
+            ],
+            "audio": "4129.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "私の生活に、携帯電話を{1:欠かす}ことはできない。",
+            "translation": "I cannot live without my cell phone.",
+            "contexts": [
+                "欠かす"
+            ],
+            "audio": "4130.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "昔の町を{1:見物}するのが楽しみです。",
+            "translation": "I'm looking forward to seeing the old town.",
+            "contexts": [
+                "見物"
+            ],
+            "audio": "4131.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "クリスマスパレードを{1:見物}しにきた人々で町がいっぱいです。",
+            "translation": "The town is full of people who came to see the Christmas parade.",
+            "contexts": [
+                "見物"
+            ],
+            "audio": "4132.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "母ちゃんなら、東京{1:見物}に出かけたぜ。",
+            "translation": "Mom would have gone sightseeing in Tokyo.",
+            "contexts": [
+                "見物"
+            ],
+            "audio": "4133.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "こうなることは分かっていたので、{1:予め}用意しておきました。",
+            "translation": "I knew it would happen, so I prepared ahead of time.",
+            "contexts": [
+                "予め"
+            ],
+            "audio": "4134.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:予め}フライト前日にオンラインでチェックインしておきました。",
+            "translation": "I checked in online on the day before the flight.",
+            "contexts": [
+                "予め"
+            ],
+            "audio": "4135.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:予め}予習しておいた甲斐がありました。",
+            "translation": "Preparing the lesson in advance was worthwhile.",
+            "contexts": [
+                "予め"
+            ],
+            "audio": "4136.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:平仮名}は読めますか？",
+            "translation": "Can you read hiragana?",
+            "contexts": [
+                "平仮名"
+            ],
+            "audio": "4137.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "うちの子には{1:平仮名}の名前をつけたいんです。",
+            "translation": "I want to name my child with hiragana.",
+            "contexts": [
+                "平仮名"
+            ],
+            "audio": "4138.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このチョコレートを食べると{1:平仮名}を全部おぼえることができますよ。",
+            "translation": "If you eat this chocolate, you can memorize all of the hiragana.",
+            "contexts": [
+                "平仮名"
+            ],
+            "audio": "4139.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この子は{1:文字通り}「天才」だ。",
+            "translation": "This child is literally a genius.",
+            "contexts": [
+                "文字通り"
+            ],
+            "audio": "4140.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "目と玉という漢字の{1:文字通り}、目玉は「eye ball」という意味です。",
+            "translation": "With the kanji 目 and 玉, 目玉 literally means \"eye ball.\"",
+            "contexts": [
+                "文字通り"
+            ],
+            "audio": "4141.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ツンデレとは、{1:文字通り}「人前ではツンツンしているけど二人の時はデレデレすること」です。",
+            "translation": "\"Tsundere\" literally means, \"acting cold in public but acting lovestruck in private\".",
+            "contexts": [
+                "文字通り"
+            ],
+            "audio": "4142.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ワニカニの使い方の{1:初歩}を教えるビデオを作りました。",
+            "translation": "We made a video to teach you the ABCs of how to use WaniKani.",
+            "contexts": [
+                "初歩"
+            ],
+            "audio": "4143.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "父は、このゲームの{1:初歩}をおしえてくれました。",
+            "translation": "My father taught me the basics of this game.",
+            "contexts": [
+                "初歩"
+            ],
+            "audio": "4144.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "フランス語を{1:初歩}から学び始めました。",
+            "translation": "I’m starting to study the basics of French.",
+            "contexts": [
+                "初歩"
+            ],
+            "audio": "4145.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "レベルアップすると、{1:新た}なステージに行くことができますよ。",
+            "translation": "You will be able to go to a new stage when you level up.",
+            "contexts": [
+                "新た"
+            ],
+            "audio": "4146.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "九月は自分にとって{1:新た}なスタートになりそうな気がする。",
+            "translation": "I have a feeling that September will be a new beginning for me.",
+            "contexts": [
+                "新た"
+            ],
+            "audio": "4147.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この小説は、読み返す度に{1:新た}な発見がある。",
+            "translation": "Every time I reread this novel I make a new discovery.",
+            "contexts": [
+                "新た"
+            ],
+            "audio": "4148.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:西洋}の国にはまだ行ったことがないんです。",
+            "translation": "I haven't been to any western countries yet.",
+            "contexts": [
+                "西洋"
+            ],
+            "audio": "4149.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ハグは{1:西洋}の文化だと言えるでしょう。",
+            "translation": "We could say hugging is a part of Western culture.",
+            "contexts": [
+                "西洋"
+            ],
+            "audio": "4150.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:西洋}人は家の中で靴を履いて過ごすんですか？",
+            "translation": "Do Westerners spend their time in shoes at their homes?",
+            "contexts": [
+                "西洋"
+            ],
+            "audio": "4151.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この正方形の{1:辺}の長さは、それぞれ四センチです。",
+            "translation": "The length of each side of this square is four centimeters.",
+            "contexts": [
+                "辺"
+            ],
+            "audio": "4152.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この三角形の{1:辺}の長さをモノサシではかってみてください。",
+            "translation": "Please measure the lengths of the sides of this triangle with a ruler.",
+            "contexts": [
+                "辺"
+            ],
+            "audio": "4153.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "これは二等{1:辺}三角形です。",
+            "translation": "This is an isosceles triangle.",
+            "contexts": [
+                "辺"
+            ],
+            "audio": "4154.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "コウイチが、{1:別}の女と歩いているところを見たの。",
+            "translation": "I saw Koichi walking with a different girl.",
+            "contexts": [
+                "別"
+            ],
+            "audio": "4155.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "それとこれとは話が{1:別}だろう。",
+            "translation": "This and that are two different stories.",
+            "contexts": [
+                "別"
+            ],
+            "audio": "4156.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "その場合は{1:別}として、このやり方で男女を{1:別}にするのは通常問題ありません。",
+            "translation": "Aside from that case, it's usually okay to separate the sexes in this way.",
+            "contexts": [
+                "別"
+            ],
+            "audio": "4157.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "何事もポジティブな{1:心持ち}が大切だよね。",
+            "translation": "Keeping positive feelings is important for anything.",
+            "contexts": [
+                "心持ち"
+            ],
+            "audio": "4158.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このカレー、一人分にしては{1:心持ち}多くない？",
+            "translation": "Isn't this curry kind of too much for one person?",
+            "contexts": [
+                "心持ち"
+            ],
+            "audio": "4159.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あの子は、{1:心持ち}のよい素直な子です。",
+            "translation": "He is a pleasant, honest kid.",
+            "contexts": [
+                "心持ち"
+            ],
+            "audio": "4160.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "これは日本の{1:昔話}ですか。",
+            "translation": "Is this a Japanese folk tale?",
+            "contexts": [
+                "昔話"
+            ],
+            "audio": "4161.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "まるで{1:昔話}の中に出てくるプリンセスみたいね。",
+            "translation": "You're like a princess that appears in an old tale.",
+            "contexts": [
+                "昔話"
+            ],
+            "audio": "4162.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "バス待合所でバスを待ちながら、{1:昔話}の絵本を子どもに読み聞かせた。",
+            "translation": "While waiting for a bus in the bus shelter, I read a folk tale picture book for my child.",
+            "contexts": [
+                "昔話"
+            ],
+            "audio": "4163.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:見事}な木ですね。",
+            "translation": "That's a splendid tree.",
+            "contexts": [
+                "見事"
+            ],
+            "audio": "4164.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "お{1:見事}！いやー、実に{1:見事}なシュートだった！",
+            "translation": "Splendid! Wow, that was such a beautiful shot!",
+            "contexts": [
+                "見事"
+            ],
+            "audio": "4165.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "気持ちいいぐらい{1:見事}にフラれたよ。",
+            "translation": "I was rejected so magnificently that it almost felt good.",
+            "contexts": [
+                "見事"
+            ],
+            "audio": "4166.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "私の兄は、{1:足し算}が上手で早いです。",
+            "translation": "My brother is good and fast at adding.",
+            "contexts": [
+                "足し算"
+            ],
+            "audio": "4167.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この{1:足し算}の答えは正しくありません。",
+            "translation": "The answer to this addition is incorrect.",
+            "contexts": [
+                "足し算"
+            ],
+            "audio": "4168.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "次回の数学のクラスで{1:足し算}のテストがあります。",
+            "translation": "There will be a test for additions in the next math class.",
+            "contexts": [
+                "足し算"
+            ],
+            "audio": "4169.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "もちろん、わたしは{1:引き算}ができます！",
+            "translation": "Of course I can do subtraction!",
+            "contexts": [
+                "引き算"
+            ],
+            "audio": "4170.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "{1:引き算}は、たとえば「六から二を引いて、答えが四」ということです。",
+            "translation": "A subtraction, for example, is \"subtracting two from six equals four.\"",
+            "contexts": [
+                "引き算"
+            ],
+            "audio": "4171.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "小学校三年生レベルの{1:引き算}なのに、答えがどうしても分からない。",
+            "translation": "Although it is a elementary school third grade level subtraction problem, I still can't figure out the answer.",
+            "contexts": [
+                "引き算"
+            ],
+            "audio": "4172.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "学校で{1:生物学}のクラスが一番楽しいです。",
+            "translation": "I enjoy biology classes the most at school.",
+            "contexts": [
+                "生物学"
+            ],
+            "audio": "4173.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "川田さんは{1:生物学}の学者さんです。",
+            "translation": "Mr. Kawada is a biology scholar.",
+            "contexts": [
+                "生物学"
+            ],
+            "audio": "4174.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "デザイナーになりたいなら、{1:生物学}も学んだ方がいい。",
+            "translation": "If you want to become a designer, you should also study biology.",
+            "contexts": [
+                "生物学"
+            ],
+            "audio": "4175.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "あの投手の{1:伝記}、読んだ？",
+            "translation": "Have you read the pitcher's life story?",
+            "contexts": [
+                "伝記"
+            ],
+            "audio": "4176.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "その作家の{1:伝記}に書かれていたことは、とても意外だった。",
+            "translation": "The stuff that was written in the writer's biography was very surprising.",
+            "contexts": [
+                "伝記"
+            ],
+            "audio": "4177.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "まあ、そう思うのは、最近読んだ{1:伝記}の影響かもしれません。",
+            "translation": "Well, I think I might feel like this because I was influenced by a biography I read recently.",
+            "contexts": [
+                "伝記"
+            ],
+            "audio": "4178.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "石を転がした。",
+            "translation": "I rolled a stone.",
+            "contexts": [
+                "転がす"
+            ],
+            "audio": "4179.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "ちょうどサイコロを転がした時、電話が来た。",
+            "translation": "Just when I just rolled the dice, the phone rung.",
+            "contexts": [
+                "転がす"
+            ],
+            "audio": "4180.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "Dung beetleは、フンを{1:転がす}ことから「フンコロガシ」と言います。",
+            "translation": "Dung beetles are called “poop rollers” because they roll poop.",
+            "contexts": [
+                "転がす"
+            ],
+            "audio": "4181.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "どうぞ、インタビューを進めて下さい。",
+            "translation": "Please continue your interview.",
+            "contexts": [
+                "進める"
+            ],
+            "audio": "4182.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "この雪じゃ、これ以上工事を進められないよ。",
+            "translation": "With this snow, we can't move the construction forward anymore.",
+            "contexts": [
+                "進める"
+            ],
+            "audio": "4183.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "このペースで作業を進めてください。",
+            "translation": "Please move your work forward at the current pace.",
+            "contexts": [
+                "進める"
+            ],
+            "audio": "4184.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "バナナだけの食事はバランスを欠いていると思いますよ。",
+            "translation": "I think your banana-only diet lacks balance.",
+            "contexts": [
+                "欠く"
+            ],
+            "audio": "4185.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "生の魚は、買った三日後には、どうしてもフレッシュさを欠きますね。",
+            "translation": "Raw fish can't help but lack freshness three days after purchase.",
+            "contexts": [
+                "欠く"
+            ],
+            "audio": "4186.mp3",
+            "level": "5",
+            "attribution": "WaniKani",
+            "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "インターネットは私たちの生活に{1:欠く}ことのできないサービスだ。",
+            "translation": "The internet is an indispensable service in our lives.",
+            "contexts": [
+                "欠く"
+            ],
+            "audio": "4187.mp3",
             "level": "5",
             "attribution": "WaniKani",
             "attrurl": "https://www.wanikani.com/"
