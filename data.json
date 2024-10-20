@@ -1,6 +1,6 @@
 {
     "version": "0.3",
-    "timestamp": "2024-09-12T08:55:07.669653+00:00",
+    "timestamp": "2024-10-20T00:49:15.336505+00:00",
     "sentences": [
         {
             "sentence": "仕事は辛い{1:けど}{2:楽しい}。",
@@ -7061,7 +7061,7 @@
             "attrurl": "https://www.wanikani.com/"
         },
         {
-            "sentence": "マイケルは一人でカラオケに入った。",
+            "sentence": "マイケルは一人でカラオケに{1:入った}。",
             "translation": "Michael went into karaoke alone.",
             "contexts": [
                 "入る"
@@ -46278,6 +46278,226 @@
             "level": "5",
             "attribution": "WaniKani",
             "attrurl": "https://www.wanikani.com/"
+        },
+        {
+            "sentence": "仕事をし{1:なければならない}",
+            "translation": "I must do my work.",
+            "contexts": [
+                "なければならない"
+            ],
+            "audio": "4188.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%91%E3%82%8C%E3%81%B0%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84"
+        },
+        {
+            "sentence": "先輩が部屋に入って来たら立って挨拶をし{1:なければならない}。",
+            "translation": "If your senpai comes into the room, you must stand and greet them.",
+            "contexts": [
+                "なければならない"
+            ],
+            "audio": "4189.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%91%E3%82%8C%E3%81%B0%E3%81%AA%E3%82%89%E3%81%AA%E3%81%85"
+        },
+        {
+            "sentence": "今日も帰りが遅くなったら妻に怒られるから、もうすぐ帰ら{1:なきゃ}。",
+            "translation": "My wife is going to scold me if I come home late today too, so I have to go home soon.",
+            "contexts": [
+                "なければならない"
+            ],
+            "audio": "4190.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%91%E3%82%8C%E3%81%B0%E3%81%AA%E3%82%89%E3%81%AA%E3%81%86"
+        },
+        {
+            "sentence": "今日は家事をやら{1:なきゃならない}から出かけられない。",
+            "translation": "I have to do some chores today, so I can't go out.",
+            "contexts": [
+                "なければならない"
+            ],
+            "audio": "4191.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%91%E3%82%8C%E3%81%B0%E3%81%AA%E3%82%89%E3%81%AA%E3%81%87"
+        },
+        {
+            "sentence": "先生の話を聞か{1:なければならない}よ。",
+            "translation": "You have to listen to the teacher (talk).",
+            "contexts": [
+                "なければならない"
+            ],
+            "audio": "4192.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%91%E3%82%8C%E3%81%B0%E3%81%AA%E3%82%89%E3%81%AA%E3%81%88"
+        },
+        {
+            "sentence": "髪の毛が長いから、切ら{1:なければならない}。",
+            "translation": "My hair is long, so I have to cut it.",
+            "contexts": [
+                "なければならない"
+            ],
+            "audio": "4193.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%91%E3%82%8C%E3%81%B0%E3%81%AA%E3%82%89%E3%81%AA%E3%81%89"
+        },
+        {
+            "sentence": "飛行機に乗りたいなら、空港に行か{1:なければならない}。",
+            "translation": "If you want to ride an airplane, you have to go to the airport.",
+            "contexts": [
+                "なければならない"
+            ],
+            "audio": "4194.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%91%E3%82%8C%E3%81%B0%E3%81%AA%E3%82%89%E3%81%AA%E3%81%90"
+        },
+        {
+            "sentence": "新しいノートを買わ{1:なければならない}かもしれない。",
+            "translation": "I might have to buy a new notebook.",
+            "contexts": [
+                "なければならない"
+            ],
+            "audio": "4195.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%91%E3%82%8C%E3%81%B0%E3%81%AA%E3%82%89%E3%81%AA%E3%81%91"
+        },
+        {
+            "sentence": "日本語が上手になりたいから、勉強をし{1:なければならない}。",
+            "translation": "I want to become proficient in Japanese, so I have to study.",
+            "contexts": [
+                "なければならない"
+            ],
+            "audio": "4196.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%81%AA%E3%81%91%E3%82%8C%E3%81%B0%E3%81%AA%E3%82%89%E3%81%AA%E3%81%92"
+        },
+        {
+            "sentence": "毎日、漢字の練習をすれば綺麗に漢字を書{1:けるようになります}。",
+            "translation": "If you practice kanji everyday, you will reach the point where you can write them neatly.",
+            "contexts": [
+                "けるようになります"
+            ],
+            "audio": "4197.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8B"
+        },
+        {
+            "sentence": "早く走れる{1:ようになり}たい。",
+            "translation": "I want to reach the point where I can run faster.",
+            "contexts": [
+                "けるようになります"
+            ],
+            "audio": "4198.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8B"
+        },
+        {
+            "sentence": "髪を綺麗にカット出来る{1:ようになる}のが夢です。",
+            "translation": "It is my dream to reach the point where I can cut my hair nicely.",
+            "contexts": [
+                "けるようになります"
+            ],
+            "audio": "4199.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8B"
+        },
+        {
+            "sentence": "自分から行動が出来る{1:ようになって}ください。",
+            "translation": "Please turn into someone who can act on their own. (Please become more self sufficient)",
+            "contexts": [
+                "けるようになります"
+            ],
+            "audio": "4200.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8B"
+        },
+        {
+            "sentence": "来年から現金が使えない{1:ようになる}。",
+            "translation": "From next year, it will reach the point where you will not be able to use cash.",
+            "contexts": [
+                "けるようになります"
+            ],
+            "audio": "4201.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8B"
+        },
+        {
+            "sentence": "来月から会社で喫煙できない{1:ようになり}ます。",
+            "translation": "Starting next month, it will reach the point where you will not be able to smoke at the company.",
+            "contexts": [
+                "けるようになります"
+            ],
+            "audio": "4202.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8B"
+        },
+        {
+            "sentence": "料理ができる{1:ようになり}たい。",
+            "translation": "I want to reach a point where I can cook.",
+            "contexts": [
+                "けるようになります"
+            ],
+            "audio": "4203.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8B"
+        },
+        {
+            "sentence": "泳げる{1:ようになった}。",
+            "translation": "I reached the point that I was able to swim.",
+            "contexts": [
+                "けるようになります"
+            ],
+            "audio": "4204.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8B"
+        },
+        {
+            "sentence": "理解出来る{1:ようになった}。",
+            "translation": "I reached the point that I could understand.",
+            "contexts": [
+                "けるようになります"
+            ],
+            "audio": "4205.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8B"
+        },
+        {
+            "sentence": "100mを10秒で走れる{1:ようになった}。",
+            "translation": "I reached the point that I could run 100 meters in 10 seconds.",
+            "contexts": [
+                "けるようになります"
+            ],
+            "audio": "4206.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8B"
+        },
+        {
+            "sentence": "そうする{1:ようになった}が、もうそうしたくない。",
+            "translation": "I reached the point that I would do it, but I don't want to anymore.",
+            "contexts": [
+                "けるようになります"
+            ],
+            "audio": "4207.mp3",
+            "level": "4",
+            "attribution": "BunPro",
+            "attrurl": "https://bunpro.jp/grammar_points/%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8B"
         }
     ]
 }
