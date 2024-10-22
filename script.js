@@ -1,14 +1,52 @@
 document.addEventListener('DOMContentLoaded', async () => {
 
+    // Define SRS intervals in milliseconds
+    const kHour = 60 * 60 * 1000;
+    const kDay = 24 * kHour;
+    const srsIntervals = [
+        0,         // Level 0: Immediate review
+        1 * kHour, // Level 1: 1 hour
+        12 * kHour,// Level 2: 12 hours
+        1 * kDay,  // Level 3: 1 day
+        3 * kDay,  // Level 4: 3 days
+        7 * kDay,  // Level 5: 7 days
+        14 * kDay, // Level 6: 14 days
+        30 * kDay, // Level 7: 30 days
+        90 * kDay  // Burned
+    ];
+
     let AppData = {
-        mode: "Grammar",
+        // High-level data
         sentences: [],          // Core data sentences
         contexts: new Map(),    // Categorized sentences by concept
+        progessData: new Map(), // Map to store progress data, index of word to SRS level
+
+        // Question data
         pendingQuestion: [],    // Queue of sentence indices to use for questions
         currentSentence: -1,    // Index of the current sentence
         answerDiv: null,        // Reference to the answer div
         answer: "",
-        filter: null
+
+        // Learning progress
+        newSentencesPerDay: 10, // Number of new sentences to learn per day
+        numLearned: 0,          // Number of sentences learned today
+
+        // Filter data
+        filter: null,
+    }
+    // Load SRS data from local storage when the application starts
+    function loadSrsData() {
+        const data = localStorage.getItem('srsData');
+        if (data) {
+            AppData.progessData = JSON.parse(data);
+        } else {
+            AppData.progressData = {};
+        }
+    }
+
+    // Save SRS data to local storage whenever it's updated
+    function saveSrsData() {
+        localStorage.setItem('srsData', JSON.stringify(AppData.progessData));
     }
 
     function highlightSentence(sentence, contexts, targetIndex) {
@@ -59,6 +97,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // Prep the data
             categorizeData(AppData.sentences);
+            loadSrsData();
             queueAvailableQuestions();
         } catch (error) {
             console.error('There was a problem with the fetch operation:', error);
@@ -96,7 +135,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         AppData.pendingQuestion = shuffleArray(sentencePool);
-        console.log(AppData.pendingQuestion);
+        console.log('Sentences: %d', AppData.pendingQuestion.length);
     }
 
     // Play the audio for the word
@@ -160,9 +199,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         playAudio(audioUrl, true);
     }
 
+    function getNextSentence() {
+        return AppData.pendingQuestion.pop();
+    }
+
     function showNextQuestion() {
         // Grab the next question
-        AppData.currentSentence = AppData.pendingQuestion.pop();
+        AppData.currentSentence = getNextSentence();
 
         // Set up for the question
         const contexts = AppData.sentences[AppData.currentSentence].contexts;
@@ -207,6 +250,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Show the sentence
         exampleSentence.style.display = 'block';
         showSentenceButton.style.display = 'none';
+    }
+
+    function markCorrect() {
+    }
+
+    function markMissed() {
     }
 
     function setReady() {
