@@ -132,10 +132,18 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const sentence = AppData.sentences[index];
                 return filters.some(filter => sentence.contexts.includes(filter));
             });
+
+            // If we have a bad filter, hide the options and return
+            if (sentencePool.length === 0) {
+                disableContent();
+            } 
         }
 
         AppData.pendingQuestion = shuffleArray(sentencePool);
         console.log('Sentences: %d', AppData.pendingQuestion.length);
+        if (AppData.pendingQuestion.length !== 0) {
+            enableContent();
+        }
     }
 
     // Play the audio for the word
@@ -204,6 +212,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function showNextQuestion() {
+        if (AppData.pendingQuestion.length === 0)
+            return;
+
         // Grab the next question
         AppData.currentSentence = getNextSentence();
 
@@ -271,6 +282,18 @@ document.addEventListener('DOMContentLoaded', async () => {
         showNextQuestion();
     }
 
+    function enableContent() {
+        // Hide the main page content
+        questionContent.style.display = 'block';
+        noSentencesNotice.style.display = 'none';
+    }
+
+    function disableContent() {
+        // Hide the main page content
+        questionContent.style.display = 'none';
+        noSentencesNotice.style.display = 'block';
+    }
+
     function showBlinder() {
         blinder.style.display = 'block';
     }
@@ -300,6 +323,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     const attributionLink = document.getElementById('attribution-link');
     const blinder = document.getElementById('blinder');
     const filterInput = document.getElementById('input-filter');
+    const questionContent = document.getElementById('question-container');
+    const noSentencesNotice = document.getElementById('no-sentences');
+
 
     try {
         // Replay the audio

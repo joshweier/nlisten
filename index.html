@@ -17,25 +17,30 @@
         <div class="container" id="main-content">
             <main>
                 <div id="filter">
-                    <!-- <input type="text" id="input-filter" placeholder="Filter"> -->
+                    <input type="text" id="input-filter" placeholder="Filter">
                 </div>
-                <div class="play-button-container">
-                    <span id="play-audio" class="material-symbols-outlined font-large">
-                        play_circle
-                    </span>
+                <div id="no-sentences" style="display: none;">
+                    <div class="error">No sentences found!</div>
                 </div>
-                <br>
-                <div id="show-sentence">
-                    <span class="material-symbols-outlined font-medium">
-                        chat
-                    </span>
+                <div id="question-container">
+                    <div class="play-button-container">
+                        <span id="play-audio" class="material-symbols-outlined font-large">
+                            play_circle
+                        </span>
+                    </div>
+                    <br>
+                    <div id="show-sentence">
+                        <span class="material-symbols-outlined font-medium">
+                            chat
+                        </span>
+                    </div>
+                    <div id="example-sentence" class="example-sentence" style="display: none;"></div>
+                    <div id="answer-container" class="container" style="display: none;">
+                        <div id="answers"></div>
+                        <div id="blinder"></div>
+                    </div>
+                    <button id="next" class="button" disabled>Next</button>
                 </div>
-                <div id="example-sentence" class="example-sentence" style="display: none;"></div>
-                <div id="answer-container" class="container" style="display: none;">
-                    <div id="answers"></div>
-                    <div id="blinder"></div>
-                </div>
-                <button id="next" class="button" disabled>Next</button>
             </main>
         </div>
         <div id="attribution">
