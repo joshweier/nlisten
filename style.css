@@ -10,6 +10,8 @@ body {
 input {
   width: calc(100% - 20px);
   padding: 10px;
+  width: 100%; /* Input field takes up full width of the wrapper */
+  box-sizing: border-box; /* Ensures padding doesn’t affect total width */
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 24px;
@@ -17,6 +19,7 @@ input {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
+  border-radius: 8px;
 }
 
 input::placeholder {
@@ -54,6 +57,17 @@ input::placeholder {
     font-weight: bold;
     color: rgba(64, 64, 255, 1.0);
     margin-top: 200px;
+}
+
+#numFiltered {
+    color: rgba(64, 64, 64, 1.0);
+    justify-content: center;
+    align-items: top;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    font-size: 85%;
 }
 
 #start-button {
@@ -234,6 +248,10 @@ main {
     font-size: 45px !important;
 }
 
+.font-small {
+    font-size: 30px !important;
+}
+
 #play-audio.disabled {
     cursor: not-allowed;
     opacity: 0.25;
@@ -270,6 +288,7 @@ main {
 .highlight {
     color: rgba(64, 64, 255, 1.0);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 
 .error {
@@ -277,4 +296,25 @@ main {
     font-weight: bold;
     color: rgba(64, 64, 255, 1.0);
     margin-top: 50px;
+}
+
+#clear-filter {
+    position: absolute;
+    right: 10px; 
+    top: calc(50% - 8px);
+    transform: translateY(-50%); 
+}
+
+#clear-filter.disabled {
+    color: rgba(64,64,64,0.25);
+    cursor: default;
+}
+
+#filter {
+    position: relative;
+    width: 100%;
+}
+
+#question-container {
+    margin-top: 30px;
 }

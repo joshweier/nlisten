@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Question data
         pendingQuestion: [],    // Queue of sentence indices to use for questions
-        currentSentence: -1,    // Index of the current sentence
+        currentSentenceId: -1,    // Index of the current sentence
         answerDiv: null,        // Reference to the answer div
         answer: "",
 
@@ -169,11 +169,21 @@ document.addEventListener('DOMContentLoaded', async () => {
         };
     }
 
-    function handleInputChange(event) {
-        AppData.filter = event.target.value;
+    function clearFilter() {
+        filterInput.value = null;
+        setFilter(null);
+    }
+
+    function setFilter(value) {
+        AppData.filter = value;
         queueAvailableQuestions();
         setReady();
     }
+
+    function handleInputChange(event) {
+        setFilter(event.target.value);
+    }
+
     // Handle the enter key
     function handleKeyDown(event) {
         // Ignore key overrides if we're typing something
@@ -203,26 +213,37 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
 
         // Play the audio
-        const audioUrl = AppData.sentences[AppData.currentSentence].audio;
+        const audioUrl = AppData.sentences[AppData.currentSentenceId].audio;
         playAudio(audioUrl, true);
     }
 
     function getNextSentence() {
+        if (AppData.pendingQuestion.length === 0) {
+            queueAvailableQuestions();
+        }
+
         return AppData.pendingQuestion.pop();
     }
 
+    function handleFilterClick() {
+        // FIXME: We want to be specific about this!
+        const targetContext = AppData.sentences[AppData.currentSentenceId].contexts[0];
+        filterInput.value = targetContext;
+        setFilter(targetContext);
+    }
+
     function showNextQuestion() {
-        if (AppData.pendingQuestion.length === 0)
+        // Grab the next question
+        AppData.currentSentenceId = getNextSentence();
+
+        if (AppData.currentSentenceId == null)
             return;
 
-        // Grab the next question
-        AppData.currentSentence = getNextSentence();
-
         // Set up for the question
-        const contexts = AppData.sentences[AppData.currentSentence].contexts;
+        const contexts = AppData.sentences[AppData.currentSentenceId].contexts;
         const randomContext = Math.floor(Math.random() * contexts.length);
         const cleanText = highlightSentence(
-            AppData.sentences[AppData.currentSentence].sentence, 
+            AppData.sentences[AppData.currentSentenceId].sentence, 
             contexts, 
             randomContext);
 
@@ -230,9 +251,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         answersDiv.innerHTML = "";
 
         // Construct the answer
-        AppData.answer = AppData.sentences[AppData.currentSentence].translation;
+        AppData.answer = AppData.sentences[AppData.currentSentenceId].translation;
         AppData.answerDiv = document.createElement('div');
         AppData.answerDiv.innerHTML = "...";
+
         answersDiv.appendChild(AppData.answerDiv);
 
         // Add the example
@@ -240,10 +262,16 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         let exampleDiv = document.createElement('div');
         exampleDiv.innerHTML = cleanText;
+
+        // Make the context clickable
+        const filterSpan = exampleDiv.querySelector('span');
+        if (filterSpan)
+            filterSpan.addEventListener('click', handleFilterClick);
+
         exampleSentence.appendChild(exampleDiv);
 
-        attributionLink.textContent = AppData.sentences[AppData.currentSentence].attribution;
-        attributionLink.href = AppData.sentences[AppData.currentSentence].attrurl;
+        attributionLink.textContent = AppData.sentences[AppData.currentSentenceId].attribution;
+        attributionLink.href = AppData.sentences[AppData.currentSentenceId].attrurl;
         attributionLink.target = "_blank";
 
         // exampleSentence.style.display = 'block';
@@ -277,6 +305,14 @@ document.addEventListener('DOMContentLoaded', async () => {
         exampleSentence.style.display = 'none';
         showSentenceButton.style.display = 'block';
         nextWordButton.setAttribute('disabled', true);
+
+        // Show the filter count
+        filteredCount.innerText = 'Sentences: ' + AppData.pendingQuestion.length;
+        if (filterInput.value) {
+            filteredButton.classList.remove('disabled');
+        } else {
+            filteredButton.classList.add('disabled');
+        }
 
         // Show the first question
         showNextQuestion();
@@ -325,7 +361,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     const filterInput = document.getElementById('input-filter');
     const questionContent = document.getElementById('question-container');
     const noSentencesNotice = document.getElementById('no-sentences');
-
+    const filteredCount = document.getElementById('numFiltered');
+    const filteredButton = document.getElementById('clear-filter');
 
     try {
         // Replay the audio
@@ -347,6 +384,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Show the sentence
         blinder.addEventListener(
             'click', () => hideBlinder());
+
+        // Clear the filter
+        filteredButton.addEventListener(
+            'click', () => clearFilter());
 
         // Hook up the enter key
         document.addEventListener('keydown', handleKeyDown);
