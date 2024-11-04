@@ -17,14 +17,24 @@ start_time = time.time()
 # speaker_ids = [6,9,11,13,20,21,32,40]
 speaker_ids = [6,9,11,13,20,21]
 
-def print_progress_bar(iteration, total, length=50):
-    percent = f"{100 * (iteration / float(total)):.0f}"
+# Attempt to precache the speakers to speed up generation time
+async def loadSpeakers():
+    async with Client() as client:
+        for speaker_id in speaker_ids:
+            await client.init_speaker(speaker=speaker_id, skip_reinit=True)
+            print(".", end="", flush=True)
+
+# Print a progress bar with necessary information
+def print_progress_bar(iteration, total, length=75):
+    remaining = total - iteration;
+    percent = f"{100 * (iteration / float(total)):.2f}"
     filled_length = int(length * iteration // total)
     bar = '█' * filled_length + '-' * (length - filled_length)
-    print(f'\rProgress: [{bar}] {percent}%', end="\r", flush=True)
+    print(f'\rProgress: [{bar}] {percent}% {remaining}', end="\r", flush=True)
 
 import subprocess
 
+# After generating a WAV file, compress it
 def convert_wav_to_mp3(input_wav, output_mp3):
     command = [
         'ffmpeg', 
@@ -33,6 +43,9 @@ def convert_wav_to_mp3(input_wav, output_mp3):
         '-qscale:a', '4',  # Quality setting (2 is high quality)
         '-y',  # Overwrite output file if it exists
         '-loglevel', 'error',  # Suppress log output
+        '-preset', 'ultrafast', # Speed up
+        '-ac', '1',
+        'threads', '12',
         output_mp3  # Output file
     ]
     try:
@@ -41,6 +54,7 @@ def convert_wav_to_mp3(input_wav, output_mp3):
     except subprocess.CalledProcessError as e:
         print(f"An error occurred: {e}")
 
+# Create a WAV file from text
 async def synthesize_audio(text, filename):
     async with Client() as client:
         speaker_id = random.choice(speaker_ids)
@@ -52,8 +66,11 @@ async def synthesize_audio(text, filename):
 
         return speaker_id
 
-def main(text, filename):
+def generate_vox(text, filename):
     asyncio.run(synthesize_audio(text, filename))
+
+def precacheSpeakers():
+    asyncio.run(loadSpeakers())
 
 def strip_highlighting(marked_sentence):
     # Regular expression to match the highlighting markup and capture the inner text
@@ -110,7 +127,7 @@ def parse_csv(file_path, generate_vo, update_only):
                 continue
 
             # Generate the VO
-            main(plain_sentence, output_dir + wav_name)
+            generate_vox(plain_sentence, output_dir + wav_name)
             convert_wav_to_mp3(output_dir + wav_name, output_dir + mp3_name)
             audio_file_num += 1
             print_progress_bar(audio_file_num, total_audio_files)
@@ -132,6 +149,9 @@ def convert_to_json(data):
 
 # Main
 if __name__ == "__main__":
+    print("Loading speakers", end="", flush=True)
+    precacheSpeakers()
+
     # Command-line options
     parser = argparse.ArgumentParser(description="NListen Data Importer")
     parser.add_argument('--data', action='store_true', help='Only compile new data, leave the VO')

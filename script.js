@@ -19,11 +19,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         // High-level data
         sentences: [],          // Core data sentences
         contexts: new Map(),    // Categorized sentences by concept
+        sources: ['All'],       // Categorized sentences by concept
         progessData: new Map(), // Map to store progress data, index of word to SRS level
 
         // Question data
-        pendingQuestion: [],    // Queue of sentence indices to use for questions
-        currentSentenceId: -1,    // Index of the current sentence
+        pendingQuestions: [],   // Queue of sentence indices to use for questions
+        currentSentenceId: -1,  // Index of the current sentence
         answerDiv: null,        // Reference to the answer div
         answer: "",
 
@@ -33,7 +34,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Filter data
         filter: null,
+        source: 'All',
+        level: 5
     }
+
     // Load SRS data from local storage when the application starts
     function loadSrsData() {
         const data = localStorage.getItem('srsData');
@@ -106,7 +110,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Categorize the data by concept
     function categorizeData(data) {
+        let seenSources = new Set();
         for (let i = 0; i < data.length; i++) {
+            // Context collection
             for (const context of data[i].contexts) {
                 // Push our ID, not a copy
                 if (AppData.contexts.has(context)) {
@@ -116,6 +122,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                     AppData.contexts.set(context, [i]);
                 }
             }
+            
+            // Source collection
+            const source = data[i].attribution;
+            if (!seenSources.has(source)) {
+                seenSources.add(source);
+                AppData.sources.push(source);
+            }
         }
     }
 
@@ -124,25 +137,49 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Generate an array of indices
         let sentencePool = AppData.sentences.map((_, index) => index);
 
-        // Filter down the data if it exists
-        if (AppData.filter) {
-            const filters = AppData.filter.split(',');
-            // Filter the sentence pool by checked its contexts against a comma-separated list of filters
-            sentencePool = sentencePool.filter(index => {
-                const sentence = AppData.sentences[index];
-                return filters.some(filter => sentence.contexts.includes(filter));
-            });
+        // Filter the sentence pool by checked its contexts against a comma-separated list of filters
+        sentencePool = sentencePool.filter(index => {
+            const sentence = AppData.sentences[index];
+            // Filter first
+            if (AppData.filter) {
+                // console.log("Filter: %s, Contexts: %s", AppData.filter, sentence.contexts);
+                const filters = AppData.filter.split(',');
+                if (!filters.some(filter => sentence.contexts.includes(filter))) {
+                    return false;
+                }
+            }
 
-            // If we have a bad filter, hide the options and return
-            if (sentencePool.length === 0) {
-                disableContent();
-            } 
-        }
+            // Filter by source
+            if (AppData.source !== 'All') {
+                // console.log("Filter: %s, Source: %s", AppData.source, sentence.attribution);
+                if (sentence.attribution !== AppData.source) {
+                    return false;
+                }
+            }
 
-        AppData.pendingQuestion = shuffleArray(sentencePool);
-        console.log('Sentences: %d', AppData.pendingQuestion.length);
-        if (AppData.pendingQuestion.length !== 0) {
+            // Filter by level
+            const level = sentence.level || 5;
+            const filterLevel = AppData.level || 5;
+            if (level < filterLevel) {
+                // console.log("Level: %d, Filter: %d", level, filterLevel);
+                return false;
+            }
+
+            return true;
+        });
+
+        // If we have a bad filter, hide the options and return
+        if (sentencePool.length === 0) {
+            disableContent();
+        } 
+
+        // Now shuffle the resulting array
+        AppData.pendingQuestions = shuffleArray(sentencePool);
+        // console.log('Sentences: %d', AppData.pendingQuestions.length);
+        if (AppData.pendingQuestions.length !== 0) {
             enableContent();
+        } else {
+            console.log('No sentences found');
         }
     }
 
@@ -181,7 +218,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function handleInputChange(event) {
-        setFilter(event.target.value);
+        if (event.taret === filterInput) {
+            setFilter(event.target.value);
+        }
     }
 
     // Handle the enter key
@@ -218,11 +257,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function getNextSentence() {
-        if (AppData.pendingQuestion.length === 0) {
+        if (AppData.pendingQuestions.length === 0) {
             queueAvailableQuestions();
         }
 
-        return AppData.pendingQuestion.pop();
+        return AppData.pendingQuestions.pop();
     }
 
     function handleFilterClick() {
@@ -307,7 +346,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         nextWordButton.setAttribute('disabled', true);
 
         // Show the filter count
-        filteredCount.innerText = 'Sentences: ' + AppData.pendingQuestion.length;
+        filteredCount.innerText = 'Sentences: ' + AppData.pendingQuestions.length;
         if (filterInput.value) {
             filteredButton.classList.remove('disabled');
         } else {
@@ -339,7 +378,23 @@ document.addEventListener('DOMContentLoaded', async () => {
         nextWordButton.removeAttribute('disabled');
         AppData.answerDiv.innerHTML = AppData.answer;
     }
+    // Define the callback function
+    function handleSouceChange(event) {
+        const selectedValue = event.target.value;
+        AppData.source = selectedValue;
+        queueAvailableQuestions();
+        setReady();
+        console.log("Source changed to: %s", selectedValue);
+    }
 
+    // Define the callback function
+    function handleLevelChange(event) {
+        const selectedValue = event.target.value;
+        AppData.level = selectedValue;
+        queueAvailableQuestions();
+        setReady();
+        console.log("Level changed to: %s", selectedValue);
+    }
     // Cache common elements
     const loadingScreen = document.getElementById('loading-screen');
     const loadingText = document.getElementById('loading-text');
@@ -400,6 +455,24 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Hide the loading screen and show the ready button
         loadingText.style.display = 'none';
         startButton.style.display = 'block';
+
+        // Assume we have a <select> element with the id "myDropdown"
+        const dropdown = document.getElementById("source-dropdown");
+
+        // Loop through the array and add each option to the dropdown
+        AppData.sources.forEach(source => {
+            const option = document.createElement("option"); // Create a new <option> element
+            option.text = source;                        // Set the text of the option
+            option.value = source;                        // Set the text of the option
+            // option.value = source.toLowerCase().replace(/\s+/g, "-"); // Optional: Set the value, typically a lowercased, hyphenated version of the text
+            dropdown.add(option);                            // Add the option to the dropdown
+        });    
+
+        // Add the 'change' event listener to the dropdown
+        dropdown.addEventListener("change", handleSouceChange);
+
+        const level = document.getElementById("level-dropdown");
+        level.addEventListener("change", handleLevelChange);
 
     } catch (error) {
         console.error(error);
