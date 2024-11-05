@@ -17,24 +17,42 @@ start_time = time.time()
 # speaker_ids = [6,9,11,13,20,21,32,40]
 speaker_ids = [6,9,11,13,20,21]
 
-# Attempt to precache the speakers to speed up generation time
-async def loadSpeakers():
-    async with Client() as client:
-        for speaker_id in speaker_ids:
-            await client.init_speaker(speaker=speaker_id, skip_reinit=True)
-            print(".", end="", flush=True)
+def format_time(seconds):
+    seconds = int(seconds)  # Convert to integer seconds for simplicity
+    if seconds < 60:
+        return f"{seconds}s"
+    elif seconds < 3600:
+        minutes, seconds = divmod(seconds, 60)
+        return f"{minutes}m {seconds}s" if seconds else f"{minutes}m"
+    elif seconds < 86400:
+        hours, remainder = divmod(seconds, 3600)
+        minutes, seconds = divmod(remainder, 60)
+        return f"{hours}h {minutes}m" if minutes else f"{hours}h"
+    else:
+        days, remainder = divmod(seconds, 86400)
+        hours, remainder = divmod(remainder, 3600)
+        minutes, seconds = divmod(remainder, 60)
+        return (
+            f"{days}d {hours}h" if hours
+            else f"{days}d"
+        )
 
 # Print a progress bar with necessary information
 def print_progress_bar(iteration, total, length=75):
+    # Progress
     remaining = total - iteration;
     percent = f"{100 * (iteration / float(total)):.2f}"
     filled_length = int(length * iteration // total)
     bar = '█' * filled_length + '-' * (length - filled_length)
-    print(f'\rProgress: [{bar}] {percent}% {remaining}', end="\r", flush=True)
 
-import subprocess
+    # Time estimates
+    current_duration = time.time() - start_time;
+    avg_time = current_duration / float(iteration+1);
+    remaining_duration = avg_time * remaining;
 
-# After generating a WAV file, compress it
+    print(f'\rProgress: [{bar}] {percent}% {format_time(remaining_duration)} minutes', end="\r", flush=True)
+
+import subprocess # After generating a WAV file, compress it
 def convert_wav_to_mp3(input_wav, output_mp3):
     command = [
         'ffmpeg', 
@@ -43,9 +61,10 @@ def convert_wav_to_mp3(input_wav, output_mp3):
         '-qscale:a', '4',  # Quality setting (2 is high quality)
         '-y',  # Overwrite output file if it exists
         '-loglevel', 'error',  # Suppress log output
-        '-preset', 'ultrafast', # Speed up
+        '-b:a', '64k',
         '-ac', '1',
-        'threads', '12',
+        '-ar', '16000',
+        '-threads', '12',
         output_mp3  # Output file
     ]
     try:
@@ -68,9 +87,6 @@ async def synthesize_audio(text, filename):
 
 def generate_vox(text, filename):
     asyncio.run(synthesize_audio(text, filename))
-
-def precacheSpeakers():
-    asyncio.run(loadSpeakers())
 
 def strip_highlighting(marked_sentence):
     # Regular expression to match the highlighting markup and capture the inner text
@@ -149,9 +165,6 @@ def convert_to_json(data):
 
 # Main
 if __name__ == "__main__":
-    print("Loading speakers", end="", flush=True)
-    precacheSpeakers()
-
     # Command-line options
     parser = argparse.ArgumentParser(description="NListen Data Importer")
     parser.add_argument('--data', action='store_true', help='Only compile new data, leave the VO')
