@@ -88,6 +88,7 @@ async def synthesize_audio(text, filename):
 def generate_vox(text, filename):
     asyncio.run(synthesize_audio(text, filename))
 
+# The sentences have markup to show their grammar categorization, but we want to ignore that
 def strip_highlighting(marked_sentence):
     # Regular expression to match the highlighting markup and capture the inner text
     pattern = re.compile(r'{\d+[a-z]?:([^}]+)}')
@@ -100,7 +101,8 @@ def strip_highlighting(marked_sentence):
     stripped_sentence = pattern.sub(replace_highlighting, marked_sentence)
     return stripped_sentence
 
-def parse_csv(file_path, generate_vo, update_only):
+# 
+def parse_csv(file_path, prefix, generate_vo, update_only):
     sentences = []
     audio_file_num = 1
     with open(file_path, mode='r', encoding='utf-8') as file:
@@ -111,7 +113,7 @@ def parse_csv(file_path, generate_vo, update_only):
             if len(row) < 3:
                 continue  # Skip rows that don't have at least 3 columns
             # Create a dictionary for each row
-            output_filename = f"{audio_file_num:04}.wav"
+            output_filename = f"{prefix}_{audio_file_num:04}.wav"
             output_dir = "voxdata/"
             row_data = {
                 'sentence': row[0],
@@ -152,7 +154,7 @@ def parse_csv(file_path, generate_vo, update_only):
     utc_timestamp = utc_now.timestamp()
 
     data = { 
-        'version': "0.3",
+        'version': "0.4",
         'timestamp': utc_now.isoformat(),
         'sentences': sentences,
     }
@@ -167,6 +169,9 @@ def convert_to_json(data):
 if __name__ == "__main__":
     # Command-line options
     parser = argparse.ArgumentParser(description="NListen Data Importer")
+    # FIXME: We want defaults and to make these required
+    parser.add_argument('--source', action='store_true', help="Required to set source for data conversion")
+    parser.add_argument('--name', action='store_true', help="Prefixes the output data")
     parser.add_argument('--data', action='store_true', help='Only compile new data, leave the VO')
     parser.add_argument('--update', action='store_true', default=False, help='Only add new VO lines, don\'t alter old ones')
     args = parser.parse_args()
@@ -179,8 +184,9 @@ if __name__ == "__main__":
     if args.update:
         print("Update only mode enabled")
 
-    file_path = 'source.csv'
-    data = parse_csv(file_path, not args.data, args.update)
+    # file_path = 'source.csv'
+    file_path = args.source
+    data = parse_csv(args.source, args.name, not args.data, args.update)
 
     # json_data = convert_to_json(datwith open(filename, 'w', encoding='utf-8') as file:
     filename = "data.json"

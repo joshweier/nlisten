@@ -1,3 +1,4 @@
+// 
 document.addEventListener('DOMContentLoaded', async () => {
 
     // Define SRS intervals in milliseconds
@@ -66,9 +67,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         // Replace the indexed markers with spans for the target context only
+        const spanNum = 1;
         sentence = sentence.replace(/{(\d+[a-z]?):([^}]+)}/g, function(match, key, text) {
             if (contextMap[key]) {
-                return `<span id="context-highlight" class="highlight">${text}</span>`;
+                return `<span id="context-highlight-${spanNum}" class="highlight">${text}</span>`;
             }
             // Remove the unused markup if it doesn't match the target context
             return text;
@@ -92,7 +94,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Load the JSON data from the file
             const response = await fetch('data.json');
             if (!response.ok) {
-                throw new Error('Network response was not ok ' + response.statusText);
+                throw new Error('Network response:' + response.statusText);
             }
 
             // Pull out the actual structure
@@ -104,7 +106,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             loadSrsData();
             queueAvailableQuestions();
         } catch (error) {
-            console.error('There was a problem with the fetch operation:', error);
+            console.error('Fetch operation error:', error);
         }
     }
 
@@ -175,7 +177,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Now shuffle the resulting array
         AppData.pendingQuestions = shuffleArray(sentencePool);
-        // console.log('Sentences: %d', AppData.pendingQuestions.length);
         if (AppData.pendingQuestions.length !== 0) {
             enableContent();
         } else {
@@ -185,6 +186,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Play the audio for the word
     function playAudio(audioUrl, lockReplay) {
+        // FIXME: I'd rather this be a global data blob that I can query the state of at any time
         const audio = new Audio("voxdata/" + audioUrl);
         audio.play();
 
@@ -240,9 +242,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
         else if (event.key === ' ') {
             replayAudio();
+            event.preventDefault();
         }
         else if (event.key === 'Tab') {
             showSentence();
+            event.preventDefault();
         }
     }
 
@@ -265,8 +269,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function handleFilterClick() {
-        // FIXME: We want to be specific about this!
-        const targetContext = AppData.sentences[AppData.currentSentenceId].contexts[0];
+        // FIXME: This can only pick the first context, we may want to supply more than one
+        const contextNum = this.id.match(/\d+/)[0];
+        const targetContext = AppData.sentences[AppData.currentSentenceId].contexts[contextNum - 1];
         filterInput.value = targetContext;
         setFilter(targetContext);
     }
@@ -309,11 +314,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         exampleSentence.appendChild(exampleDiv);
 
+        const attributionLink = document.getElementById('attribution-link');
         attributionLink.textContent = AppData.sentences[AppData.currentSentenceId].attribution;
         attributionLink.href = AppData.sentences[AppData.currentSentenceId].attrurl;
         attributionLink.target = "_blank";
 
         // exampleSentence.style.display = 'block';
+        const answerContainer = document.getElementById('answer-container');
         answerContainer.style.display = 'block';
         nextWordButton.setAttribute('disabled', true);
 
@@ -338,6 +345,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function setReady() {
         // Show the main page content
+        const loadingScreen = document.getElementById('loading-screen');
         loadingScreen.style.display = 'none';
         mainContent.style.display = 'block';
 
@@ -346,6 +354,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         nextWordButton.setAttribute('disabled', true);
 
         // Show the filter count
+        const filteredCount = document.getElementById('numFiltered');
         filteredCount.innerText = 'Sentences: ' + AppData.pendingQuestions.length;
         if (filterInput.value) {
             filteredButton.classList.remove('disabled');
@@ -395,31 +404,25 @@ document.addEventListener('DOMContentLoaded', async () => {
         setReady();
         console.log("Level changed to: %s", selectedValue);
     }
+
     // Cache common elements
-    const loadingScreen = document.getElementById('loading-screen');
-    const loadingText = document.getElementById('loading-text');
     const mainContent = document.getElementById('main-content');
     const playAudioButton = document.getElementById('play-audio');
     const showSentenceButton = document.getElementById('show-sentence');
-    const userInput = document.getElementById('user-input');
-    const submitButton = document.getElementById('submit');
     const startButton = document.getElementById('start-button');
-    const wordContainer = document.getElementById('word-container');
     const exampleSentence = document.getElementById('example-sentence');
     const nextWordButton = document.getElementById('next');
-    const fetchWords = document.getElementById('fetch-words');
-    const progess = document.getElementById('progress');
-    const answerContainer = document.getElementById('answer-container');
     const answersDiv = document.getElementById('answers');
-    const attributionLink = document.getElementById('attribution-link');
     const blinder = document.getElementById('blinder');
     const filterInput = document.getElementById('input-filter');
     const questionContent = document.getElementById('question-container');
     const noSentencesNotice = document.getElementById('no-sentences');
-    const filteredCount = document.getElementById('numFiltered');
     const filteredButton = document.getElementById('clear-filter');
 
     try {
+        // Load our data and prep the page
+        await loadData();
+
         // Replay the audio
         playAudioButton.addEventListener(
             'click', () => replayAudio());
@@ -444,28 +447,22 @@ document.addEventListener('DOMContentLoaded', async () => {
         filteredButton.addEventListener(
             'click', () => clearFilter());
 
-        // Hook up the enter key
+        // Hook shortcut keys
         document.addEventListener('keydown', handleKeyDown);
+
+        // Hook filter input change (with debounce)
         const debouncedInput = debounce(handleInputChange, 1000);
         document.addEventListener('input', debouncedInput);
-
-        // Load our data and prep the page
-        await loadData();
-
-        // Hide the loading screen and show the ready button
-        loadingText.style.display = 'none';
-        startButton.style.display = 'block';
 
         // Assume we have a <select> element with the id "myDropdown"
         const dropdown = document.getElementById("source-dropdown");
 
         // Loop through the array and add each option to the dropdown
         AppData.sources.forEach(source => {
-            const option = document.createElement("option"); // Create a new <option> element
-            option.text = source;                        // Set the text of the option
-            option.value = source;                        // Set the text of the option
-            // option.value = source.toLowerCase().replace(/\s+/g, "-"); // Optional: Set the value, typically a lowercased, hyphenated version of the text
-            dropdown.add(option);                            // Add the option to the dropdown
+            const option = document.createElement("option");
+            option.text = source;
+            option.value = source;
+            dropdown.add(option);
         });    
 
         // Add the 'change' event listener to the dropdown
@@ -473,6 +470,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const level = document.getElementById("level-dropdown");
         level.addEventListener("change", handleLevelChange);
+
+        // Hide the loading screen and show the ready button
+        const loadingText = document.getElementById('loading-text');
+        loadingText.style.display = 'none';
+        startButton.style.display = 'block';
 
     } catch (error) {
         console.error(error);
